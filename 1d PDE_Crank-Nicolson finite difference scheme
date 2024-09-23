@@ -23,7 +23,7 @@ Y0 = 20.0  # Set to the long-term mean for simplicity
 K = Y0
 
 # Multiplier M (adjust based on variance criteria or set as needed)
-M = 1.0  # For demonstration, we'll set M = 1.0
+M = 100.0  # For demonstration, we'll set M = 100
 
 # Correlation between S_t and Y_t
 rho = 0.5  # We'll vary this later in sensitivity analysis
