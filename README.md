@@ -21,7 +21,7 @@ B) 1d indifference price - **analytical approximation** formula (Michael Velleko
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Bergers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
-
+Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability. 
 
 
 C) Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
