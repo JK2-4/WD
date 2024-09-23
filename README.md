@@ -17,9 +17,7 @@ B) 1d indifference price - **analytical approximation** formula (Michael Velleko
 
 
 
-**Link to numerical scheme:** [https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
-
-HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Bergers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
+**Link to numerical scheme:**(https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
 Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability. 
 
@@ -43,5 +41,6 @@ D) n-dimensional Burger's Equation solution Matlab code -
 
 **Link to code repo: -** https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file
 
+HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
 E) **Colab link** - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
