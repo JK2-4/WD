@@ -10,13 +10,13 @@ A) **Generalized representation** of linearized PDE by Hopf-Cole transformation 
 
 
 
-B) 1d indifference price - **analytical approximation** formula - 
+B) 1d indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
 
 
-**Link to numerical scheme:** [https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
+**Link to numerical scheme:** [https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
 
 C) Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme)
