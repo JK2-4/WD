@@ -11,7 +11,7 @@ A) **Generalized representation** of linearized PDE by Hopf-Cole transformation 
 
 
 
-B) 1d indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
+B) 1d Simplified Case for indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
