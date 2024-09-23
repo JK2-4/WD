@@ -1,0 +1,93 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.interpolate import CubicSpline
+
+# Parameters
+T = 1/3  # 4 months in years
+n_sim = 10000  # Number of Monte Carlo simulations
+n_steps = 100  # Time steps
+dt = T / n_steps  # Time step size
+
+# Parameters for S_t and Y_t
+mu_S = 0.05  # Stock drift
+sigma_S = 0.2  # Stock volatility
+mu_Y = 0.1  # Temp drift
+sigma_Y = 0.1  # Temp volatility
+gamma = 1.0  # Risk aversion coefficient
+K = 20  # Strike price for the call option (could be Y0)
+
+# Simulate paths for S and Y
+def simulate_paths(n_sim, n_steps, dt, mu_S, sigma_S, mu_Y, sigma_Y, rho):
+    S_paths = np.zeros((n_sim, n_steps))
+    Y_paths = np.zeros((n_sim, n_steps))
+    
+    # Initial values
+    S_paths[:, 0] = 100  # Initial stock price
+    Y_paths[:, 0] = 20  # Initial temperature
+
+    for t in range(1, n_steps):
+        dW_S = np.random.normal(0, np.sqrt(dt), n_sim)
+        dW_Y = rho * dW_S + np.sqrt(1 - rho**2) * np.random.normal(0, np.sqrt(dt), n_sim)
+        
+        S_paths[:, t] = S_paths[:, t - 1] * np.exp((mu_S - 0.5 * sigma_S**2) * dt + sigma_S * dW_S)
+        Y_paths[:, t] = Y_paths[:, t - 1] + mu_Y * dt + sigma_Y * dW_Y
+
+    return S_paths, Y_paths
+
+# Payoff: Call option payoff on Y_T
+def payoff(Y_T, K):
+    return np.maximum(Y_T - K, 0)
+
+# Radon-Nikodym derivative (change of measure from P to Q)
+def radon_nikodym(W_T_S, mu_S, sigma_S, T):
+    return np.exp(-mu_S / sigma_S * W_T_S - (mu_S**2 * T) / (2 * sigma_S**2))
+
+# Compute indifference price
+def compute_indifference_price(S_paths, Y_paths, gamma, rho, K, mu_S, sigma_S, T, n_sim):
+    payoff_values = payoff(Y_paths[:, -1], K)
+    
+    W_T_S = np.sum(np.random.normal(0, np.sqrt(dt), size=(n_sim, n_steps)), axis=1)
+    radon_nikodym_values = radon_nikodym(W_T_S, mu_S, sigma_S, T)
+    
+    expected_value = np.mean(np.exp(gamma * (1 - rho**2) * payoff_values) * radon_nikodym_values)
+    indifference_price = np.log(expected_value) / (gamma * (1 - rho**2))
+    
+    return indifference_price
+
+# Sensitivity of indifference price to correlation with more values
+correlation_values = np.linspace(-0.9, 0.9, 50)
+indifference_prices = []
+
+for rho in correlation_values:
+    S_paths, Y_paths = simulate_paths(n_sim, n_steps, dt, mu_S, sigma_S, mu_Y, sigma_Y, rho)
+    indifference_price = compute_indifference_price(S_paths, Y_paths, gamma, rho, K, mu_S, sigma_S, T, n_sim)
+    indifference_prices.append(indifference_price)
+
+# Use cubic spline interpolation
+cs = CubicSpline(correlation_values, indifference_prices)
+
+# Generate dense correlation values for smooth plotting
+dense_correlation_values = np.linspace(-0.9, 0.9, 200)
+indifference_prices_smooth = cs(dense_correlation_values)
+
+# Plot indifference price sensitivity to correlation
+plt.plot(correlation_values, indifference_prices, 'o', label='Simulated Data')
+plt.plot(dense_correlation_values, indifference_prices_smooth, '-', label='Cubic Spline Interpolation')
+plt.xlabel('Correlation $\\rho$')
+plt.ylabel('Indifference Price $\\pi^{cont}$')
+plt.title('Indifference Price Sensitivity to Correlation (Cubic Spline)')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Value function as a function of terminal wealth
+S_T_values = np.linspace(0, 200, 100)
+value_function = -np.exp(-gamma * S_T_values)  # Exponential utility
+
+# Plot value function vs terminal wealth
+plt.plot(S_T_values, value_function)
+plt.xlabel('Terminal Wealth $S_T$')
+plt.ylabel('Value Function $V = U(S_T)$')
+plt.title('Value Function vs Terminal Wealth')
+plt.grid(True)
+plt.show()
