@@ -3,7 +3,7 @@ A) **Generalized representation** of linearized PDE by Hopf-Cole transformation 
 
 ![image](https://github.com/user-attachments/assets/d4a31ae9-e788-4734-9276-f4f6a24ce391)
 
-**Link to mathematic solution:** https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf
+**Link to mathematic solution:** https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf
 
 
 
@@ -14,4 +14,4 @@ B) 1d indifference price - **analytical approximation** formula -
 
 
 
-**Link to numerical scheme:** https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC
+**Link to numerical scheme:** [https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
