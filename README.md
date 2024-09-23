@@ -25,4 +25,4 @@ C) Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for
 
 **Link to algorithm source** - https://www.mdpi.com/1911-8074/14/9/399
 
-D)**Colab link** - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
+D) **Colab link** - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
