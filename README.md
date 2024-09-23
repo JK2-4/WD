@@ -18,4 +18,7 @@ B) 1d indifference price - **analytical approximation** formula -
 
 **Link to numerical scheme:** [https://gohkust-my.sharepoint.com/:b:/g/personal/jkwatra_ust_hk/EViIYCEVwiZKqTSGcqT6nb8BAxIUC1s67PXyM4rV-AWjlw?e=C5jBnC](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
-Colab link - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
+
+
+
+**Colab link** - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
