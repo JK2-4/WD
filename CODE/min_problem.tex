@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{amsmath}    % For advanced math typesetting
+\usepackage{amssymb}    % For additional math symbols
+\usepackage{hyperref}   % For hyperlinks
+\usepackage{geometry}   % To adjust margins if needed
+
+% Geometry settings (optional)
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm,
+}
+
+\begin{document}
+
+% Section: Singular Control Problem
+\section{Singular Control Problem}
+\label{sec:singular-control-problem}
+
+% Subsection: Maximization Problem
+\subsection{Maximization Problem}
+\label{sec:maximization-problem}
+
+The \textbf{value function} of the maximization problem for $j=0,w,b$ (corresponding to the three portfolios: no option, writer, buyer) is defined as:
+
+\begin{equation}
+V^j(t,b,y,s) = \sup_{L,M} \;  \mathbb{E}\left[ \; \mathcal{U}\left( \mathcal{W}^{j}_T \right) \; \bigg| \; B_{t} = b, Y_{t} = y, S_{t} = s \right],
+\end{equation}
+
+where $\mathcal{U}: \mathbb{R} \to \mathbb{R}$ is a concave increasing \textbf{utility function}. The \textbf{exponential utility} is what we are looking for:
+
+\begin{equation}
+\mathcal{U}(x) := 1 - e^{-\gamma x} \quad \quad \gamma > 0.
+\end{equation}
+
+% Subsection: Indifference Pricing
+\subsection{Indifference Pricing}
+\label{sec:indifference-pricing}
+
+The writer (buyer) option price is defined as the amount of cash to add (subtract) to the bank account, 
+such that the maximal expected utility of wealth of the writer (buyer) is the same as he could get with 
+the zero-option portfolio.
+
+\begin{itemize}
+    \item The \textbf{writer price} is the value $p^w > 0$ such that 
+    \begin{equation}
+        V^0(t,b,y,s) = V^w(t,b+p^w,y,s),
+    \end{equation}
+    
+    \item The \textbf{buyer price} is the value $p^b > 0$ such that
+    \begin{equation}
+        V^0(t,b,y,s) = V^b(t,b-p^b,y,s).
+    \end{equation}
+\end{itemize}
+
+% Add more sections or content as needed...
+
+\end{document}
