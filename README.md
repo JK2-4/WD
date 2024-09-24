@@ -46,4 +46,4 @@ D) n-dimensional Burger's Equation solution Matlab code -
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
-E) **Colab link** - https://colab.research.google.com/drive/1caUnjIjXuwxJA_rHz4ys08Zxw8FSM0n0?usp=sharing
+E) **Colab link** - https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
