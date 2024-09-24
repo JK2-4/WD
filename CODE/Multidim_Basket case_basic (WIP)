@@ -134,8 +134,7 @@ def fit_copula(rainfall, temperature, wind):
 print("Fitting copula model...")
 copula = fit_copula(rainfall, temperature, wind)
 
-# Note: In practice, use a more sophisticated copula model, such as dynamic copulas,
-# and properly handle time dependencies.
+# Note: need more complex - dynamic copulas, and properly handle time dependencies.
 
 # ----------------------------
 # 3. Define Basket Derivative Payoff
