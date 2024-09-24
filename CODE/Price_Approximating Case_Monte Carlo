@@ -1,3 +1,5 @@
+#buyer and seller 
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -48,29 +50,65 @@ def simulate_paths(n_sim, n_steps, dt, mu_Y, sigma_Y, rho):
 
     return S_paths, Y_paths
 
-# Value function integral calculation based on the formula in the image
+# Value function integral calculation
 def compute_value_function(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y):
-    # Call option payoff function
-    payoff = np.maximum(Y_paths[:, -1] - K, 0)
-
-    # Time integral: \int_t^T [ a*g(s, Y_s) + (1/2) * (mu^2(Y_s) / sigma^2(Y_s)) ] ds
+    # Initialize the integral for each Monte Carlo path
     integral = np.zeros(n_sim)
+
+    # Time integral: ∫_t^T [a * g(s, Y_s) + (1/2) * (mu^2(Y_s) / sigma^2(Y_s))] ds
     for t in range(n_steps):
-        payoff_integrand = a * payoff
+        # g(s, Y_s): Call option payoff at each step, but integrated over time, not averaged
+        payoff_integrand = a * np.maximum(Y_paths[:, t] - K, 0)
         risk_integrand = 0.5 * (mu_S(mu_Y)**2) / (sigma_S**2)
+
+        # Accumulate the integral over time
         integral += (payoff_integrand + risk_integrand) * dt
-    
-    # Value function calculation
-    value_function = -np.exp(-alpha * 100) * np.mean(np.exp(-integral))
-    
+
+    # After the integral has been computed, apply the exponential utility for each path
+    path_utilities = np.exp(-integral)
+
+    # Compute the expectation over Monte Carlo paths (averaging at the final time step)
+    value_function = -np.exp(-alpha * 100) * np.mean(path_utilities)
+
     return value_function
 
 
 # Function to compute indifference price
-def compute_indifference_price(S_paths, Y_paths, alpha, radon_nikodym):
-    payoff = np.maximum(Y_paths[:, -1] - K, 0)
-    expected_value = np.mean(np.exp(alpha * payoff) * radon_nikodym)
-    return np.log(expected_value) / alpha
+def compute_indifference_price(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y):
+    # Compute the integrals for both the numerator and denominator
+    integral_no_option = np.zeros(n_sim)
+    integral_with_option = np.zeros(n_sim)
+
+    # Time integral for each Monte Carlo path
+    for t in range(n_steps):
+        # No option integral: involves just the risk component
+        risk_integrand = 0.5 * (mu_S(mu_Y)**2) / (sigma_S**2)
+        integral_no_option += risk_integrand * dt
+
+        # With option integral: involves both the payoff and risk
+        payoff_integrand = a * np.maximum(Y_paths[:, t] - K, 0)
+        integral_with_option += (payoff_integrand + risk_integrand) * dt
+
+    # Compute the exponential terms for both cases
+    utility_no_option = np.exp(-integral_no_option)
+    utility_with_option = np.exp(-integral_with_option)
+
+    # Calculate the indifference price using the log ratio of expectations
+    expected_no_option = np.mean(utility_no_option)
+    expected_with_option = np.mean(utility_with_option)
+
+    indifference_price = (1 / alpha) * np.log(expected_no_option / expected_with_option)
+
+    return indifference_price
+
+# Simulate paths
+S_paths, Y_paths = simulate_paths(n_sim, n_steps, dt, mu_Y, sigma_Y, rho)
+
+# Compute indifference price
+indifference_price = compute_indifference_price(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y)
+
+print(f"Indifference Price: {indifference_price}")
+
 
 # Simulate paths
 S_paths, Y_paths = simulate_paths(n_sim, n_steps, dt, mu_Y, sigma_Y, rho)
@@ -83,7 +121,7 @@ W_T_S = np.sum(np.random.normal(0, np.sqrt(dt), size=(n_sim, n_steps)), axis=1)
 radon_nikodym = np.exp(-mu_S(mu_Y) / sigma_S * W_T_S - (mu_S(mu_Y)**2 * T) / (2 * sigma_S**2))
 
 # Indifference price
-indifference_price = compute_value_function(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y)
+indifference_price = compute_indifference_price(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y)
 
 ############################################## Sensitivity Analysis - against Correlation and Risk Averison assumptions ###################################################
 
@@ -95,7 +133,7 @@ indifference_prices_corr = []
 
 for rho in correlation_values:
     S_paths, Y_paths = simulate_paths(n_sim, n_steps, dt, mu_Y, sigma_Y, rho)
-    indifference_price = compute_indifference_price(S_paths, Y_paths, alpha, radon_nikodym)
+    indifference_price = compute_indifference_price(S_paths, Y_paths, alpha, radon_nikodym, mu_Y, sigma_Y)
     indifference_prices_corr.append(indifference_price)
 
 # Use cubic spline interpolation for smooth curves
@@ -119,10 +157,10 @@ plt.show()
 
 # Risk aversion sensitivity
 alpha_values = np.linspace(0.1, 2.0, 10)
-indifference_prices_alpha = []
+indifference_prices_alpha = [] 
 
 for alpha_val in alpha_values:
-    indifference_price = compute_indifference_price(S_paths, Y_paths, alpha_val, radon_nikodym)
+    indifference_price = compute_indifference_price(S_paths, Y_paths, alpha_val, radon_nikodym, mu_Y, sigma_Y)
     indifference_prices_alpha.append(indifference_price)
 
 # Polynomial fit for risk aversion
@@ -156,15 +194,34 @@ df_summary = pd.DataFrame(data_summary)
 # Display results summary
 import ace_tools_open as tools; tools.display_dataframe_to_user(name="Indifference Price Summary", dataframe=df_summary)
 
-# Save the summary table to a CSV file
-df_summary.to_csv(os.path.join(save_dir, 'indifference_price_summary.csv'))
+# Revised function to compute value function over varying time horizons
+def compute_value_function_over_time(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y, t_steps):
+    n_sim = S_paths.shape[0]
+    integral = np.zeros(n_sim)
 
+    # Compute the integral only over the available time steps (t_steps)
+    for t in range(t_steps):
+        payoff_integrand = a * np.maximum(Y_paths[:, t] - K, 0)
+        risk_integrand = 0.5 * (mu_S(mu_Y)**2) / (sigma_S**2)
+        integral += (payoff_integrand + risk_integrand) * dt
+
+    # After the integral has been computed, apply the exponential utility for each path
+    path_utilities = np.exp(-integral)
+
+    # Compute the expectation over Monte Carlo paths (averaging at the final time step)
+    value_function = -np.exp(-alpha * 100) * np.mean(path_utilities)
+
+    return value_function
+
+# Now adjust the value function matrix calculation
 value_function_matrix = np.zeros((len(correlation_values), len(time_values)))
 
 for i, rho in enumerate(correlation_values):
     S_paths, Y_paths = simulate_paths(n_sim, n_steps, dt, mu_Y, sigma_Y, rho)
     for j, t in enumerate(time_values):
-        value_function_matrix[i, j] = compute_value_function(S_paths[:, :j+1], Y_paths[:, :j+1], alpha, a, mu_Y, sigma_Y)
+        # For each time `t_j`, compute the value function up to that time horizon
+        t_steps = j + 1  # Use time steps up to t_j
+        value_function_matrix[i, j] = compute_value_function_over_time(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y, t_steps)
 
 # 3D Plot of value function against correlation and time
 fig = plt.figure(figsize=(10, 8))
