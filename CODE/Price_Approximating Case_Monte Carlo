@@ -97,6 +97,7 @@ def compute_indifference_price(S_paths, Y_paths, alpha, a, mu_Y, sigma_Y):
     expected_no_option = np.mean(utility_no_option)
     expected_with_option = np.mean(utility_with_option)
 
+    # (option price V is obtained as the difference between certainity equivalents with and without n derivative claims)
     indifference_price = (1 / alpha) * np.log(expected_no_option / expected_with_option)
 
     return indifference_price
