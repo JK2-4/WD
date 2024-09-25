@@ -25,7 +25,7 @@
 Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability. 
 
 
-**C) **Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
+**C)** Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
 
 ![image](https://github.com/user-attachments/assets/efde5361-3cec-46f1-8e0e-fbe7bea6d96e)
 
