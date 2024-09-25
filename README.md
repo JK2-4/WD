@@ -46,4 +46,12 @@ D) n-dimensional Burger's Equation solution Matlab code -
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
-E) **Colab link** - https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
+
+E) Basket - 
+
+(Dzupire 2019) - assuming 0 correlation between traded asset S (capital market index) and Weather Index I (constructed based on Yi). 
+![image](https://github.com/user-attachments/assets/a927afc9-d79e-4b61-899c-8e75d125cc4e)
+
+
+
+F) **Colab link** - https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
