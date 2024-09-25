@@ -50,7 +50,7 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 **E)** Basket - 
 
 (Dzupire 2019) - Assuming 0 correlation between traded asset S (capital market index) and Weather Index I (constructed based on Yi). 
-![image](https://github.com/user-attachments/assets/d057b90e-1d9a-4864-b7b0-87c04cb0da16)
+![image](https://github.com/user-attachments/assets/0c3dc6df-3016-4ca3-a249-5dc210147d87)
 
 
 (Carmona 2004) - Correlation embedded in OLS
