@@ -22,7 +22,7 @@
 
 **Link to numerical scheme:**(https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
-Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability i.e.  Courant-Friedrichs-Lewy (CFL) condition (not suitable for stiff problems). 
+Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability i.e. Courant-Friedrichs-Lewy (CFL) condition (not suitable for stiff problems). CN scheme averages the explicit and implicit methods.
 
 
 **C)** Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
