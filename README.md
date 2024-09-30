@@ -62,4 +62,4 @@ Trivariate Stochastic yield model (code included) - [Philip O. Ngare](https://ww
 
 
 
-**F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
+**F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
