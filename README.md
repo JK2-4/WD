@@ -43,7 +43,7 @@ iv) option price V is obtained as the difference between certainity equivalents 
 
 **D)** n-dimensional Burger's Equation solution Matlab code - 
 
-**Link to code repo: -** https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file
+**Link to code repo: -** ![cfd-pim repo](https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file)
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
