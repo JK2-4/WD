@@ -7,7 +7,7 @@ B - Numerical Scheme and approx followed
 
 C - Policy Iteration HJB
 
-D - N-dim Burger solution (Matlab code)
+D - N-dim Burger's equation (Matlab code)
 
 E - Basket (papers)
 
