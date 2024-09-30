@@ -5,7 +5,7 @@
 
 ![image](https://github.com/user-attachments/assets/d4a31ae9-e788-4734-9276-f4f6a24ce391)
 
-**Link to mathematic solution:** https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf
+**Link to mathematic solution:** [Monoyios](https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf)
 
 
 
@@ -20,10 +20,10 @@
 ![image](https://github.com/user-attachments/assets/8955fdde-982c-485f-9e64-2d7d81b79202)
 
 
-**Link to numerical scheme:**(https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
+**Link to numerical scheme:** [Vellekoop IAAOct2021](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
 Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability i.e. Courant-Friedrichs-Lewy (CFL) condition (not suitable for stiff problems). CN scheme averages the explicit and implicit methods.
-"Also, central difference to the convection term of dominated PDEs produces spurious oscillations. To avoid introducing oscillations, it is necessary to discretize the convection term using a downwind/upwind scheme, which means that the direction of one-sided difference needs to be adjusted adaptively according to the sign of the convection term at each discrete point." (Peng Li 2018 - https://www.sciencedirect.com/science/article/pii/S0898122117306880#b13)
+"Also, central difference to the convection term of dominated PDEs produces spurious oscillations. To avoid introducing oscillations, it is necessary to discretize the convection term using a downwind/upwind scheme, which means that the direction of one-sided difference needs to be adjusted adaptively according to the sign of the convection term at each discrete point." [Peng Li 2018](https://www.sciencedirect.com/science/article/pii/S0898122117306880#b13)
 
 
 **C)** Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
@@ -38,12 +38,12 @@ iii)  Linear system - Solve for the matrix by fast Thomas algorithm with time co
 
 iv) option price V is obtained as the difference between certainity equivalents with and without n derivative claims
 
-**Link to algorithm source** - https://www.mdpi.com/1911-8074/14/9/399
+**Link to algorithm source** - [MDPI paper](https://www.mdpi.com/1911-8074/14/9/399)
 
 
 **D)** n-dimensional Burger's Equation solution Matlab code - 
 
-**Link to code repo: -** ![cfd-pim repo](https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file)
+**Link to code repo: -** [cfd-pim repo](https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file)
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
@@ -58,8 +58,8 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 ![image](https://github.com/user-attachments/assets/2b5435c8-ce04-4aea-b50a-9940365493e2)
 
 
-Trivariate Stochastic model (code included) - 
+Trivariate Stochastic yield model (code included) - [Philip O. Ngare](https://www.sciencedirect.com/science/article/pii/S2468227623002247#:~:text=Tri-variate%20models%20constructed%20through%20copulas%20capture)
 
 
 
-**F)** **Colab link** - https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
+**F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing
