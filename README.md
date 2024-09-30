@@ -1,12 +1,17 @@
 
 Index - 
 
-A - Generalized rep\\
-B - Numerical Scheme and approx followed\\
-C - Policy Iteration HJB\\
-D - N-dim Burger solution (Matlab code)\\
-E - Basket (papers)\\
-F - Colab Jupyter notebook link\\
+A - Generalized rep
+
+B - Numerical Scheme and approx followed
+
+C - Policy Iteration HJB
+
+D - N-dim Burger solution (Matlab code)
+
+E - Basket (papers)
+
+F - Colab Jupyter notebook link
 
 **A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
 
