@@ -13,6 +13,7 @@ E - Basket (papers)
 
 F - Colab Jupyter notebook link
 
+
 **A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
 
 ![image](https://github.com/user-attachments/assets/d4a31ae9-e788-4734-9276-f4f6a24ce391)
