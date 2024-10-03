@@ -149,7 +149,7 @@ def preprocess_weather_data(data):
     
     # Feature Engineering: Create a temperature anomaly feature
     weather_df['temp_anomaly'] = weather_df['tavg'] - weather_df['tavg'].mean()
-    
+    weather_df.to_csv('hk_weather_data.csv', index=False)
     return weather_df
 
 def fit_arima_model(weather_df, order=(5,1,0)):
