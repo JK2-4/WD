@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import meteostat
+import meteostat 
 from meteostat import Stations, Daily
 from datetime import datetime
 import matplotlib.pyplot as plt
@@ -128,10 +128,10 @@ def preprocess_weather_data(data):
     Returns:
     - pd.DataFrame: Cleaned and feature-engineered weather data.
     """
-    # Select relevant columns (e.g., temperature)
+    # Select relevant columns, including wind variables
     # Meteostat provides: tavg, tmin, tmax, prcp, snow, wdir, wspd, wpgt, pres, tsun
-    # We'll focus on average temperature (tavg)
-    weather_df = data[['time', 'tavg', 'tmin', 'tmax', 'prcp']]
+    # We'll include wind direction (wdir), wind speed (wspd), and pressure (pres)
+    weather_df = data[['time', 'tavg', 'tmin', 'tmax', 'prcp', 'wdir', 'wspd', 'pres']]
     
     # Handle missing values
     # Forward fill
@@ -147,9 +147,25 @@ def preprocess_weather_data(data):
     # Verify no NaNs remain
     assert not weather_df.isnull().values.any(), "There are still missing values in the data."
     
-    # Feature Engineering: Create a temperature anomaly feature
+    # Feature Engineering:
+    # Create a temperature anomaly feature
     weather_df['temp_anomaly'] = weather_df['tavg'] - weather_df['tavg'].mean()
+    
+    # Create wind speed anomaly feature
+    weather_df['wspd_anomaly'] = weather_df['wspd'] - weather_df['wspd'].mean()
+    
+    # Optionally, create wind direction as a categorical variable or convert to sine and cosine components
+    # Here, we'll convert wind direction to radians and then to sine and cosine for better modeling
+    weather_df['wdir_rad'] = np.deg2rad(weather_df['wdir'])
+    weather_df['wdir_sin'] = np.sin(weather_df['wdir_rad'])
+    weather_df['wdir_cos'] = np.cos(weather_df['wdir_rad'])
+    
+    # Drop the original wind direction in degrees as we have sine and cosine components
+    weather_df.drop(columns=['wdir', 'wdir_rad'], inplace=True)
+    
+    # Save the preprocessed data to CSV
     weather_df.to_csv('hk_weather_data.csv', index=False)
+    
     return weather_df
 
 def fit_arima_model(weather_df, order=(5,1,0)):
