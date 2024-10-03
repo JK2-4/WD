@@ -143,6 +143,6 @@ copula_par2 <- vine_model$par2
 print(copula_par1)
 print(copula_par2)
 
-###################################################################### test log likelihood 
-RVineLogLik(u, RVM, par = RVM$par, par2 = RVM$par2,separate = FALSE, verbose = TRUE, check.pars = TRUE, calculate.V = TRUE)
+###################################################################### test log likelihood - tbd
+#RVineLogLik(u, RVM, par = RVM$par, par2 = RVM$par2,separate = FALSE, verbose = TRUE, check.pars = TRUE, calculate.V = TRUE)
 
