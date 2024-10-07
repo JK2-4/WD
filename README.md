@@ -71,7 +71,7 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 - **E.3** (Carmona 2004) - Correlation embedded in OLS
 ![image](https://github.com/user-attachments/assets/2b5435c8-ce04-4aea-b50a-9940365493e2)
 
-- **E.4** Sparse Regression for non-linear dynamical systems with PDE-FIND algorithm (SINDy py documentation)[https://github.com/dynamicslab/pysindy]
+- **E.4** Sparse Regression for non-linear dynamical systems with PDE-FIND algorithm (SINDy py documentation)[https://github.com/dynamicslab/pysindy] -  Provides a data-driven model discovery for a spatiotemporal system. 
 
 - **E.5** [Meshless Physics informed Neural Network](https://www.nature.com/articles/s41467-021-26434-1) and Deep BSDE
 
