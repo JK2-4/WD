@@ -66,13 +66,10 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 **E.1** (Dzupire 2019) - Assuming 0 correlation between traded asset S (capital market index) and Weather Index I (constructed based on Yi). 
 ![image](https://github.com/user-attachments/assets/96cbd98b-b427-49e8-8647-2f25781e8e0c)
 
-**E.2** Code for a [trivariate stochastic model paper](https://www.sciencedirect.com/science/article/pii/S2468227623002247) by P. Ngare - [code](https://ars.els-cdn.com/content/image/1-s2.0-S2468227623002247-mmc1.pdf)
+**E.2** Code for a [trivariate stochastic yield model paper](https://www.sciencedirect.com/science/article/pii/S2468227623002247) by P. Ngare - [code](https://ars.els-cdn.com/content/image/1-s2.0-S2468227623002247-mmc1.pdf)
 
 **E.3** (Carmona 2004) - Correlation embedded in OLS
 ![image](https://github.com/user-attachments/assets/2b5435c8-ce04-4aea-b50a-9940365493e2)
-
-
-Trivariate Stochastic yield model (code included) - [Philip O. Ngare](https://www.sciencedirect.com/science/article/pii/S2468227623002247#:~:text=Tri-variate%20models%20constructed%20through%20copulas%20capture)
 
 
 
