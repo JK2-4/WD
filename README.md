@@ -71,6 +71,8 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 - **E.3** (Carmona 2004) - Correlation embedded in OLS
 ![image](https://github.com/user-attachments/assets/2b5435c8-ce04-4aea-b50a-9940365493e2)
 
+- E.4 Sparse Regression for non-linear dynamical systems (SINDy py documentation)[https://github.com/dynamicslab/pysindy]
+
 
 
 ## **F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
