@@ -75,4 +75,6 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 
 
 
-## **F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
+## **F)** **Colab link** - 
+
+[Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
