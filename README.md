@@ -79,6 +79,7 @@ Sparse Regression for non-linear dynamical systems with PDE-FIND algorithm [SIND
 
 Implementation with American option pricing under [BS](https://paperswithcode.com/paper/physics-informed-neural-network-for-option)
 
+NVIDIA modulus code [documnetation](https://docs.nvidia.com/deeplearning/modulus/release-notes/index.html#id14)
 
 ## **F)** **Colab link** - 
 
