@@ -73,7 +73,9 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 
 - **E.4** Sparse Regression for non-linear dynamical systems with PDE-FIND algorithm (SINDy py documentation)[https://github.com/dynamicslab/pysindy] -  Provides a data-driven model discovery for a spatiotemporal system. 
 
-- **E.5** [Meshless Physics informed Neural Network](https://www.nature.com/articles/s41467-021-26434-1) and Deep BSDE - An improved approach to black box NN models by using PINN with DNNs and automatic differentiation to derive the closed-form governing equations.  
+- **E.5** [Meshless Physics informed Neural Network](https://www.nature.com/articles/s41467-021-26434-1) and Deep BSDE - An improved approach to black box NN models by using PINN with DNNs and automatic differentiation to derive the closed-form governing equations.
+
+Implementation with American option pricing under (BS)[https://paperswithcode.com/paper/physics-informed-neural-network-for-option]
 
 
 ## **F)** **Colab link** - 
