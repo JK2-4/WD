@@ -73,7 +73,7 @@ HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for l
 
 - **E.4** Sparse Regression for non-linear dynamical systems (SINDy py documentation)[https://github.com/dynamicslab/pysindy]
 
-- **E.5** [Physics informed Neural Network](https://www.nature.com/articles/s41467-021-26434-1) and Deep BSDE
+- **E.5** [Meshless Physics informed Neural Network](https://www.nature.com/articles/s41467-021-26434-1) and Deep BSDE
 
 
 
