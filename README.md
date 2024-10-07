@@ -1,5 +1,5 @@
 
-Index - 
+#Index - 
 
 A - Generalized rep
 
@@ -14,12 +14,7 @@ E - Basket (papers)
 F - Colab Jupyter notebook link
 
 
-
-
-
-
-
-**A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
+##**A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
 
 ![image](https://github.com/user-attachments/assets/d4a31ae9-e788-4734-9276-f4f6a24ce391)
 
@@ -29,7 +24,7 @@ F - Colab Jupyter notebook link
 
 
 
-**B)** 1d Simplified Case for indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
+##**B)** 1d Simplified Case for indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
@@ -44,7 +39,7 @@ Crank Nicolson is better as the explicit scheme (only forward-differencing for t
 "Also, central difference to the convection term of dominated PDEs produces spurious oscillations. To avoid introducing oscillations, it is necessary to discretize the convection term using a downwind/upwind scheme, which means that the direction of one-sided difference needs to be adjusted adaptively according to the sign of the convection term at each discrete point." [Peng Li 2018](https://www.sciencedirect.com/science/article/pii/S0898122117306880#b13)
 
 
-**C)** Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
+##**C)** Policy Iteration for HJB (using upwind [for time dim] and backwind Euler [for spatial dim]  PDE scheme). Uses penalised perturbed equations.
 
 ![image](https://github.com/user-attachments/assets/efde5361-3cec-46f1-8e0e-fbe7bea6d96e)
 
@@ -59,23 +54,23 @@ iv) option price V is obtained as the difference between certainity equivalents 
 **Link to algorithm source** - [MDPI paper](https://www.mdpi.com/1911-8074/14/9/399)
 
 
-**D)** n-dimensional Burger's Equation solution Matlab code - 
+##**D)** n-dimensional Burger's Equation solution Matlab code - 
 
 **Link to code repo: -** [cfd-pim repo](https://github.com/LzEfreet/CFD-PIM?tab=readme-ov-file)
 
 HJB PDE numerical solution - Hopf-Cole transformation (or distortion power for linearizing the Burgers or reaction-diffusion equations) on the value function (Musiela and Zariphopoulou 2004, Henderson and Hobson)
 
 
-**E)** Basket - 
+##**E)** Basket - 
 
-**E.1** (Dzupire 2019) - Assuming 0 correlation between traded asset S (capital market index) and Weather Index I (constructed based on Yi). 
+- **E.1** (Dzupire 2019) - Assuming 0 correlation between traded asset S (capital market index) and Weather Index I (constructed based on Yi). 
 ![image](https://github.com/user-attachments/assets/96cbd98b-b427-49e8-8647-2f25781e8e0c)
 
-**E.2** Code for a [trivariate stochastic yield model paper](https://www.sciencedirect.com/science/article/pii/S2468227623002247) by P. Ngare - [code](https://ars.els-cdn.com/content/image/1-s2.0-S2468227623002247-mmc1.pdf)
+- **E.2** Code for a [trivariate stochastic yield model paper](https://www.sciencedirect.com/science/article/pii/S2468227623002247) by P. Ngare - [code](https://ars.els-cdn.com/content/image/1-s2.0-S2468227623002247-mmc1.pdf)
 
-**E.3** (Carmona 2004) - Correlation embedded in OLS
+- **E.3** (Carmona 2004) - Correlation embedded in OLS
 ![image](https://github.com/user-attachments/assets/2b5435c8-ce04-4aea-b50a-9940365493e2)
 
 
 
-**F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
+##**F)** **Colab link** - [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
