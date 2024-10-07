@@ -1,7 +1,7 @@
 
 # Index - 
 
-A - Generalized rep
+A - Generalized representation
 
 B - Numerical Scheme and approx followed
 
