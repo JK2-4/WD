@@ -11,7 +11,9 @@ D - N-dim Burgers equation (Matlab code)
 
 E - Basket (papers)
 
-F - Colab Jupyter notebook link
+F - Variables
+
+G- Colab Jupyter notebook link
 
 
 ## **A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
@@ -85,6 +87,16 @@ Implementation with American option pricing under [BS](https://paperswithcode.co
 
 NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus/release-notes/index.html#id14)
 
-## **F)** **Colab link** - 
+## **F)** Variables 
+
+|Variable |SDE Model |Empirical Parameters|
+|---------|---------|---------|
+|Rainfall:| pyraingen for rainfall simulation - https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2| ref |
+|Hazard Intensity: | | | 
+|Wind speed and pressure: | GHYP 9Generalized Hyperbolic distribution) | | 
+|Climate compound risk: | Clim ODE | | 
+
+
+## **G)** **Colab link** - 
 
 [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
