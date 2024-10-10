@@ -91,7 +91,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 
 |Variable |SDE Model |Empirical Parameters|
 |---------|---------|---------|
-|Rainfall:| pyraingen for rainfall simulation - https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2| ref |
+|Rainfall:| [pyraingen](https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2) for rainfall simulation| ref |
 |Hazard Intensity: | | | 
 |Wind speed and pressure: | GHYP 9Generalized Hyperbolic distribution) | | 
 |Climate compound risk: | Clim ODE | | 
