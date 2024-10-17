@@ -59,3 +59,75 @@ plot_pres <- create_plot("pres")
 grid.arrange(plot_tavg, plot_prcp, plot_wspd, plot_pres, ncol = 2, top = "Empiric vs Theoric Distribution for Weather Variables")
 
 
+###################################################################################### model coeff regn 
+# Load necessary libraries
+library(dplyr)
+library(broom)
+library(knitr)
+library(kableExtra)
+
+# Load the data
+df_model <- data
+
+# Add time index
+df_model$t <- 1:nrow(df_model)
+
+# Define Omega (annual seasonal frequency for daily data)
+df_model$Omega <- 2 * pi / 365
+
+# Rename the temperature variable to match the code's expectations
+df_model$Temp <- df_model$tavg
+
+# Fit the seasonal model
+seasonal_model <- lm(Temp ~ t + sin(Omega * t) + cos(Omega * t), data = df_model)
+
+# Extract the estimated OLS parameters
+a1 <- coef(seasonal_model)[1] 
+a2 <- coef(seasonal_model)[2] 
+a3 <- coef(seasonal_model)[3] 
+a4 <- coef(seasonal_model)[4]
+
+# Compile the results into a table
+tibble(
+  Model = "$T_t^{m}$ (OLS)", 
+  a1 = a1,
+  a2 = a2,
+  a3 = a3,
+  a4 = a4,
+  r.squared = glance(seasonal_model)$r.squared,
+  sigma = glance(seasonal_model)$sigma
+) %>%
+  kable(caption = "Estimated parameters for the seasonal model", 
+        escape = FALSE) %>%
+  kable_classic() %>%
+  kable_styling(latex_options = "hold_position")
+
+
+# Rearrenge the coefficients 
+A <- a1
+B <- a2
+C <- sqrt(a3^2 + a4^2)
+Phi <- atan(a4/a3) - base::pi
+# Fitted seasonal mean 
+df_model$Temp_m <- A + B*df_model$t + C*sin(df_model$Omega*df_model$t + Phi)
+
+# Function for the seasonal drift 
+SeasonalDrift <- function(t){
+  omega <- 2*base::pi/365
+  B + omega * C * cos(omega * t  + Phi)
+}
+# Function for the seasonal function 
+SeasonalFunction <- function(t){
+  omega <- 2*base::pi/365
+  A + (B * t) + C * sin(omega * t  + Phi)
+}
+
+dplyr::tibble(
+  Model = "$T_m$", 
+  A = A,
+  B = B,
+  C = C, 
+  Phi = Phi) %>%
+  knitr::kable(caption = "Coefficients of the regression of Tm", escape = FALSE) %>%
+  kableExtra::kable_classic() %>%
+  kable_styling(latex_options = "hold_position")
