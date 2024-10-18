@@ -6,7 +6,7 @@
 
 \begin{document}
 
-\section*{Seasonal Function OLS}
+\section*{SDE and Seasonal Function OLS}
 
 Average temperature \( t \)-th day:
 
@@ -26,7 +26,7 @@ Seasonality with a time-dependent mean that accounts for this seasonality implie
 \frac{dT_t^m}{dt} = B + \omega \cdot C \cdot \cos(\omega t + \phi)
 \]
 
-SDE - 
+\subsection{SDE - }
 
 \[
 dT_t = \left\{ \frac{dT_t^m}{dt} + a(T_t^m - T_t) \right\} dt + \sigma_t \, dW_t
@@ -42,7 +42,22 @@ Distribution of  differences \( \Delta T_t = T_t - T_{t-1} \) has mean and varia
 \frac{1}{n} \sum_{t=1}^n (\Delta T_t - \overline{\Delta T_t})^2.
 \]
 
-OLS to be fitted - 
+\subsubsection*{Calibration}
+
+Following Alaton as well as Bibby and Sorensen in a \textit{martingale estimation method} for drift and diffussion coefficients. This efficient estimator can be obtained by finding the value of \(\hat{a}_n\) such that:
+
+
+\[
+G_n(a) = 0 = \sum_{i=1}^{n} \frac{\partial_a b(T_{i-1}; a)}{\sigma^2_{i-1}} \left( T_i - \mathbb{E}[T_i | T_{i-1}] \right)
+\]
+
+Discretized SDE based variance estimator -
+
+\[
+\hat{\sigma}_u^2 = \frac{1}{N_u - 2} \sum_{j=0}^{N_u-1} \left( T_j - \hat{a} T^m_{j-1} - (1 - \hat{a}) T_{j-1} \right)^2
+\]
+
+\subsection{OLS to be fitted - }
 
 \[
 T_t^{m} = a_1 + a_2 t + a_3 \sin(\omega t) + a_4 \cos(\omega t)
@@ -64,5 +79,7 @@ T_t^{m} = A + B t + C \sin(\omega t + \phi)
     \item \( A = a_1 \), \( B = a_2 \), \( C = \sqrt{a_3^2 + a_4^2} \)
     \item \( \phi = \arctan\left(\frac{a_4}{a_3}\right) - \pi \)
 \end{itemize}
+
+
 
 \end{document}
