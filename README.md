@@ -92,7 +92,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 |Variable |SDE Model |Empirical Parameters|
 |---------|---------|---------|
 |Rainfall:| [pyraingen](https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2) for rainfall simulation|  |
-|Hazard Intensity: | | | 
+|Hazard Intensity: | [Mockus Equation - hydrological analysis](https://doi.org/10.13031/2013.41082) | | 
 |Wind speed and pressure: | GHYP (Generalized Hyperbolic distribution) | | 
 |Temp:| [Alaton](https://rstudio-pubs-static.s3.amazonaws.com/953546_4548bb57d50344ff984963ff47645e2e.html) | |
 |Climate compound risk: | Clim ODE | | 
