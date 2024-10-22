@@ -98,7 +98,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 |Climate compound risk: | Clim ODE | | |
 
 
-**Data** - [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics)
+**Data** - [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - [metadata_dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf)
 
 ## **G)** **Colab link** - 
 
