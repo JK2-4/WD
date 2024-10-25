@@ -96,7 +96,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 |Wind speed and pressure: | GHYP (Generalized Hyperbolic distribution) | | |
 |Temp:| [Alaton](https://rstudio-pubs-static.s3.amazonaws.com/953546_4548bb57d50344ff984963ff47645e2e.html) | | |
 |Climate compound risk: | Clim ODE | | |
-|Urban Heat Island (UHI): The urban heat island effect is a phenomenon whereby cities experience higher air temperatures than the surrounding countryside, making them more vulnerable to a warming Earth| | | |
+|Urban Heat Island (UHI): Phenomenon when highly dense cities experience assymmetric air temperatures than other areas. Measures global warming risk. | | | |
 
 
 **Data** - [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - [metadata_dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf)
