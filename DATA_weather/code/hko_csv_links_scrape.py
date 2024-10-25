@@ -118,3 +118,158 @@ for dataset in dataset_links:
 
 # save
 save_links_to_csv(all_download_links, OUTPUT_FILE)
+
+
+
+# ==============================
+#  [HKO Data Scraper](https://www.hko.gov.hk/en/cis/monthlyElement.htm?ele=TEMP)
+# ==============================
+
+#!pip install selenium beautifulsoup4 pandas
+import time
+import os
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from bs4 import BeautifulSoup
+import pandas as pd
+import json
+
+def setup_driver(headless=True):
+    """
+    Set up the Selenium WebDriver.
+    """
+    options = webdriver.ChromeOptions()
+    if headless:
+        options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome(options=options)
+    return driver
+
+def save_table_data(summary, table_html):
+    """
+    Parse the HTML table and save it as a JSON object.
+    """
+    soup = BeautifulSoup(table_html, 'html.parser')
+    table = soup.find('table')
+    if not table:
+        print("No table found in the dataTable div.")
+        return
+
+    # Extract headers
+    headers = []
+    header_row = table.find('tr')
+    for th in header_row.find_all(['th', 'td']):
+        headers.append(th.get_text(strip=True))
+
+    # Extract rows
+    rows = []
+    for tr in table.find_all('tr')[1:]:  # Skip header row
+        cells = tr.find_all(['th', 'td'])
+        row = [cell.get_text(strip=True) for cell in cells]
+        if row:
+            rows.append(row)
+
+    # Create a dictionary for the data
+    data = {
+        "summary": summary,
+        "headers": headers,
+        "rows": rows
+    }
+
+    # Save data as a JSON file
+    filename = f"{summary}.json".replace(" ", "_").replace("/", "_")
+    filename = os.path.join("scraped_data", filename)
+
+    # Ensure the directory exists
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+    # Save to JSON
+    with open(filename, 'w') as f:
+        json.dump(data, f)
+    print(f"Saved data to {filename}")
+
+def combine_json_files(output_file="combined_data.json"):
+    """
+    Combine all JSON files in the scraped_data directory into a single JSON file.
+    """
+    combined_data = []
+    scraped_data_dir = "scraped_data"
+
+    for filename in os.listdir(scraped_data_dir):
+        if filename.endswith(".json"):
+            filepath = os.path.join(scraped_data_dir, filename)
+            with open(filepath, 'r') as f:
+                data = json.load(f)
+                combined_data.append(data)
+
+    # Save the combined data
+    with open(output_file, 'w') as f:
+        json.dump(combined_data, f)
+    print(f"Combined data saved to {output_file}")
+
+def main():
+    # Initialize WebDriver
+    driver = setup_driver(headless=True)
+    wait = WebDriverWait(driver, 20)  # 20 seconds timeout
+
+    try:
+        url = "https://www.hko.gov.hk/en/cis/monthlyElement.htm?ele=TEMP"
+        driver.get(url)
+
+        # Wait until the div with id "elementTable" is present
+        wait.until(EC.presence_of_element_located((By.ID, "elementTable")))
+
+        # Find the div with id "elementTable"
+        element_table_div = driver.find_element(By.ID, "elementTable")
+
+        # Parse the div using BeautifulSoup
+        soup = BeautifulSoup(element_table_div.get_attribute('innerHTML'), 'html.parser')
+
+        # Find all links in the table
+        links = soup.find_all('a', href=True)
+        link_hrefs = [link['href'] for link in links]
+
+        for href in link_hrefs:
+            full_url = "https://www.hko.gov.hk/en/cis/" + href
+            print(f"Processing link: {full_url}")
+
+            try:
+                # Navigate to the link
+                driver.get(full_url)
+
+                # Wait for the dataTable div to load
+                wait.until(EC.presence_of_element_located((By.XPATH, "/html/body/div[2]/div[2]/div/div/div[4]/div/div[3]")))
+
+                # Get the dataTable div
+                data_table_div = driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div/div/div[4]/div/div[3]")
+                summary = data_table_div.find_element(By.XPATH, "/html/body/div[2]/div[2]/div/div/div[4]/div/div[3]/table").get_attribute('summary')
+                table_html = data_table_div.get_attribute('innerHTML')
+
+                print(f"Scraping data for: {summary}")
+
+                # Save the table data
+                save_table_data(summary, table_html)
+
+                # Navigate back to the main page
+                driver.get(url)
+
+                # Wait again for the elementTable div to be present
+                wait.until(EC.presence_of_element_located((By.ID, "elementTable")))
+
+            except (TimeoutException, NoSuchElementException) as e:
+                print(f"Error processing link {full_url}: {e}")
+                continue
+
+    finally:
+        driver.quit()
+
+    # Combine all JSON files into a single file
+    combine_json_files()
+
+if __name__ == "__main__":
+    main()
+
