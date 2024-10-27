@@ -145,7 +145,7 @@ dplyr::tibble(
 # plot 
 
 
-ggplot(df_model[1:1461,])+
+g1 <- ggplot(df_model[1:1461,])+
   geom_line(aes(t, Temp), alpha = 0.7)+
   geom_line(aes(t, Temp_m), color = "red")+
   theme_bw()+
@@ -247,7 +247,7 @@ SimulateTemperature <- function(X0 = 1, dt = 1, N = 100, seed = 1){
 df_model$Sim1 <- SimulateTemperature(X0 = df_model$Temp[1], N = nrow(df_model), seed = 1)$Path
 df_model$Sim2 <- SimulateTemperature(X0 = df_model$Temp[1], N = nrow(df_model), seed = 2)$Path
 
-ggplot(df_model[1:1461,])+
+g2 <- ggplot(df_model[1:1461,])+
   geom_line(aes(t, Sim1), color = "red", alpha = 1)+
   geom_line(aes(t, Temp), alpha = 0.5)+
   theme_bw()+
@@ -272,3 +272,9 @@ ggplot(df_model[1:1461,])+
     x = NULL,
     caption = "tavg SDE caliberated Simulation"
   )
+
+if (!require("gridExtra")) install.packages("gridExtra")
+library(gridExtra)
+
+# Combine the two ggplots side by side
+grid.arrange(g1, g2, ncol = 2)
