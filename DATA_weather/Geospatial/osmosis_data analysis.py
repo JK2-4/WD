@@ -13,6 +13,8 @@ output_dir = '/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/output'
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
+####################### Data Extraction
+
 class OSMHandler(osmium.SimpleHandler):
     def __init__(self):
         super(OSMHandler, self).__init__()
@@ -105,8 +107,202 @@ def process_pbf_file(pbf_path):
         buffer_geom = centroid.buffer(radius)
         buffers[diameter] = buffer_geom
 
-    # Function definitions for calculating metrics (land surface, vegetation, urban geometry) omitted for brevity
-    # Include your `calculate_land_surface`, `calculate_vegetation`, `calculate_urban_geometry` functions here...
+#################################################### Data analysis 
+
+######## helper function
+    
+def calculate_land_surface(gdf, buffer_geom):
+    print("Calculating land surface characteristics.")
+    # Clip data to buffer
+    clipped = gdf[gdf.intersects(buffer_geom)].copy()
+    print(f"Records within buffer: {len(clipped)}")
+
+
+    # Filter only Polygon and MultiPolygon geometries
+    clipped = clipped[clipped.geometry.type.isin(['Polygon', 'MultiPolygon'])].copy()
+    print(f"Polygon records within buffer: {len(clipped)}")
+    
+
+    # Initialize area calculations
+    total_area = buffer_geom.area  # In square meters
+    
+    # Define land use categories based on tags
+    built_up = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and ('building' in x or 'highway' in x))].copy()
+    vegetated = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and (x.get('natural') == 'vegetation' or x.get('landuse') in ['forest', 'grass', 'orchard']))].copy()
+    bare_soil = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and x.get('landuse') == 'bare_soil')].copy()
+    rock = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and x.get('natural') == 'rock')].copy()
+    water = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and (x.get('natural') == 'water' or x.get('waterway') is not None))].copy()
+    
+    built_up = gpd.GeoDataFrame(built_up, geometry='geometry', crs=gdf.crs)
+    vegetated = gpd.GeoDataFrame(vegetated, geometry='geometry', crs=gdf.crs)
+    bare_soil = gpd.GeoDataFrame(bare_soil, geometry='geometry', crs=gdf.crs)
+    rock = gpd.GeoDataFrame(rock, geometry='geometry', crs=gdf.crs)
+    water = gpd.GeoDataFrame(water, geometry='geometry', crs=gdf.crs)
+
+
+    # Calculate areas
+    built_up_area = built_up.geometry.area.sum()
+    vegetated_area = vegetated.geometry.area.sum()
+    bare_soil_area = bare_soil.geometry.area.sum()
+    rock_area = rock.geometry.area.sum()
+    water_area = water.geometry.area.sum()
+    
+    print(f"Built-up area: {built_up_area} m²")
+    print(f"Vegetated area: {vegetated_area} m²")
+    print(f"Bare soil area: {bare_soil_area} m²")
+    print(f"Rock area: {rock_area} m²")
+    print(f"Water area: {water_area} m²")
+    
+    # Calculate percentages
+    built_up_pct = (built_up_area / total_area) * 100 if total_area > 0 else 0
+    vegetated_pct = (vegetated_area / total_area) * 100 if total_area > 0 else 0
+    bare_soil_pct = (bare_soil_area / total_area) * 100 if total_area > 0 else 0
+    rock_pct = (rock_area / total_area) * 100 if total_area > 0 else 0
+    water_pct = (water_area / total_area) * 100 if total_area > 0 else 0
+    
+    return {
+        '% built-up': built_up_pct,
+        '% vegetated': vegetated_pct,
+        '% bare soil': bare_soil_pct,
+        '% rock': rock_pct,
+        '% water': water_pct
+    }
+
+def calculate_vegetation(gdf, buffer_geom):
+    print("Calculating vegetation characteristics.")
+    # Clip data to buffer
+    clipped = gdf[gdf.intersects(buffer_geom)].copy()
+    print(f"Records within buffer for vegetation: {len(clipped)}")
+    
+
+    # Filter only Polygon and MultiPolygon geometries
+    clipped = clipped[clipped.geometry.type.isin(['Polygon', 'MultiPolygon'])].copy()
+    print(f"Polygon records within buffer: {len(clipped)}")
+
+    vegetated = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and (x.get('natural') == 'vegetation' or x.get('landuse') in ['forest', 'grass', 'orchard']))]
+    print(f"Vegetated records: {len(vegetated)}")
+    
+    dense_veg = vegetated[vegetated['tags'].apply(lambda x: isinstance(x, dict) and x.get('density') == 'dense')].copy()
+    sparse_veg = vegetated[vegetated['tags'].apply(lambda x: isinstance(x, dict) and x.get('density') == 'sparse')].copy()
+    
+    # Ensure they remain GeoDataFrames by explicitly setting their geometry
+    dense_veg = gpd.GeoDataFrame(dense_veg, geometry='geometry', crs=gdf.crs)
+    sparse_veg = gpd.GeoDataFrame(sparse_veg, geometry='geometry', crs=gdf.crs)
+
+    print(f"Dense vegetation records: {len(dense_veg)}")
+    print(f"Sparse vegetation records: {len(sparse_veg)}")
+    
+    total_area = buffer_geom.area
+    
+    dense_area = dense_veg.geometry.area.sum()
+    sparse_area = sparse_veg.geometry.area.sum()
+    
+    print(f"Dense vegetation area: {dense_area} m²")
+    print(f"Sparse vegetation area: {sparse_area} m²")
+    
+    dense_pct = (dense_area / total_area) * 100 if total_area > 0 else 0
+    sparse_pct = (sparse_area / total_area) * 100 if total_area > 0 else 0
+    
+    return {
+        '% dense/high vegetation': dense_pct,
+        '% sparse/low vegetation': sparse_pct
+    }
+
+def calculate_urban_geometry(gdf, buffer_geom):
+    print("Calculating urban geometry characteristics.")
+    # Clip data to buffer
+    clipped = gdf[gdf.intersects(buffer_geom)].copy()
+    print(f"Records within buffer for urban geometry: {len(clipped)}")
+
+
+    # Filter only Polygon and MultiPolygon geometries
+    clipped = clipped[clipped.geometry.type.isin(['Polygon', 'MultiPolygon'])].copy()
+    print(f"Polygon records within buffer: {len(clipped)}")
+
+    buildings = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and x.get('building') is not None)].copy()
+    roads = clipped[clipped['tags'].apply(lambda x: isinstance(x, dict) and x.get('highway') is not None)].copy()
+    
+
+    buildings = gpd.GeoDataFrame(buildings, geometry='geometry', crs=gdf.crs)
+    roads = gpd.GeoDataFrame(roads, geometry='geometry', crs=gdf.crs)
+
+    print(f"Buildings within buffer: {len(buildings)}")
+    print(f"Roads within buffer: {len(roads)}")
+    
+    total_area = buffer_geom.area
+    
+    building_area = buildings.geometry.area.sum()
+    print(f"Total building area: {building_area} m²")
+    
+    # Function to get road width
+    def get_road_width(tags):
+        if 'width' in tags:
+            try:
+                return float(tags['width'])
+            except:
+                return 10  # default width
+        else:
+            return 10  # default width
+    
+    roads['road_width'] = roads['tags'].apply(lambda x: get_road_width(x))
+    road_area = (roads.geometry.length * roads['road_width']).sum()
+    print(f"Total road area: {road_area} m²")
+    
+    building_fraction = (building_area / total_area) * 100 if total_area > 0 else 0
+    road_fraction = (road_area / total_area) * 100 if total_area > 0 else 0
+    
+    print(f"Building Fraction: {building_fraction:.2f}%")
+    print(f"Road/Impervious Cover Fraction: {road_fraction:.2f}%")
+    
+    # SVF (Sky View Factor) estimation
+    average_svf = 1 - (building_fraction / 100)  # Simplistic estimation
+    average_svf = max(0, min(average_svf, 1))  # Ensure SVF is between 0 and 1
+    print(f"Average SVF: {average_svf:.2f}")
+    
+    # Function to get building height
+    def get_building_height(tags):
+        if 'height' in tags:
+            try:
+                return float(tags['height'])
+            except:
+                pass
+        if 'building:levels' in tags:
+            try:
+                return float(tags['building:levels']) * 3  # Approximate height per level
+            except:
+                pass
+        return pd.NA  # Use NaN for missing values
+    
+    buildings['building_height'] = buildings['tags'].apply(lambda x: get_building_height(x))
+    building_heights = buildings['building_height'].dropna()
+    print(f"Number of buildings with height data: {len(building_heights)}")
+    
+    average_height = building_heights.mean() if not building_heights.empty else 0
+    std_height = building_heights.std() if not building_heights.empty else 0
+    print(f"Average Building Height: {average_height:.2f} m")
+    print(f"Std Dev of Building Height: {std_height:.2f} m")
+    
+    return {
+        'Building fraction (%)': building_fraction,
+        'Road/impervious cover fraction (%)': road_fraction,
+        'Average SVF': average_svf,
+        'Average building height (m)': average_height,
+        'Std dev of building height (m)': std_height
+    }
+
+def calculate_metrics(gdf, buffers):
+    metrics = {}
+    for diameter, buffer_geom in buffers.items():
+        print(f"\nCalculating metrics for buffer diameter: {diameter}m")
+        land_surface = calculate_land_surface(gdf, buffer_geom)
+        vegetation = calculate_vegetation(gdf, buffer_geom)
+        urban_geometry = calculate_urban_geometry(gdf, buffer_geom)
+        
+        # Combine all metrics into a single dictionary
+        metrics[diameter] = {**land_surface, **vegetation, **urban_geometry}
+        print(f"Metrics for {diameter}m buffer: {metrics[diameter]}")
+    
+    return metrics
 
     # Calculate metrics for all buffer zones
     all_metrics = calculate_metrics(gdf_combined, buffers)
