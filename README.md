@@ -101,6 +101,9 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 
 **Data** - [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - [metadata_dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf)
 
+[Cross-sectional results to reproduce](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-42925-9/MediaObjects/41467_2023_42925_MOESM1_ESM.pdf)
+
+
 ## **G)** **Colab link** - 
 
 [Google colab - JK](https://colab.research.google.com/drive/1iEsWgOOY3vK39Unbrobov5RG2dxffYNG?usp=sharing)
