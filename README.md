@@ -97,7 +97,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 |Temp:| [Alaton](https://rstudio-pubs-static.s3.amazonaws.com/953546_4548bb57d50344ff984963ff47645e2e.html) | | |
 |Climate compound risk: | Clim ODE | | |
 |Infrastructure risk - Urban Overheating (HK specific which is a  subtropical high-density city; [Heat stress parametric insurance](https://en.prnasia.com/releases/apac/axa-launches-pioneering-heatwave-parametric-insurance-456281.shtml)) | | Urban Heat Island (UHI), Urban Breeze Intensity (UBI), UHI-wind cross effect (Phenomena when highly dense cities experience assymmetric temperature than other areas. Measures global warming risk.)| |
-|Spillover risk||[1](https://www.nature.com/articles/s41467-023-42925-9#code-availability) [2](https://www.sciencedirect.com/science/article/abs/pii/S0360544224033218)||
+|Spillover risk_cross district||[1 empirical src in fin mkt](https://www.nature.com/articles/s41467-023-42925-9#code-availability) [2. method ref paper](https://www.sciencedirect.com/science/article/abs/pii/S0360544224033218)||
 
 
 **Data** - [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - [metadata_dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf)
