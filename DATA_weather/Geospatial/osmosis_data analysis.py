@@ -418,7 +418,7 @@ for index, img in enumerate(images):
 combined_image.save(output_path, "PNG")
 print("Combined image saved at:", output_path)
 
-##################################################### if issues - 
+##################################################### end
 
 '''
 
