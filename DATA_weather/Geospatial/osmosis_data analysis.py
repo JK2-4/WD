@@ -336,3 +336,147 @@ for file_name in os.listdir(input_folder):
         # Save visualizations for each buffer
         for diameter, buffer_geom in buffers.items():
             visualize_buffer(gdf_combined, buffer_geom, diameter, district_name)
+
+
+
+######################################### FINAL COMPILATION 
+
+# !pip install pillow
+
+import pandas as pd
+import glob
+import os
+
+# Path to your directory containing CSV files
+path = "/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/output2"
+all_files = glob.glob(os.path.join(path, "*.csv"))
+
+# Initialize an empty list to hold each file's DataFrame
+dataframes = []
+
+# Loop through each file, read it, and add a 'District' column
+for file in all_files:
+    # Extract the base name of the file without extension for the District column
+    district_name = os.path.basename(file).replace("_results.csv", "")
+    
+    # Read the file into a DataFrame
+    df = pd.read_csv(file)
+    
+    # Add a new column 'District' with the district name for each row
+    df['District'] = district_name
+    
+    # Append the DataFrame to the list
+    dataframes.append(df)
+
+# Concatenate all DataFrames into a single DataFrame
+combined_df = pd.concat(dataframes, ignore_index=True)
+
+# Save the combined DataFrame to a new CSV file
+combined_df.to_csv("/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/compiled_output.csv", index=False)
+print("Compiled CSV saved successfully with 'District' column.")
+
+
+
+from PIL import Image
+import glob
+import os
+import math
+
+# Define path to your PNG files
+path = "/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/output2/*.png"
+output_path = "/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/combined_output.png"
+
+# Load all PNG files
+image_files = glob.glob(path)
+
+# Sort images to maintain order if required
+image_files.sort()
+
+# Load all images
+images = [Image.open(img) for img in image_files]
+
+# Determine grid size for 37 images (e.g., 7x6 grid)
+grid_size = (7, 6) if len(images) == 37 else (math.ceil(math.sqrt(len(images))),) * 2
+
+# Get single image dimensions
+width, height = images[0].size
+
+# Calculate size for the final image
+grid_width = grid_size[0] * width
+grid_height = grid_size[1] * height
+
+# Create an empty image with calculated grid dimensions
+combined_image = Image.new('RGB', (grid_width, grid_height))
+
+# Paste images into the grid
+for index, img in enumerate(images):
+    row = index // grid_size[0]
+    col = index % grid_size[0]
+    combined_image.paste(img, (col * width, row * height))
+
+# Save the final combined image
+combined_image.save(output_path, "PNG")
+print("Combined image saved at:", output_path)
+
+##################################################### if issues - 
+
+'''
+
+################################################# if issue with column geometry : 
+
+radius = 12000 / 2  # Buffer radius in meters
+buffer_geom = centroid.buffer(radius)
+
+def calculate_metrics_adj(gdf, buffer_geom, diameter):
+    metrics = {}
+    print(f"\nCalculating metrics for buffer diameter: {diameter}m")
+    land_surface = calculate_land_surface(gdf, buffer_geom)
+    vegetation = calculate_vegetation(gdf, buffer_geom)
+    urban_geometry = calculate_urban_geometry(gdf, buffer_geom)
+
+    # Combine all metrics into a single dictionary
+    metrics[diameter] = {**land_surface, **vegetation, **urban_geometry}
+    print(f"Metrics for {diameter}m buffer: {metrics[diameter]}")
+
+    return metrics
+
+all_metrics = calculate_metrics_adj(gdf_combined, buffer_geom, 12000)
+
+# Convert metrics dictionary to DataFrame
+metrics_df = pd.DataFrame(all_metrics).T  # Transpose to have diameters as rows
+metrics_df.index.name = 'Buffer_Diameter_m'
+
+# Reset index to turn it into a column
+metrics_df = metrics_df.reset_index()
+
+# Display the metrics DataFrame
+print("\nCalculated Metrics:")
+print(metrics_df.head())
+
+# Define the output path for the metrics CSV
+output_csv_path = '/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/output2/TAI_PO_results.csv' #### **
+
+# Save the metrics to CSV
+metrics_df.to_csv(output_csv_path, index=False)
+
+print(f"\nMetrics saved to {output_csv_path}")
+
+import matplotlib.pyplot as plt
+
+def visualize_buffer(gdf, buffer_geom, diameter):
+    fig, ax = plt.subplots(figsize=(10, 10))
+    gdf.plot(ax=ax, color='blue', alpha=0.5, markersize=10, label='OSM Elements')
+    gpd.GeoSeries([buffer_geom]).boundary.plot(ax=ax, color='red', label=f'{diameter}m Buffer')
+    plt.title(f'Buffer {diameter}m around Centroid: TAI PO district') ### **
+    plt.legend()
+    plt.xlabel('Easting (meters)')
+    plt.ylabel('Northing (meters)')
+    output_folder = '/content/drive/MyDrive/wd/osmosis-0.49.2/osmo/output2'
+    output_plot_path = os.path.join(output_folder, f'TAI_PO{diameter}m_buffer.png') #### **
+    plt.savefig(output_plot_path)
+    plt.close()
+    print(f"Visualization saved to {output_plot_path}")
+
+visualize_buffer(gdf_combined, buffer_geom, 12000)
+
+'''
