@@ -97,7 +97,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 |Temp:| [Alaton](https://rstudio-pubs-static.s3.amazonaws.com/953546_4548bb57d50344ff984963ff47645e2e.html) | | |
 |Climate compound risk: | Clim ODE | | |
 |Infrastructure risk - Urban Overheating (HK specific which is a  subtropical high-density city; [Heat stress parametric insurance](https://en.prnasia.com/releases/apac/axa-launches-pioneering-heatwave-parametric-insurance-456281.shtml)) | | Urban Heat Island (UHI), Urban Breeze Intensity (UBI), UHI-wind cross effect (Phenomena when highly dense cities experience assymmetric temperature than other areas. Measures global warming risk.)| |
-|Marginal risk/Extreme Value Theory (EVT) modeling| | Generalised Pareto (GP) model for upper tail and Gamma for lower tail; Laplace and Gumbel transform on data - [src](https://github.com/ECSADES/ecsades-matlab/blob/master/PPC_UserGuide.pdf)| station 6001 hourly data 2010-2024 - temp, rel_hum, wind_dir| 
+|Marginal risk/Extreme Value Theory (EVT) modeling| | Generalised Pareto (GP) model for upper tail and Gamma for lower tail; Laplace and Gumbel transform on data| station 6001 hourly data 2010-2024 - temp, rel_hum, wind_dir| 
 |Spillover risk_cross district|BK and DY model for directional and pairwise volatility spillover indices|[1 empirical src in fin mkt application](https://www.nature.com/articles/s41467-023-42925-9#code-availability) [2. method ref paper](https://www.sciencedirect.com/science/article/abs/pii/S0360544224033218)||
 
 
