@@ -795,3 +795,6 @@ for station_id in data['station_id'].unique():
 # -------------------------------- Summary -------------------------------- #
 logging.info(f"Finished processing {len(CAR_temperature_dict)} stations successfully.")
 
+
+# -------------------------------- Plot - to add -------------------------------- #
+
