@@ -18,12 +18,14 @@ G- Colab Jupyter notebook link
 
 ## **A)** **Generalized representation** of linearized PDE by Hopf-Cole transformation (distortion) solution on value function PDE (Monoyios 2004) -
 
+**Under Real world measure (MC) - **
 ![image](https://github.com/user-attachments/assets/d4a31ae9-e788-4734-9276-f4f6a24ce391)
 
 **Link to mathematic solution:** [Monoyios](https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf)
 
 
-
+**Under Indifference measure - **
+![image](https://github.com/user-attachments/assets/4da6f75b-21c0-4b7f-88bd-3be587a0f218)
 
 
 ## **B.1)** 1d Simplified Case for indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
