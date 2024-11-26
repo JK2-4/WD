@@ -30,6 +30,8 @@ G- Colab Jupyter notebook link
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
+Carmona (2005) **0 correlation case** - Pricing Under historical Measure 
+
 ![image](https://github.com/user-attachments/assets/f6e4ba40-496f-4d25-97a8-2c057ccc47ec)
 
 ![image](https://github.com/user-attachments/assets/8955fdde-982c-485f-9e64-2d7d81b79202)
