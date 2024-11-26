@@ -24,11 +24,11 @@ G- Colab Jupyter notebook link
 **Link to mathematic solution:** [Monoyios](https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf)
 
 
-## **B.1)** 1d Simplified Case for indifference price - **analytical approximation** formula (Michael Vellekoop, University of Amsterdam) - 
+## **B.1)** 1d Simplified Case for indifference price - **analytical approximation** formula (MC) - 
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
-**Link to numerical scheme:** 
+**Link to numerical scheme: Michael Vellekoop, University of Amsterdam ** 
 - [Vellekoop IAAOct2021](https://actuaries.org/IAA/Documents/SECTIONS/Sections%20Colloquium%202021/PresentationVellekoopIAAOct2021.pdf)
 
 Crank Nicolson is better as the explicit scheme (only forward-differencing for the time derivative) requires the time step to be constrained to unacceptably low values in order to ensure stability i.e. Courant-Friedrichs-Lewy (CFL) condition (not suitable for stiff problems). CN scheme averages the explicit and implicit methods.
