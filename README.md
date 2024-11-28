@@ -26,7 +26,7 @@ G- Colab Jupyter notebook link
 **Link to mathematic solution:** [Monoyios](https://people.maths.ox.ac.uk/monoyios/docs/mm_chapter.pdf)
 
 
-## **B.1)** 1d Simplified Case (Distorted power solution based) for indifference price - **analytical approximation** formula (MC) - 
+## **B.1)** 1d Simplified Case (Distorted power solution) for indifference price - **analytical approximation** formula (MC) - 
 
 ![image](https://github.com/user-attachments/assets/47d35849-1818-4432-9301-51eca45e2a29)
 
@@ -39,7 +39,7 @@ Crank Nicolson is better as the explicit scheme (only forward-differencing for t
 
 - "Also, central difference to the convection term of dominated PDEs produces spurious oscillations. To avoid introducing oscillations, it is necessary to discretize the convection term using a downwind/upwind scheme, which means that the direction of one-sided difference needs to be adjusted adaptively according to the sign of the convection term at each discrete point." [Peng Li 2018](https://www.sciencedirect.com/science/article/pii/S0898122117306880#b13)
 
-## **B.2)** Carmona (2005) no correlation needed case - Pricing Under historical Measure 
+## **B.2)** Carmona (2005) (no correlation needed) - Pricing Under historical Measure 
 
 ![image](https://github.com/user-attachments/assets/f6e4ba40-496f-4d25-97a8-2c057ccc47ec)
 
