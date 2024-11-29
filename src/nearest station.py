@@ -1,4 +1,4 @@
-# Find the nearest weather station for each wind farm
+# Find the nearest weather station for each estate
 from math import radians, cos, sin, asin, sqrt
 
 def haversine(lon1, lat1, lon2, lat2):
@@ -29,7 +29,7 @@ def find_nearest_station(lat, lon, stations):
 implement 
 
 
-# Find the nearest weather station for each wind farm, and store in two columns
+# Find the nearest weather station for each estate, and store in two columns
 df['station', 'distance'] = df.apply(lambda x: find_nearest_station(x['latitude'], x['longitude'], LOCATIONS), axis = 1)
 # Unwrap as separate columns
 df[['station', 'distance']] = pd.DataFrame(df['station', 'distance'].tolist(), index=df.index)
