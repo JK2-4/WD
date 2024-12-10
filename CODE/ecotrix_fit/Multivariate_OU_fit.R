@@ -5,6 +5,7 @@ library(xtable)
 library(kableExtra)
 library(yaml)
 
+######################### Main
 # Read the .csv file
 df <- read.csv(
   "C://Users//jkwatra//Documents//6001_try.csv",
@@ -63,7 +64,7 @@ writeLines(all_tables_latex, "OU_Model_Parameters.tex")
 
 
 
-##############################################################
+############################################################## Functions (run before main)
 FitOrnsteinUhlenbeck = function( Y, tau )
 {
   library(pracma)
@@ -116,3 +117,4 @@ convert_to_latex <- function(data, caption) {
   }
   return(latex_table)
 }
+
