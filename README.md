@@ -113,6 +113,8 @@ RESULTS :
 
 Concerns: 
 - Hubber/pulse intervention needed in RE data?
+
+HJB with jump difussion [econ_model_codes](https://benjaminmoll.com/codes/)
   
 
 ## **G)** **Colab link (to be updated)** - 
