@@ -1,0 +1,142 @@
+Unnamed: 0,Property Name,GFA,"IFA
+(sq ft)",Unnamed: 3,Car Parking Spaces,"Annual Net 
+Passing Income
+(HKD Million)","Capitalisation 
+Rate","Value as at 
+31 March 2024
+(HKD Million)","Analysis
+Initial 
+Yield",MV as % of total ,Property,lat,lon,LCZ_Class_,LCZ_Filter_,Class_Probability_
+0,Lok Fu Place,,"3,64,312",,793,320.5,3.83%,"7,620.00",4.21%,4.21%,Lok Fu Place,22.337618300000003,114.18758463605012,3,3,100
+1,T Town,,"2,07,001",,"1,177",273,4.07%,"5,791.50",4.71%,3.20%,T Town,22.4622,113.9978,1,1,100
+2,Tsz Wan Shan Shopping Centre,,"1,96,744",,940,210.2,4.37%,"4,419.60",4.76%,2.44%,Tsz Wan Shan Shopping Centre,22.348170500000002,114.20058441087156,4,4,84
+3,TKO Gateway,,"1,65,981",,623,202.9,4.07%,"4,363.20",4.65%,2.41%,TKO Gateway,22.3171896,114.26640352874207,1,1,100
+4,Temple Mall South,,"1,45,515",,688,188.6,4.15%,"3,984.20",4.73%,2.20%,Temple Mall South,22.3413757,114.19432938234462,1,1,100
+5,Kai Tin Shopping Centre,,"1,79,026",,461,179.4,4.02%,"4,101.20",4.38%,2.27%,Kai Tin Shopping Centre,22.30828315,114.2352446,1,1,100
+6,TKO Spot,,"1,29,796",,"1,280",186.8,4.22%,"3,941.50",4.74%,2.18%,TKO Spot,22.3107072,114.2589894,3,4,40
+7,Temple Mall North,,"1,37,447",,473,145.3,3.98%,"3,339.50",4.35%,1.85%,Temple Mall North,22.342209949999997,114.19222433832557,1,1,100
+8,Sau Mau Ping Shopping Centre,,"1,54,356",,611,196.3,4.00%,"4,346.70",4.52%,2.40%,Sau Mau Ping Shopping Centre,22.319559849999997,114.23210211325673,3,4,40
+9,Cheung Fat Plaza,,"1,65,572",,590,160.1,4.36%,"3,289.60",4.87%,1.82%,Cheung Fat Plaza,22.3625519,114.10330960154904,1,4,100
+10,Leung King Plaza,,"1,83,690",,616,158.7,4.46%,"3,134.50",5.06%,1.73%,Leung King Plaza,22.4063547,113.96271972820222,4,4,88
+11,Wo Che Plaza,,"1,70,738",,828,146.7,4.16%,"3,113.00",4.71%,1.72%,Wo Che Plaza,22.3878032,114.19589340636426,3,3,100
+12,Yat Tung Shopping Centre,,"1,93,035",,"1,900",175.7,4.43%,"3,382.10",5.19%,1.87%,Yat Tung Shopping Centre,22.2814706,113.9348453003112,17,17,68
+13,Choi Ming Shopping Centre,,"92,804",,765,151.5,4.35%,"3,011.60",5.03%,1.66%,Choi Ming Shopping Centre,22.306962149999997,114.25227389840032,1,1,100
+14,Butterfly Plaza,,"1,74,747",,313,158,4.13%,"3,506.90",4.50%,1.94%,Butterfly Plaza,22.3747544,113.96340080752071,3,4,80
+15,Choi Yuen Plaza,,"1,25,394",,536,154.2,4.46%,"2,842.70",5.42%,1.57%,Choi Yuen Plaza,22.50067385,114.12624682374374,15,4,44
+16,Tin Chak Shopping Centre,,"1,30,819",,302,142.9,4.37%,"2,898.70",4.93%,1.60%,Tin Chak Shopping Centre,22.46845545,113.99874406845134,4,4,76
+17,Tai Wo Plaza,,"1,25,178",,454,128,4.46%,"2,567.60",4.99%,1.42%,Tai Wo Plaza,22.45089415,114.16094669088774,1,4,88
+18,Yau Mei & Ko Cheung (Lei Yue Mun Plaza),,"1,02,608",,-,148.8,4.40%,"2,852.20",5.22%,1.58%,Yau Mei & Ko Cheung (Lei Yue Mun Plaza),22.3022604,114.2373164,9,1,36
+19,Tin Shing Shopping Centre,,"78,235",,"1,458",132,4.25%,"2,711.90",4.87%,1.50%,Tin Shing Shopping Centre,22.44894825,114.00274756877869,1,1,100
+20,Tin Yiu Plaza,,"93,443",,480,123.4,4.37%,"2,433.80",5.07%,1.34%,Tin Yiu Plaza,22.451159500000003,114.00319030787128,1,1,96
+21,Chuk Yuen Plaza,,"1,38,459",,"1,103",117.6,4.42%,"2,401.00",4.90%,1.33%,Chuk Yuen Plaza,22.38274175,114.19129271248791,1,1,100
+22,Siu Sai Wan Plaza,,"99,942",,558,113.7,4.50%,"2,260.50",5.03%,1.25%,Siu Sai Wan Plaza,22.26279395,114.2486410949614,1,1,100
+23,Fu Tung Plaza,,"1,04,879",,537,119.5,4.46%,"2,404.80",4.97%,1.33%,Fu Tung Plaza,22.28870405,113.94228113301048,1,4,100
+24,Tin Shui Shopping Centre,,"74,948",,577,109.7,4.39%,"2,211.40",4.96%,1.22%,Tin Shui Shopping Centre,22.45589535,113.99837074055345,1,1,96
+25,Chung On Shopping Centre,,"82,430",,995,108.1,4.39%,"2,159.90",5.01%,1.19%,Chung On Shopping Centre,22.4218575,114.22667873472102,3,4,100
+26,Sha Kok Commercial Centre,,"96,488",,662,105.1,4.36%,"2,142.30",4.91%,1.18%,Sha Kok Commercial Centre,22.3199891,114.16609839545195,1,1,100
+27,Choi Wan Commercial Complex,,"1,79,260",,859,103.4,4.43%,"2,174.10",4.75%,1.20%,Choi Wan Commercial Complex,22.25323635,114.13623458488084,1,1,96
+28,Tak Tin Plaza,,"97,642",,754,99.2,4.30%,"2,176.90",4.56%,1.20%,Tak Tin Plaza,22.31038505,114.23794873147475,1,1,100
+29,Oi Man Plaza,,"1,80,474",,808,96.9,4.44%,"2,018.90",4.80%,1.12%,Oi Man Plaza,22.3120306,114.17867908684131,1,1,100
+30,Nan Fung Plaza,,"80,837",,-,68.6,4.10%,"1,608.90",4.26%,0.89%,Nan Fung Plaza,22.314429,114.26383917996982,1,4,100
+31,Fu Shin Shopping Centre,,"1,06,361",,525,86.3,4.34%,"1,873.50",4.61%,1.04%,Fu Shin Shopping Centre,22.4537866,114.17487441239217,4,4,64
+32,Shun Lee Commercial Centre,,"1,99,440",,731,92.5,4.48%,"1,937.10",4.78%,1.07%,Shun Lee Commercial Centre,22.28792755,114.15186463651807,1,1,100
+33,Homantin Plaza,,"1,00,945",,299,78.9,4.46%,"1,632.30",4.83%,0.90%,Homantin Plaza,22.3177157,114.1812501,1,1,96
+34,Heng On Commercial Centre,,"1,16,022",,585,87.3,4.30%,"1,902.50",4.59%,1.05%,Heng On Commercial Centre,22.41720875,114.22564035717792,1,1,92
+35,Po Tat Shopping Centre,,"82,269",,"1,083",88.7,4.08%,"2,002.30",4.43%,1.11%,Po Tat Shopping Centre,22.31738035,114.23627972384186,1,1,100
+36,Yu Chui Shopping Centre,,"1,12,769",,"1,175",87.3,4.11%,"1,834.40",4.76%,1.01%,Yu Chui Shopping Centre,22.3819946,114.20523008653902,4,1,80
+37,Tai Yuen Commercial Centre,,"1,36,497",,594,83.1,4.41%,"1,780.30",4.67%,0.98%,Tai Yuen Commercial Centre,22.443108799999997,114.02796024425501,1,1,100
+38,Kwong Yuen Shopping Centre,,"81,542",,736,84.8,4.30%,"1,707.30",4.97%,0.94%,Kwong Yuen Shopping Centre,22.3808359,114.21554210983808,4,4,100
+39,Hin Keng Shopping Centre,,"94,277",,636,89.9,4.32%,"1,838.30",4.89%,1.02%,Hin Keng Shopping Centre,22.3629641,114.1713146798723,1,4,100
+40,Lek Yuen Plaza,,"1,06,134",,438,81.6,4.26%,"1,732.30",4.71%,0.96%,Lek Yuen Plaza,22.38468615,114.19191475609315,3,4,72
+41,Tsui Ping North Shopping Circuit,,"1,13,729",,421,76.3,4.21%,"1,818.60",4.20%,1.00%,Tsui Ping North Shopping Circuit,22.5035506,114.1338886,4,4,100
+42,Stanley Plaza,,"98,934",,411,43.2,4.24%,"1,270.60",3.40%,0.70%,Stanley Plaza,22.2193618,114.20981027905319,2,6,88
+43,Sun Chui Shopping Centre,,"75,543",,620,71.1,4.25%,"1,492.60",4.76%,0.82%,Sun Chui Shopping Centre,22.36916015,114.18111736318153,4,4,72
+44,Nam Cheong Place,,"57,091",,547,73.6,4.25%,"1,576.10",4.67%,0.87%,Nam Cheong Place,22.3273146,114.15509643734704,1,1,100
+45,Fung Tak Shopping Centre,,"68,490",,487,57.7,4.24%,"1,371.70",4.21%,0.76%,Fung Tak Shopping Centre,22.3431457,114.2000439,4,4,100
+46,Tai Hing Commercial Centre,,"1,02,351",,672,61.7,4.41%,"1,362.90",4.53%,0.75%,Tai Hing Commercial Centre,22.31376625,114.16906165398579,1,1,100
+47,Fu Tai Shopping Centre,,"61,288",,635,67.3,4.15%,"1,430.70",4.70%,0.79%,Fu Tai Shopping Centre,22.4133917,113.98276159647465,17,17,56
+48,Long Ping Commercial Centre,,"92,061",,564,69.6,4.45%,"1,459.80",4.77%,0.81%,Long Ping Commercial Centre,22.450330049999998,114.02323916657838,4,4,88
+49,Oi Tung Shopping Centre,,"81,029",,634,66.4,4.29%,"1,390.50",4.78%,0.77%,Oi Tung Shopping Centre,22.2806291,114.2277677,1,1,100
+50,Po Lam Shopping Centre,,"86,730",,398,60.5,4.46%,"1,285.30",4.71%,0.71%,Po Lam Shopping Centre,22.322749,114.24900992326339,3,4,92
+51,Mei Lam Shopping Centre,,"75,989",,375,63.5,4.26%,"1,355.20",4.68%,0.75%,Mei Lam Shopping Centre,22.3160164,114.17194717722089,1,1,100
+52,Hing Wah Plaza,,"82,011",,268,62.2,4.40%,"1,247.60",4.98%,0.69%,Hing Wah Plaza,22.262502750000003,114.23581980493805,1,4,100
+53,Fu Heng Shopping Centre,,"55,030",,517,64.5,4.33%,"1,280.80",5.03%,0.71%,Fu Heng Shopping Centre,22.458172949999998,114.17124511687521,4,4,100
+54,Un Chau Shopping Centre,,"50,868",,213,56.5,3.93%,"1,286.80",4.39%,0.71%,Un Chau Shopping Centre,22.3375837,114.1560458827973,1,1,100
+55,Lung Hang Commercial Centre,,"64,037",,440,54.7,4.24%,"1,178.90",4.64%,0.65%,Lung Hang Commercial Centre,22.253528850000002,113.8655630825786,4,4,96
+56,Kwong Fuk Commercial Centre,,"69,556",,461,53.8,4.44%,"1,191.30",4.52%,0.66%,Kwong Fuk Commercial Centre,22.4470816,114.1742965,6,4,64
+57,Wan Tsui Commercial Complex,,"82,296",,359,49.6,4.40%,"1,205.90",4.11%,0.67%,Wan Tsui Commercial Complex,22.3456432,114.18927521175286,4,4,92
+58,Lok Wah Commercial Centre,,"98,078",,650,52.2,4.30%,"1,144.80",4.56%,0.63%,Lok Wah Commercial Centre,22.321909650000002,114.22003717235114,1,1,100
+59,Maritime Bay,,"41,017",,-,41.5,4.10%,898.4,4.61%,0.50%,Maritime Bay,22.3146164,114.26563958336149,1,1,80
+60,Yiu On Shopping Centre,,"50,765",,547,49,4.19%,"1,024.90",4.78%,0.57%,Yiu On Shopping Centre,22.4199451,114.23092246225525,4,4,100
+61,Cheung Wah Shopping Centre,,"77,181",,353,46.8,4.30%,"1,006.80",4.65%,0.56%,Cheung Wah Shopping Centre,22.4931891,114.14050711074381,4,4,96
+62,Hiu Lai Shopping Centre,,"34,560",,637,41.5,4.17%,962.2,4.31%,0.53%,Hiu Lai Shopping Centre,22.32074725,114.2293903917526,1,4,92
+63,Hoi Fu Shopping Centre,,"40,335",,225,43.2,4.20%,898.5,4.81%,0.50%,Hoi Fu Shopping Centre,22.31529265,114.1645158,1,1,100
+64,Tin Tsz Shopping Centre,,"36,865",,289,39.6,4.23%,815.5,4.85%,0.45%,Tin Tsz Shopping Centre,22.45318315,114.00689281170337,4,4,100
+65,Sam Shing Commercial Centre,,"68,901",,176,45.8,4.41%,966.4,4.74%,0.53%,Sam Shing Commercial Centre,22.253528850000002,113.8655630825786,4,4,96
+66,Hing Tung Shopping Centre,,"53,034",,420,22.3,4.22%,641.9,3.47%,0.35%,Hing Tung Shopping Centre,22.2806426,114.22009631058825,4,4,84
+67,Kin Sang Shopping Centre,,"43,868",,273,28.2,4.20%,675.5,4.17%,0.37%,Kin Sang Shopping Centre,22.40710445,113.96947024353638,1,4,80
+68,Yiu Tung Shopping Centre,,"61,683",,685,25.7,4.32%,594.1,4.32%,0.33%,Yiu Tung Shopping Centre,22.2773628,114.2241993710508,12,4,52
+69,Ping Tin Shopping Centre,,"24,400",,406,27,4.38%,577,4.68%,0.32%,Ping Tin Shopping Centre,22.3058653,114.23734572484342,4,4,60
+70,Retail and Car Park within Tung Tau Estate,,"37,555",,493,29.8,4.25%,662.6,4.49%,0.37%,Retail and Car Park within Tung Tau Estate,22.33527745,114.1927625421171,4,4,80
+71,Shun On Commercial Centre,,"80,508",,459,26.3,4.35%,605.2,4.35%,0.33%,Shun On Commercial Centre,22.28792755,114.15186463651807,1,1,100
+72,Yin Lai Court Shopping Centre,,"10,584",,150,20,4.23%,389,5.14%,0.21%,Yin Lai Court Shopping Centre,22.34863625,114.12648946597895,1,1,100
+73,Car Park within Kin Ming Estate,,0,,763,24.1,4.60%,479.9,5.01%,0.27%,Car Park within Kin Ming Estate,22.4064264,113.9651167,4,4,100
+74,Retail and Car Park within Cheung On Estate,,"3,915",,484,18.2,4.22%,428.2,4.25%,0.24%,Retail and Car Park within Cheung On Estate,22.3605,114.1047,4,4,100
+75,Retail and Car Park within Hong Pak Court,,"17,956",,549,20.6,4.01%,478.2,4.31%,0.26%,Retail and Car Park within Hong Pak Court,22.30251825,114.23923431594059,1,4,100
+76,Retail and Car Park within Cheung Wang Estate,,"11,532",,333,19.7,4.49%,400.5,4.91%,0.22%,Retail and Car Park within Cheung Wang Estate,22.3569939,114.09538752107403,4,12,92
+77,Car Park within Tin Yuet Estate,,0,,560,17.7,4.00%,395.2,4.47%,0.22%,Car Park within Tin Yuet Estate,22.46347385,114.00723816197524,9,3,88
+78,Retail and Car Park within Lok Wah (South) Estate,,"16,086",,226,13.3,4.56%,286,4.63%,0.16%,Retail and Car Park within Lok Wah (South) Estate,22.3205928,114.2205841,1,1,100
+79,Po Hei Court Commercial Centre,,"13,686",,-,9.2,3.50%,266.6,3.46%,0.15%,Po Hei Court Commercial Centre,22.337491749999998,114.15884448189351,1,1,100
+80,Retail and Car Park within Wo Ming Court,,"7,342",,379,12,3.92%,326.2,3.67%,0.18%,Retail and Car Park within Wo Ming Court,22.315732949999997,114.26635198698756,1,1,88
+81,Retail and Car Park within Ko Chun Court,,"7,332",,323,13.4,4.13%,306.8,4.37%,0.17%,Retail and Car Park within Ko Chun Court,22.3633165,114.13035774694339,1,4,52
+82,Car Park within Ka Tin Court,,0,,348,10.2,4.00%,262,3.90%,0.14%,Car Park within Ka Tin Court,22.3618624,114.15124818619952,11,11,100
+83,Retail and Car Park within Ching Wah Court,,"9,118",,348,12.1,4.04%,281.7,4.29%,0.16%,Retail and Car Park within Ching Wah Court,22.3142849,114.24010159911361,4,4,88
+84,Retail and Car Park within Tin Yat Estate,,"8,784",,446,12.1,4.20%,286.2,4.22%,0.16%,Retail and Car Park within Tin Yat Estate,22.4678537,113.99977695458072,1,1,100
+85,Car Park within Tin King Estate,,0,,380,12.1,3.90%,283.9,4.25%,0.16%,Car Park within Tin King Estate,22.4064264,113.9651167,4,4,100
+86,Car Park within Tsz Man Estate,,0,,364,12.2,4.50%,255.7,4.77%,0.14%,Car Park within Tsz Man Estate,22.348229099999998,114.2028415,1,1,100
+87,Retail and Car Park within Hong Yat Court,,"7,040",,355,10.2,4.01%,274.2,3.73%,0.15%,Retail and Car Park within Hong Yat Court,22.3103501,114.23455508399748,1,4,88
+88,Retail and Car Park within Tong Ming Court,,"21,283",,291,8.3,3.96%,249.1,3.34%,0.14%,Retail and Car Park within Tong Ming Court,22.30898865,114.2562448047644,4,4,100
+89,Car Park within Wah Lai Estate,,0,,411,11.5,4.20%,253,4.56%,0.14%,Car Park within Wah Lai Estate,22.2633444,114.23510329501869,4,4,80
+90,Retail and Car Park within Tin Wah Estate,,"1,476",,287,11,4.07%,249.4,4.41%,0.14%,Retail and Car Park within Tin Wah Estate,22.2493458,114.1411932,9,4,68
+91,Retail and Car Park within Tsui Wan Estate,,"13,631",,182,9.7,4.20%,231.5,4.19%,0.13%,Retail and Car Park within Tsui Wan Estate,22.2633444,114.23510329501869,4,4,80
+92,Car Park within Ning Fung Court,,0,,299,10.5,3.80%,256.1,4.12%,0.14%,Car Park within Ning Fung Court,22.2869559,114.1364269,1,1,100
+93,Car Park within Wang Fuk Court,,0,,408,8.4,3.70%,208.8,4.04%,0.12%,Car Park within Wang Fuk Court,22.337198700000002,114.18999189900313,6,4,64
+94,Car Park within Po Pui Court,,0,,277,8.9,3.90%,216.1,4.12%,0.12%,Car Park within Po Pui Court,22.31702305,114.22799262640464,4,4,100
+95,Car Park within Ming Nga Court,,0,,345,7.1,3.60%,192.8,3.70%,0.11%,Car Park within Ming Nga Court,22.450357099999998,114.1760813895803,9,4,44
+96,Car Park within Ying Ming Court,,0,,274,7.3,3.90%,204.6,3.55%,0.11%,Car Park within Ying Ming Court,22.325682649999997,114.2568337902253,4,4,100
+97,Retail and Car Park within Yan Ming Court,,"7,019",,262,5.4,4.04%,179,3.01%,0.10%,Retail and Car Park within Yan Ming Court,22.486492900000002,114.13955958033341,4,4,100
+98,Car Park within Yue On Court,,0,,296,7.3,3.91%,184.2,3.97%,0.10%,Car Park within Yue On Court,22.242659500000002,114.15646832569523,4,4,88
+99,Car Park within Tsui Ping South Estate,,"5,275",,229,9.1,4.68%,188,4.85%,0.10%,Car Park within Tsui Ping South Estate,22.31403655,114.22897560302505,1,1,76
+100,Car Park within Lai On Estate,,0,,181,9.7,4.40%,205.8,4.72%,0.11%,Car Park within Lai On Estate,22.3519179,114.12686862750277,4,1,48
+101,Retail and Car Park within Nam Cheong Estate,,"8,112",,156,6.8,4.05%,169.7,4.01%,0.09%,Retail and Car Park within Nam Cheong Estate,22.32799,114.15389,1,1,100
+102,Retail and Car Park within Tsz Oi Court,,"13,306",,199,5.9,4.39%,166.2,3.55%,0.09%,Retail and Car Park within Tsz Oi Court,22.2869559,114.1364269,1,1,100
+103,Retail and Car Park within Sau Mau Ping (III) Estate,,"1,507",,205,7.1,4.22%,158.9,4.47%,0.09%,Retail and Car Park within Sau Mau Ping (III) Estate,22.322167049999997,114.2307396504059,4,4,92
+104,Car Park within Upper Ngau Tau Kok Estate,,0,,228,7.9,4.40%,165.5,4.75%,0.09%,Car Park within Upper Ngau Tau Kok Estate,22.319361800000003,114.21640533809848,1,1,100
+105,Retail and Car Park within Lok Nga Court,,"12,616",,265,5.6,3.78%,151.5,3.73%,0.08%,Retail and Car Park within Lok Nga Court,22.318340300000003,114.22109013372305,1,1,100
+106,Car Park within Sau Mau Ping (I) Estate,,0,,395,6.6,3.60%,176.1,3.76%,0.10%,Car Park within Sau Mau Ping (I) Estate,22.322167049999997,114.2307396504059,4,4,92
+107,Car Park within Kam On Court,,0,,238,5.6,3.90%,139.9,3.98%,0.08%,Car Park within Kam On Court,22.38218345,114.23188814718789,11,11,100
+108,Car Park within Ching Wang Court,,0,,179,6.2,3.90%,156.8,3.96%,0.09%,Car Park within Ching Wang Court,22.337198700000002,114.18999189900313,6,4,64
+109,Car Park within Yee Kok Court,,0,,240,6.4,3.70%,162.7,3.92%,0.09%,Car Park within Yee Kok Court,22.318340300000003,114.22109013372305,1,1,100
+110,Retail and Car Park within Ying Fuk Court,,786,,163,6.5,4.21%,147.3,4.39%,0.08%,Retail and Car Park within Ying Fuk Court,22.325682649999997,114.2568337902253,4,4,100
+111,Car Park within San Wai Court,,0,,185,5.8,3.90%,132.5,4.35%,0.07%,Car Park within San Wai Court,22.277273649999998,114.1348871548611,11,11,100
+112,Car Park within Tin Yau Court,,0,,192,5.4,3.90%,133.3,4.08%,0.07%,Car Park within Tin Yau Court,22.3015271,114.24035810270419,9,9,88
+113,Car Park within Yee Nga Court,,0,,159,4.6,3.70%,123.7,3.70%,0.07%,Car Park within Yee Nga Court,22.318340300000003,114.22109013372305,1,1,100
+114,Car Park within King Lai Court,,0,,158,3.9,3.80%,110.7,3.53%,0.06%,Car Park within King Lai Court,22.3519179,114.12686862750277,4,1,48
+115,Car Park within Fung Lai Court,,0,,134,3.6,3.70%,97.3,3.72%,0.05%,Car Park within Fung Lai Court,22.2869559,114.1364269,1,1,100
+116,Retail and Car Park within Hung Hom Estate,,"3,994",,45,3.1,4.04%,83.5,3.73%,0.05%,Retail and Car Park within Hung Hom Estate,22.437686,113.998575,1,4,72
+117,Retail and Car Park within Tin Wang Court,,"9,946",,79,2.5,4.05%,70.4,3.59%,0.04%,Retail and Car Park within Tin Wang Court,22.38398825,114.20261507381865,4,4,84
+118,Car Park within Hong Keung Court,,0,,93,4.1,4.30%,93.4,4.37%,0.05%,Car Park within Hong Keung Court,22.4999678,114.21040034588862,11,11,96
+119,Retail and Car Park within Hong Shui Court,,345,,102,2.5,3.92%,68.6,3.66%,0.04%,Retail and Car Park within Hong Shui Court,22.2869559,114.1364269,1,1,100
+120,Car Park within Kwai Hong Court,,0,,88,2.9,4.10%,75.4,3.91%,0.04%,Car Park within Kwai Hong Court,22.3633165,114.13035774694339,1,4,52
+121,Car Park within Pang Ching Court,,0,,67,1.7,4.30%,44.3,3.92%,0.02%,Car Park within Pang Ching Court,22.3142849,114.24010159911361,4,4,88
+122,Car Park within Lower Wong Tai Sin (I) Estate,,0,,70,1.6,3.70%,41.8,3.88%,0.02%,Car Park within Lower Wong Tai Sin (I) Estate,22.3400936,114.19319228030304,4,4,100
+123,Car Park within Chuk Yuen (North) Estate,,0,,61,1.3,4.70%,28.9,4.38%,0.02%,Car Park within Chuk Yuen (North) Estate,22.46347385,114.00723816197524,9,3,88
+124,Retail and Car Park within Ko Yee Estate,,0,,38,1.1,3.65%,25.8,4.23%,0.01%,Retail and Car Park within Ko Yee Estate,22.296659050000002,114.2415685176457,4,4,72
+125,The Quayside,"8,83,127",,,,,,"8,039.50",,4.44%,The Quayside,22.31654,114.21366,1,1,100
+126,"700 Nathan Road, Mong Kok ","1,73,333",,,,,,"3,511.40",,1.94%,"700 Nathan Road, Mong Kok ",22.3205775,114.16944406002004,1,1,100
+127,Hung Hom Car Service Centre,"4,21,401",,,,,,"2,960.00",,1.64%,Hung Hom Car Service Centre,22.305605649999997,114.18559884240159,1,1,96
+128,Chai Wan Car Service Centre,"4,38,351",,,,,,"2,570.00",,1.42%,Chai Wan Car Service Centre,22.28262475,114.17306881279578,1,1,100
+129,"Off Anderson Road Development Site
+(SD3 Lot 1078)","1,39,243",,,,,,804,,0.44%,"Off Anderson Road Development Site
+(SD3 Lot 1078)",22.32036267,114.2396076,16,16,100
+130,,,,,,,,,,100.00%,,,,,,
