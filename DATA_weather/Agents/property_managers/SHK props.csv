@@ -1,0 +1,75 @@
+,Unnamed: 0.1,Unnamed: 0,District,Development or Invetsment ,Project,Location,Lease Expiry,Group's Interest (%),Residential,Shopping Centre/ Shops,Office,Hotel,Industrial,Total (square feet),group's ownership X total area (sq ft),%_exposure,lat,lon,LCZ_Class_,LCZ_Filter_,Class_Probability_
+0,0,0,Hong Kong Island,Invested,One IFC / Two IFC / IFC Mall / Four Seasons Hotel Hong Kong / Four Seasons Place,"1 Harbour View Street / 8 Finance Street, Central",2047,50,,320000,958000,550000,,1828000,914000,0.0216,22.285879,114.158134,1,1,88
+1,1,1,Hong Kong Island,Invested,Sun Hung Kai Centre,"30 Harbour Road, Wan Chai",2127,100,,53000,851000,,,904000,904000,0.0214,22.2803294,114.1769378,1,1,100
+2,2,2,Hong Kong Island,Invested,Central Plaza,"18 Harbour Road, Wan Chai",2047,50,,,705000,,,705000,352500,0.0083,22.2800577,114.1736401,1,1,100
+3,3,3,Hong Kong Island,Invested,Harbour North / Hyatt Centric Victoria Harbour Hong Kong,"123, 133 Java Road / 1 North Point Estate Lane, North Point",2062/2063,100,,145000,,388000,,533000,533000,0.0126,22.293291,114.161133,17,17,100
+4,4,4,Hong Kong Island,Invested,World Trade Centre / wwwtc mall,"280 Gloucester Road, Causeway Bay",2842,100,,267000,243000,,,510000,510000,0.0121,22.2816492,114.1842349,1,1,100
+5,5,5,Hong Kong Island,Invested,Pacific View (Blocks 2 & 3),"38 Tai Tam Road, Southern",2047,100,248000,,,,,248000,248000,0.0059,22.23634389,114.2223167,12,12,96
+6,6,6,Hong Kong Island,Invested,Dynasty Court (Blocks 2 & 3),"23 Old Peak Road, Mid-levels",2886,100,237000,,,,,237000,237000,0.0056,22.27615675,114.1523558,12,11,56
+7,7,7,Kowloon,Invested,"ICC / Sky100 Hong Kong Observation Deck / The Ritz-Carlton, Hong Kong / W Hong Kong / The HarbourView Place",1 Austin Road West,2047,100,,29000,2495000,1023000,,3547000,3547000,0.084,22.30498555,114.161531,1,1,84
+8,8,8,Kowloon,Invested,Millennium City 1(2),388 Kwun Tong Road,2047,100,,27000,896000,,,923000,923000,0.0219,22.3136565,114.221455,1,1,100
+9,9,9,Kowloon,Invested,Millennium City 2,378 Kwun Tong Road,2047,50,,,133000,,,133000,66500,0.0016,22.31108799,114.2279465,1,1,100
+10,10,10,Kowloon,Invested,Millennium City 5 / APM,418 Kwun Tong Road,2052,100,,598000,308000,,,906000,906000,0.0215,22.3121418,114.2251348,1,1,100
+11,11,11,Kowloon,Invested,Millennium City 6,392 Kwun Tong Road,2047,100,,32000,370000,,,402000,402000,0.0095,22.3132987,114.2220255,1,1,100
+12,12,12,Kowloon,Invested,The Millennity,"98 How Ming Street, Kwun Tong",2047,71.9,,,467000,,,467000,335773,0.0079,22.3126444,114.2214258,1,1,100
+13,13,13,Kowloon,Invested,Grand Century Place / MOKO / Royal Plaza Hotel,"193 Prince Edward Road West, Mong Kok",2047,100,,725000,475000,400000,,1600000,1600000,0.0379,22.3231837,114.1722866,1,1,76
+14,14,14,Kowloon,Invested,TOWNPLACE WEST KOWLOON,"10 Lai Ying Street, West Kowloon",2067,100,,,,374000,,374000,374000,0.0089,22.30282,114.161308,10,1,76
+15,15,15,Kowloon,Invested,V Walk,"28 Sham Mong Road, West Kowloon",2062,100,,298000,,,,298000,298000,0.0071,22.32785,114.15415,1,1,100
+16,16,16,Kowloon,Invested,The Royal Garden,"69 Mody Road, Tsim Sha Tsui",2127,100,,,,295000,,295000,295000,0.007,22.29849145,114.177615,1,1,100
+17,17,17,Kowloon,Invested,Kerry Hung Kai Warehouse,"3 Fat Tseung Street, Cheung Sha Wan",2047,50,,,,,285000,285000,142500,0.0034,22.3380694,114.1573056,1,1,100
+18,18,18,Kowloon,Invested,APEC Plaza,"49 Hoi Yuen Road, Kwun Tong",2047,100,,,,,240000,240000,240000,0.0057,22.31187468,114.2262655,1,1,96
+19,19,19,Kowloon,Invested,Mikiki,"638 Prince Edward Road East, San Po Kong",2054,100,205000,,,,,205000,205000,0.0049,22.33267427,114.1963416,1,1,76
+20,20,20,Kowloon,Invested,The Sun Arcade,"28 Canton Road, Tsim Sha Tsui",2047,100,205000,,,,,205000,205000,0.0049,22.29670555,114.1695818,1,1,100
+21,21,21,New Territories,Invested,New Town Plaza / New Town Tower / Royal Park Hotel,"18 Sha Tin Centre Street / 2-8 Sha Tin Centre Street / 10-18 Pak Hok Ting Street / 8 Pak Hok Ting Street, Sha Tin",2047,100,,1350000,111000,243000,,1704000,1704000,0.0403,22.38195,114.18849,2,1,80
+22,22,22,New Territories,Invested,Grand Central Plaza / HomeSquare,"138 Sha Tin Rural Committee Road, Sha Tin",2047,100,,349000,413000,,,762000,762000,0.018,22.385454,114.1877797,4,9,56
+23,23,23,New Territories,Invested,Metroplaza,"223 Hing Fong Road, Kwai Chung",2047,100,,600000,569000,,,1169000,1169000,0.0277,22.35747285,114.1267867,1,1,100
+24,24,24,New Territories,Invested,YOHO Mall I,"9 Yuen Lung Street / 9 Long Yat Road, Yuen Long",2054/2060,100,,695000,,,,695000,695000,0.0165,22.4457,114.0353,1,1,100
+25,25,25,New Territories,Invested,YOHO Mall II,"8 Long Yat Road, Yuen Long",2047,87.5,,245000,,,,245000,214375,0.0051,22.4456518,114.0346405,1,1,100
+26,26,26,New Territories,Invested,YOHO MIX,"1 Long Lok Road, Yuen Long",2065,100,,107000,,,,107000,107000,0.0025,22.4450021,114.0340495,3,1,72
+27,27,27,New Territories,Invested,YOHO Plus,"2-6 Fung Cheung Road, Yuen Long",2047,100,,44000,,,,557000,557000,0.0132,22.4437847,114.0318334,1,1,80
+28,28,28,New Territories,Invested,Crowne Plaza Hong Kong Kowloon East / Vega Suites,"3 Tong Tak Street, Tseung Kwan O",2057,100,,,,626000,,108000,108000,0.0026,22.30852189,114.258962,4,1,80
+29,29,29,New Territories,Invested,PopCorn,"9 Tong Yin Street, Tseung Kwan O",2057,50,,108000,,,,108000,54000,0.0013,22.3084132,114.2605107,4,1,80
+30,30,30,New Territories,Invested, Tai Po Mega Mall," 9 On Pong Road, Tai Po",2047,100,,598000,,,,598000,598000,0.0142,22.45270677,114.1714618,4,4,100
+31,31,31,New Territories,Invested, Tsuen Wan Plaza,"4-30 Tai Pa Street, Tsuen Wan",2047,100,,583000,,,,583000,583000,0.0138,22.3708441,114.1112942,1,1,100
+32,32,32,New Territories,Invested,KCC,"51 Kwai Cheong Road, Kwai Chung",2047,100,,79000,401000,,,480000,480000,0.0114,22.36154535,114.1326155,1,1,100
+33,33,33,New Territories,Invested, Life@KCC," 72-76 Kwai Cheong Rood, Kwai Chung",2047,100,,100000,,,,100000,100000,0.0024,22.370157,114.123489,4,1,100
+34,34,34,New Territories,Invested,Landmark North,"39 Lung Sum Avenue, Sheung Shui",2047,100,,182000,375000,,,557000,557000,0.0132,22.5025458,114.1278301,1,1,92
+35,35,35,New Territories,Invested,East Point City," 8 Chung Wa Road, Tseung Kwan O",2047,100,,415000,,,,415000,415000,0.0098,22.31679422,114.2660059,1,1,100
+36,36,36,New Territories,Invested,Citygate / Novotel Citygate Hong Kong / The Silveri Hong Kong – MGallery,"20 Tat Tung Road / 51 Man Tung Road / 16 Tat Tung Road, Tung Chung",2047/2063/2063,26.7,,222000,43000,98000,,363000,96921,0.0023,22.2899,113.941,1,1,100
+37,37,37,New Territories,Invested,ALVA Hotel by Royal,"1 Yuen Hong Street, Sha Tin",2047,100,,,,344000,,344000,344000,0.0081,22.38357205,114.208377,4,1,52
+38,38,38,New Territories,Invested,Royal View Hotel," 353 Castle Peak Road, Ting Kau",2047,100,,,,310000,,310000,310000,0.0073,22.36860085,114.0780056,12,12,56
+39,39,39,New Territories,Invested,V City,"83 Tuen Mun Heung Sze Wui Road, Tuen Mun",2056,100,,,269000,,,269000,269000,0.0064,22.39577195,113.9740416,1,1,100
+40,40,40,New Territories,Invested,"PopWalk (Phases 1, 2 & 3) / Ocean PopWalk","12 Tong Chun Street / 19 Tong Yin Street / 19 Chi Shin Street / 28 Tong Chun Street, Tseung Kwan O",2060/2061/2062/2062,100,,,242000,,,242000,242000,0.0057,22.306312,114.260813,1,1,100
+41,41,41,,FY2024/25 Projects Under Development,New Kowloon Inland Lot No. 6568 Phase 1,Cullinan Sky/Cullinan Sky Mall,,100,571000,220000,,,,791000,791000,0.0187,22.331989,114.197784,3,3,84
+42,42,42,,FY2024/25 Projects Under Development,Tin Wing Stop Development Phase 1,YOHO WEST JV,,100,746000,2000,,,,748000,748000,0.0177,22.4596,114.0028,1,1,88
+43,43,43,,FY2024/25 Projects Under Development,Tuen Mun Town Lot No. 483 Phases 3A & 3B,NOVO LAND,,100,694000,,,,,694000,694000,0.0164,22.4110856,113.9685985,3,3,68
+44,44,44,,FY2024/25 Projects Under Development,Kwun Tong Inland Lot No. 240 Phase 2,-,,71.9,,360000,,,,360000,258840,0.0061,22.350627,114.1849161,12,12,96
+45,45,45,,FY2024/25 Projects Under Development,Tuen Mun Town Lot No. 463 Phase 2,Grand Jeté Phase 2,,59.1,104000,,,,,104000,61464,0.0015,22.36884625,113.9993377,6,6,72
+46,46,46,,FY2025/26 Projects Under Development,High Speed Rail West Kowloon Terminus Development Phase 1,International Gateway Centre JV,,100,,,,,1154000,1154000,1154000,0.0273,22.3045,114.16135,1,1,100
+47,47,47,,FY2025/26 Projects Under Development,"Tai Po Town Lot No. 253, Sai Sha Phases 1A & 1B",-,,100,862000,57000,,,,919000,919000,0.0218,22.350627,114.1849161,12,12,96
+48,48,48,,FY2025/26 Projects Under Development,New Kowloon Inland Lot No. 6568 Phase 2,Cullinan Sky,,100,495000,,,,,495000,495000,0.0117,22.33187265,114.1992525,16,16,68
+49,49,49,,FY2025/26 Projects Under Development,New Kowloon Inland Lot No. 6551 Phases 1 & 2A,Cullinan Harbour,,100,439000,24000,,,,463000,463000,0.011,22.3115754,114.2073373,8,16,64
+50,50,50,,FY2026/27 Projects Under Development,"Tai Po Town Lot No. 253, Sai Sha Phases 2A & 2B",-,,100,846000,,,,,846000,846000,0.02,22.350627,114.1849161,12,12,96
+51,51,51,,FY2026/27 Projects Under Development,"Artist Square Towers Project, West Kowloon Cultural District",-,,100,,27000,672000,,,699000,699000,0.0165,22.350627,114.1849161,12,12,96
+52,52,52,,FY2026/27 Projects Under Development,High Speed Rail West Kowloon Terminus Development Phase 2,-,,100,,603000,,,,603000,603000,0.0143,22.350627,114.1849161,12,12,96
+53,53,53,,FY2026/27 Projects Under Development,Tseung Kwan O Town Lot No. 131 Phase 2,MEGA IDC,,74,,,,,507000,507000,375180,0.0089,22.29438915,114.274401,14,14,56
+54,54,54,,FY2026/27 Projects Under Development,"Fanling Sheung Shui Town Lot No. 279, Kwu Tung Phase 1",-,,100,317000,132000,,,,449000,449000,0.0106,22.350627,114.1849161,12,12,96
+55,55,55,,FY2026/27 Projects Under Development,Tin Wing Stop Development Phase 2,YOHO WEST JV,,100,234000,,,,,234000,234000,0.0055,22.4596,114.0028,1,1,88
+56,56,56,,FY2026/27 Projects Under Development,"13–23 Wang Wo Tsai Street, Tsuen Wan",-,,100,201000,,,,,201000,201000,0.0048,22.350627,114.1849161,12,12,96
+57,57,57,,FY2026/27 Projects Under Development,New Kowloon Inland Lot No. 6551 Phase 2B,Cullinan Harbour,,100,186000,,,,,186000,186000,0.0044,22.3115754,114.2073373,8,16,64
+58,58,58,,FY2027/28 post Projects Under Development,"Tai Po Town Lot No. 253, Sai Sha subsequent phases",-,,100,3950000,73000,,,,4023000,4023000,0.0953,22.350627,114.1849161,12,12,96
+59,59,59,,FY2027/28 post Projects Under Development,"Kowloon Inland Lot No. 11273, Mong Kok",-,,100,,170000,1200000,,,1370000,1370000,0.0324,22.350627,114.1849161,12,12,96
+60,60,60,,FY2027/28 post Projects Under Development,"Lot No. 4354 in DD 124, Kiu Tau Wai, Yuen Long",-,,100,,490000,366000,,,856000,856000,0.0203,22.350627,114.1849161,12,12,96
+61,61,61,,FY2027/28 post Projects Under Development,"Lot No. 1696 DD 115, Tung Shing Lei, Yuen Long",-,,100,757000,19000,,,,776000,776000,0.0184,22.350627,114.1849161,12,12,96
+62,62,62,,FY2027/28 post Projects Under Development,"Fanling Sheung Shui Town Lot No. 279, Kwu Tung subsequent phases",-,,100,682000,,,,,682000,682000,0.0161,22.350627,114.1849161,12,12,96
+63,63,63,,FY2027/28 post Projects Under Development,"Sha Tin Town Lot No. 537, Heung Fan Liu, Sha Tin",-,,100,521000,,,,,521000,521000,0.0123,22.350627,114.1849161,12,12,96
+64,64,64,,FY2027/28 post Projects Under Development,Tuen Mun Town Lot No. 496,-,,75.2,465000,,,,,465000,349680,0.0083,22.350627,114.1849161,12,12,96
+65,65,65,,FY2027/28 post Projects Under Development,"Fanling Sheung Shui Town Lot No. 307, Fanling North",-,,100,259000,49000,,,,308000,308000,0.0073,22.350627,114.1849161,12,12,96
+66,66,66,,FY2027/28 post Projects Under Development,"Lot No. 2091 in DD 105, Shek Wu Wai, Yuen Long",-,,54.5,265000,,,,,265000,144425,0.0034,22.350627,114.1849161,12,12,96
+67,67,67,,FY2027/28 post Projects Under Development,"Lot No. 1071, DD 103, Kam Tin, Yuen Long",-,,100,251000,,,,,251000,251000,0.0059,22.350627,114.1849161,12,12,96
+68,68,68,,FY2027/28 post Projects Under Development,"Lot No. 2579 in DD 92, Kwu Tung",-,,100,162000,,,,,162000,162000,0.0038,22.350627,114.1849161,12,12,96
+69,69,69,,FY2027/28 post Projects Under Development,"Sha Tin Town Lot No. 623, Siu Lek Yuen, Sha Tin",,,100,157000,,,,,157000,157000,0.0037,22.3871,114.1954,3,3,92
+70,70,70,,FY2027/28 post Projects Under Development,"Lot No. 4805 in DD 104, Yuen Long",,,100,139000,,,,,139000,139000,0.0033,22.47898798,114.064159,9,9,64
+71,71,71,,FY2027/28 post Projects Under Development,"Lot No. 1077 in Survey District No. 3, off Anderson Road, Kwun Tong ",,,100,,110000,,,,110000,110000,0.0026,22.32335495,114.2341824,16,16,100
+72,72,72,,FY2027/28 post Projects Under Development,Others,,,100,452000,29000,,,125000,606000,606000,0.0143,22.32335495,114.2341824,16,16,100
+73,73,73,,,,,,,,,,,,,42236158,1,,,,,
