@@ -1,153 +1,5 @@
 library(lubridate)   # For date-time parsing
 library(tseries)     # For GARCH modeling
-
-rm(list=ls(all=TRUE))
-#source("Path//find_jumps.R")
-#source("Path//find_arch.R")
-#source("Path//Arch_Sim.R")
-#source("Path//Jump_Sim.R")
-#source("Path//Mean_Rev.R")
-#source("Path//find_beta.R")
-
-Path <- "C://Users//jahnv//Downloads//6016.csv"
-
-Temperature_Data = read.csv(Path)
-Temperature_Data$obstime <- ymd_hms(Temperature_Data$obstime)
-Temperature_Data <- Temperature_Data[order(Temperature_Data$obstime), ]
-Temperature <- Temperature_Data$Air.Temperature.in.degree.C
-Timestamps <- Temperature_Data$obstime
-
-initial_years <- 5
-final_years <- as.numeric(difftime(max(Timestamps), min(Timestamps), units = "weeks")) / 52.1775  # Approximate total years
-total_iterations <- floor(final_years - initial_years) + 1
-Results <- array(0, c(total_iterations, 18))
-
-overall_start <- min(Timestamps)
-overall_end <- max(Timestamps)
-
-
-# Main loop 
-# Loop through each window, starting with initial_years and expanding by 1 year each iteration
-for (kk in 1:total_iterations) {
-  
-  # Calculate the current window's end date
-  current_years <- initial_years + (kk - 1)  # Increment year by 1 each iteration
-  window_end <- overall_end
-  window_start <- window_end - years(current_years)
-  
-  # Extract data within the current window
-  window_indices <- which(Timestamps >= window_start & Timestamps <= window_end)
-  Dump_Temp <- Temperature[window_indices]
-  Size <- length(Dump_Temp)  # Number of hourly observations in the window
-  print(Size)
-  time <- 1:Size
-  
-  # Handle missing data by removing NAs
-  valid_indices <- which(!is.na(Dump_Temp))
-  Dump_Temp <- Dump_Temp[valid_indices]
-  time <- time[valid_indices]
-  Size <- length(Dump_Temp)
-  print(Size)
-  
-  # Proceed only if sufficient data is available
-  #if (Size < (current_years * 365 * 24) * 0.8) {  # Require at least 80% of expected data
-  #  warning(paste("Iteration", kk, ": Insufficient data. Skipping this window."))
-  #  next
-  #}
-  
-  # Linear model with seasonal components
-  temperature.lm <- lm(Dump_Temp ~ time + sin(2 * pi * time / 24) + cos(2 * pi * time / 24))
-  Parameters <- coef(temperature.lm)
-  print(Parameters)
-  
-  A <- Parameters[1]
-  B <- Parameters[2]
-  C <- sqrt(Parameters[3]^2 + Parameters[4]^2)
-  phase <- atan(Parameters[3] / Parameters[4]) - pi
-  
-  Resid <- residuals(temperature.lm)
-  Fit <- fitted.values(temperature.lm)
-  
-  # Calculate parameters using sourced functions
-  Jump_Parameters <- find_jumps(Size, Dump_Temp)
-  Arch_Parameters <- find_arch(Dump_Temp)
-  b <- Mean_Rev(Dump_Temp, Fit, Size)
-  TA <- Arch_Sim(Dump_Temp[1] - Fit[1], Arch_Parameters, Size)
-  alpha <- 1
-  TY <- Jump_Sim(Jump_Parameters[1:3], Size, alpha)
-  
-  # Adjust 'beta' calculation based on available Jump_Parameters
-  # Ensure that indexing does not exceed bounds
-  if ((6 + Size) <= length(Jump_Parameters)) {
-    beta <- find_beta(Jump_Parameters[7:(Size + 6)], Size)
-  } else {
-    beta <- find_beta(Jump_Parameters[7:length(Jump_Parameters)], Size)
-  }
-  
-  TZ <- Jump_Sim(Jump_Parameters[4:6], Size, beta)
-  
-  # Initialize temperature array and HDD/CDD
-  T <- numeric(Size)
-  T[1] <- Dump_Temp[1]
-  HDD <- 0
-  CDD <- 0
-  
-  if (T[1] > 65) {
-    CDD <- T[1] - 65
-  }
-  if (T[1] < 65) {
-    HDD <- 65 - T[1]
-  }
-  
-  # Simulate temperature over time
-  for (j in 2:Size) {
-    T[j] <- T[j - 1] + Fit[j] - Fit[j - 1] + 
-      b * (Fit[j - 1] - T[j - 1]) + 
-      TA[j] + TY[j] + TZ[j]
-    
-    if (T[j] > 65) {
-      CDD <- CDD + (T[j] - 65)
-    }
-    if (T[j] < 65) {
-      HDD <- HDD + (65 - T[j])
-    }
-  }
-  
-  # Calculate exact HDD and CDD
-  HDD_exact <- sum(ifelse(Dump_Temp < 65, 65 - Dump_Temp, 0), na.rm = TRUE)
-  CDD_exact <- sum(ifelse(Dump_Temp > 65, Dump_Temp - 65, 0), na.rm = TRUE)
-  
-  # Calculate difference
-  Difference <- sum((T - Dump_Temp)^2, na.rm = TRUE)
-  
-  # Store results
-  Results[kk, 1] <- A
-  Results[kk, 2] <- B
-  Results[kk, 3] <- C
-  Results[kk, 4] <- phase
-  Results[kk, 5] <- Arch_Parameters[1]
-  Results[kk, 6] <- Arch_Parameters[2]
-  Results[kk, 7] <- Jump_Parameters[1]
-  Results[kk, 8] <- Jump_Parameters[2]
-  Results[kk, 9] <- Jump_Parameters[3]
-  Results[kk, 10] <- Jump_Parameters[4]
-  Results[kk, 11] <- Jump_Parameters[5]
-  Results[kk, 12] <- Jump_Parameters[6]
-  Results[kk, 13] <- beta
-  Results[kk, 14] <- HDD
-  Results[kk, 15] <- HDD_exact
-  Results[kk, 16] <- CDD
-  Results[kk, 17] <- CDD_exact
-  Results[kk, 18] <- b
-  
-  # Print progress
-  print(paste("Iteration", kk, "completed. Window Size:", current_years, "years"))
-}
-
-# Save results to a file
-output_path <- "C://Users//jahnv//Downloads//Results_6016.csv"  # Replace with your desired output path
-write.table(Results, output_path, row.names = FALSE, col.names = FALSE, sep = ",")
-
 # -----------------------------------------------------------------------------
 # Function Definitions (Sourced Scripts)
 # -----------------------------------------------------------------------------
@@ -356,3 +208,147 @@ Jump_Sim <- function(JP, S, P) {
   J <- colMeans(Y, na.rm = TRUE)
   return(J)
 }
+
+# -----------------------------------------------------------------------------
+# DATA AND APPLY - PER STATION TIME SERIES (HOURLY)
+# -----------------------------------------------------------------------------
+
+Path <- "C://Users//jahnv//Downloads//6016.csv"
+
+Temperature_Data = read.csv(Path)
+Temperature_Data$obstime <- ymd_hms(Temperature_Data$obstime)
+Temperature_Data <- Temperature_Data[order(Temperature_Data$obstime), ]
+Temperature <- Temperature_Data$Air.Temperature.in.degree.C
+Timestamps <- Temperature_Data$obstime
+
+initial_years <- 5
+final_years <- as.numeric(difftime(max(Timestamps), min(Timestamps), units = "weeks")) / 52.1775  # Approximate total years
+total_iterations <- floor(final_years - initial_years) + 1
+Results <- array(0, c(total_iterations, 18))
+
+overall_start <- min(Timestamps)
+overall_end <- max(Timestamps)
+
+
+# Main loop 
+# Loop through each window, starting with initial_years and expanding by 1 year each iteration
+for (kk in 1:total_iterations) {
+  
+  # Calculate the current window's end date
+  current_years <- initial_years + (kk - 1)  # Increment year by 1 each iteration
+  window_end <- overall_end
+  window_start <- window_end - years(current_years)
+  
+  # Extract data within the current window
+  window_indices <- which(Timestamps >= window_start & Timestamps <= window_end)
+  Dump_Temp <- Temperature[window_indices]
+  Size <- length(Dump_Temp)  # Number of hourly observations in the window
+  print(Size)
+  time <- 1:Size
+  
+  # Handle missing data by removing NAs
+  valid_indices <- which(!is.na(Dump_Temp))
+  Dump_Temp <- Dump_Temp[valid_indices]
+  time <- time[valid_indices]
+  Size <- length(Dump_Temp)
+  print(Size)
+  
+  # Proceed only if sufficient data is available
+  #if (Size < (current_years * 365 * 24) * 0.8) {  # Require at least 80% of expected data
+  #  warning(paste("Iteration", kk, ": Insufficient data. Skipping this window."))
+  #  next
+  #}
+  
+  # Linear model with seasonal components
+  temperature.lm <- lm(Dump_Temp ~ time + sin(2 * pi * time / 24) + cos(2 * pi * time / 24))
+  Parameters <- coef(temperature.lm)
+  print(Parameters)
+  
+  A <- Parameters[1]
+  B <- Parameters[2]
+  C <- sqrt(Parameters[3]^2 + Parameters[4]^2)
+  phase <- atan(Parameters[3] / Parameters[4]) - pi
+  
+  Resid <- residuals(temperature.lm)
+  Fit <- fitted.values(temperature.lm)
+  
+  # Calculate parameters using sourced functions
+  Jump_Parameters <- find_jumps(Size, Dump_Temp)
+  Arch_Parameters <- find_arch(Dump_Temp)
+  b <- Mean_Rev(Dump_Temp, Fit, Size)
+  TA <- Arch_Sim(Dump_Temp[1] - Fit[1], Arch_Parameters, Size)
+  alpha <- 1
+  TY <- Jump_Sim(Jump_Parameters[1:3], Size, alpha)
+  
+  # Adjust 'beta' calculation based on available Jump_Parameters
+  # Ensure that indexing does not exceed bounds
+  if ((6 + Size) <= length(Jump_Parameters)) {
+    beta <- find_beta(Jump_Parameters[7:(Size + 6)], Size)
+  } else {
+    beta <- find_beta(Jump_Parameters[7:length(Jump_Parameters)], Size)
+  }
+  
+  TZ <- Jump_Sim(Jump_Parameters[4:6], Size, beta)
+  
+  # Initialize temperature array and HDD/CDD
+  T <- numeric(Size)
+  T[1] <- Dump_Temp[1]
+  HDD <- 0
+  CDD <- 0
+  
+  if (T[1] > 65) {
+    CDD <- T[1] - 65
+  }
+  if (T[1] < 65) {
+    HDD <- 65 - T[1]
+  }
+  
+  # Simulate temperature over time
+  for (j in 2:Size) {
+    T[j] <- T[j - 1] + Fit[j] - Fit[j - 1] + 
+      b * (Fit[j - 1] - T[j - 1]) + 
+      TA[j] + TY[j] + TZ[j]
+    
+    if (T[j] > 65) {
+      CDD <- CDD + (T[j] - 65)
+    }
+    if (T[j] < 65) {
+      HDD <- HDD + (65 - T[j])
+    }
+  }
+  
+  # Calculate exact HDD and CDD
+  HDD_exact <- sum(ifelse(Dump_Temp < 65, 65 - Dump_Temp, 0), na.rm = TRUE)
+  CDD_exact <- sum(ifelse(Dump_Temp > 65, Dump_Temp - 65, 0), na.rm = TRUE)
+  
+  # Calculate difference
+  Difference <- sum((T - Dump_Temp)^2, na.rm = TRUE)
+  
+  # Store results
+  Results[kk, 1] <- A
+  Results[kk, 2] <- B
+  Results[kk, 3] <- C
+  Results[kk, 4] <- phase
+  Results[kk, 5] <- Arch_Parameters[1]
+  Results[kk, 6] <- Arch_Parameters[2]
+  Results[kk, 7] <- Jump_Parameters[1]
+  Results[kk, 8] <- Jump_Parameters[2]
+  Results[kk, 9] <- Jump_Parameters[3]
+  Results[kk, 10] <- Jump_Parameters[4]
+  Results[kk, 11] <- Jump_Parameters[5]
+  Results[kk, 12] <- Jump_Parameters[6]
+  Results[kk, 13] <- beta
+  Results[kk, 14] <- HDD
+  Results[kk, 15] <- HDD_exact
+  Results[kk, 16] <- CDD
+  Results[kk, 17] <- CDD_exact
+  Results[kk, 18] <- b
+  
+  # Print progress
+  print(paste("Iteration", kk, "completed. Window Size:", current_years, "years"))
+}
+
+# Save results to a file
+output_path <- "C://Users//jahnv//Downloads//Results_6016.csv"  # Replace with your desired output path
+write.table(Results, output_path, row.names = FALSE, col.names = FALSE, sep = ",")
+
