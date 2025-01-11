@@ -1,5 +1,6 @@
-library(lubridate)   # For date-time parsing
-library(tseries)     # For GARCH modeling
+library(lubridate)   #-time parsing
+library(tseries)     # GARCH modeling
+
 # -----------------------------------------------------------------------------
 # Function Definitions (Sourced Scripts)
 # -----------------------------------------------------------------------------
@@ -230,11 +231,10 @@ overall_start <- min(Timestamps)
 overall_end <- max(Timestamps)
 
 
-# Main loop 
-# Loop through each window, starting with initial_years and expanding by 1 year each iteration
+# Loop through each window, starting with initial_years and expanding by 1 year each iteration (5,6,7... years)
 for (kk in 1:total_iterations) {
   
-  # Calculate the current window's end date
+  # Crrent window's end date
   current_years <- initial_years + (kk - 1)  # Increment year by 1 each iteration
   window_end <- overall_end
   window_start <- window_end - years(current_years)
@@ -246,14 +246,14 @@ for (kk in 1:total_iterations) {
   print(Size)
   time <- 1:Size
   
-  # Handle missing data by removing NAs
+  # missing data
   valid_indices <- which(!is.na(Dump_Temp))
   Dump_Temp <- Dump_Temp[valid_indices]
   time <- time[valid_indices]
   Size <- length(Dump_Temp)
   print(Size)
   
-  # Proceed only if sufficient data is available
+  # data check ? (removed)
   #if (Size < (current_years * 365 * 24) * 0.8) {  # Require at least 80% of expected data
   #  warning(paste("Iteration", kk, ": Insufficient data. Skipping this window."))
   #  next
@@ -280,8 +280,7 @@ for (kk in 1:total_iterations) {
   alpha <- 1
   TY <- Jump_Sim(Jump_Parameters[1:3], Size, alpha)
   
-  # Adjust 'beta' calculation based on available Jump_Parameters
-  # Ensure that indexing does not exceed bounds
+  # Adjust 'beta' calculation based on available Jump_Parameters # Ensure that indexing does not exceed bounds
   if ((6 + Size) <= length(Jump_Parameters)) {
     beta <- find_beta(Jump_Parameters[7:(Size + 6)], Size)
   } else {
@@ -321,10 +320,8 @@ for (kk in 1:total_iterations) {
   HDD_exact <- sum(ifelse(Dump_Temp < 65, 65 - Dump_Temp, 0), na.rm = TRUE)
   CDD_exact <- sum(ifelse(Dump_Temp > 65, Dump_Temp - 65, 0), na.rm = TRUE)
   
-  # Calculate difference
   Difference <- sum((T - Dump_Temp)^2, na.rm = TRUE)
   
-  # Store results
   Results[kk, 1] <- A
   Results[kk, 2] <- B
   Results[kk, 3] <- C
@@ -344,11 +341,9 @@ for (kk in 1:total_iterations) {
   Results[kk, 17] <- CDD_exact
   Results[kk, 18] <- b
   
-  # Print progress
   print(paste("Iteration", kk, "completed. Window Size:", current_years, "years"))
 }
 
-# Save results to a file
-output_path <- "C://Users//jahnv//Downloads//Results_6016.csv"  # Replace with your desired output path
+output_path <- "C://Users//jahnv//Downloads//Results_6016.csv"  
 write.table(Results, output_path, row.names = FALSE, col.names = FALSE, sep = ",")
 
