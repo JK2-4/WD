@@ -107,7 +107,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 
 real estate econometric tests - District/sub-district/Estate level[[1](https://drive.google.com/drive/folders/1DC8c5_DmJmQsNtge0TbPE4R6-ODTvSLr?usp=sharing)] ; ARIMA fits [[2]](https://drive.google.com/drive/folders/1sxfWnNBisyYSrpWtmtV-Lo5CekQj60-0?usp=sharing)
 
-2. Bi-hourly weather [14 years](https://cowin.hku.hk/english/blog.html) | Processed for our paper [150+ stations](https://drive.google.com/drive/folders/1-ynOqR5jRDa-xZx7skFH9J_7K_BtzLbE?usp=sharing)
+2. Bi-hourly weather [14 years](https://cowin.hku.hk/english/blog.html) | Processed for this research project [150+ stations](https://drive.google.com/drive/folders/1-ynOqR5jRDa-xZx7skFH9J_7K_BtzLbE?usp=sharing)
 3. Local climate zone [LCZ1](https://lcz-generator.rub.de/factsheets/81c119e7a56e90963d611663e6785b7669aa1473/81c119e7a56e90963d611663e6785b7669aa1473_factsheet.html) ; [LCZ2](https://lcz-generator.rub.de/factsheets/951d6a66a62dc6d6ad30bf07fc599ef95a4e50c4/951d6a66a62dc6d6ad30bf07fc599ef95a4e50c4_factsheet.html) (used LCZ2 because of higher accuracy and coverage) and empirical spatial [correl](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Geospatial/to%20cite_ref_lcz_weight%20schema.jpeg) - [ref](https://www.researchgate.net/figure/a-Dissimilarity-and-b-similarity-metric-for-LCZ-classes-Appendix-A-in-4_fig3_341849288) (LCZ classification is based on surface cover, structure, materials, and morphology, originally developed to study urban climates)
 
 **WIP** - 
