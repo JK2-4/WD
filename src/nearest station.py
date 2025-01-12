@@ -44,24 +44,30 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import BallTree
 
-estates_df = estates[['lati', 'long', 'Processed_Address']].dropna().reset_index(drop=True)
-chk_df = chk[['lat', 'lon']].dropna().reset_index(drop=True)
+target_df = df.copy()
+target_df = target_df.dropna(subset=['lat', 'lon']).copy()
+original_indices = target_df.index
+
+estates_df = estates[['lati', 'long', 'Processed_Address']].dropna(subset=['lati', 'long', 'Processed_Address']).reset_index(drop=True)
 
 estates_rad = np.radians(estates_df[['lati', 'long']].values)
-chk_rad = np.radians(chk_df[['lat', 'lon']].values)
+target_df_rad = np.radians(target_df[['lat', 'lon']].values)
 
 tree = BallTree(estates_rad, metric='haversine')
-distances, indices = tree.query(chk_rad, k=1)
+
+distances, indices = tree.query(target_df_rad, k=1)
+
 distances_km = distances.flatten() * 6371  # Earth's radius in kilometers
 
 nearest_estates = estates_df['Processed_Address'].iloc[indices.flatten()].values
-chk_df['Nearest_Estate'] = nearest_estates
-chk_df['Nearest_Estate_Distance_km'] = distances_km
 
-chk = chk.reset_index(drop=True)
-chk['Nearest_Estate'] = nearest_estates
-chk['Nearest_Estate_Distance_km'] = distances_km
+df['Nearest_Estate'] = np.nan
+df['Nearest_Estate_Distance_km'] = np.nan
 
-# Step 9: Verify the results
-chk[['Nearest_Estate', 'Nearest_Estate_Distance_km']].head()
+df.loc[original_indices, 'Nearest_Estate'] = nearest_estates
+df.loc[original_indices, 'Nearest_Estate_Distance_km'] = distances_km
+
+print(df[['Nearest_Estate', 'Nearest_Estate_Distance_km']].head())
+print("\nRows with NaN in 'Nearest_Estate' and 'Nearest_Estate_Distance_km':")
+
 
