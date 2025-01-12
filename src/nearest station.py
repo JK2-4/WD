@@ -1,6 +1,10 @@
 # Find the nearest weather station for each estate
 from math import radians, cos, sin, asin, sqrt
 
+#################################
+# MANUAL
+#################################
+
 def haversine(lon1, lat1, lon2, lat2):
     """
     Calculate the great circle distance in kilometers between two points 
@@ -26,12 +30,38 @@ def find_nearest_station(lat, lon, stations):
     return station, distance
 
 '''
-implement 
-
-
-# Find the nearest weather station for each estate, and store in two columns
+# implement - Find the nearest weather station for each estate, and store in two columns
 df['station', 'distance'] = df.apply(lambda x: find_nearest_station(x['latitude'], x['longitude'], LOCATIONS), axis = 1)
 # Unwrap as separate columns
 df[['station', 'distance']] = pd.DataFrame(df['station', 'distance'].tolist(), index=df.index)
 
 '''
+
+#################################
+# BALL TREE METHOD
+#################################
+import pandas as pd
+import numpy as np
+from sklearn.neighbors import BallTree
+
+estates_df = estates[['lati', 'long', 'Processed_Address']].dropna().reset_index(drop=True)
+chk_df = chk[['lat', 'lon']].dropna().reset_index(drop=True)
+
+estates_rad = np.radians(estates_df[['lati', 'long']].values)
+chk_rad = np.radians(chk_df[['lat', 'lon']].values)
+
+tree = BallTree(estates_rad, metric='haversine')
+distances, indices = tree.query(chk_rad, k=1)
+distances_km = distances.flatten() * 6371  # Earth's radius in kilometers
+
+nearest_estates = estates_df['Processed_Address'].iloc[indices.flatten()].values
+chk_df['Nearest_Estate'] = nearest_estates
+chk_df['Nearest_Estate_Distance_km'] = distances_km
+
+chk = chk.reset_index(drop=True)
+chk['Nearest_Estate'] = nearest_estates
+chk['Nearest_Estate_Distance_km'] = distances_km
+
+# Step 9: Verify the results
+chk[['Nearest_Estate', 'Nearest_Estate_Distance_km']].head()
+
