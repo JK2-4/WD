@@ -90,7 +90,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 
 |Variable |SDE Model |Empirical Parameters| Data|
 |---------|---------|---------|---------|
-|Rainfall:| [pyraingen](https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2) for rainfall simulation , in R [code](https://github.com/RationShop/StochasticPrecipitation/tree/master)|  | |
+|Rainfall:| [pyraingen](https://www.sciencedirect.com/science/article/pii/S1364815224000458#sec2) for rainfall simulation ; logit (Generalized Linear Model) fit by D.S. Wilks (1998) in R [code](https://github.com/RationShop/StochasticPrecipitation/tree/master)|  | |
 |Hazard and Compound Intensity: | [Mockus Equation - hydrological analysis](https://doi.org/10.13031/2013.41082) ; [CLIMADA](https://github.com/CLIMADA-project/climada_python) | | src -  [flood precip compound risk](https://global-flood-database.cloudtostreet.ai/#interactive-map)|
 |Wind speed and pressure: | GHYP (Generalized Hyperbolic distribution) ; Generalised Extreme Value | params fitted pre 2006 [1](https://jdhconsult.com/index_htm_files/APCWE7%20Extreme%20wind%20speeds%20and%20wind%20load%20factors%20for%20Hong%20Kong.pdf) | |
 |Temp:| [Alaton](https://rstudio-pubs-static.s3.amazonaws.com/953546_4548bb57d50344ff984963ff47645e2e.html), more advanced Jump Model [link to ref code/paper](https://etd.lib.metu.edu.tr/upload/12619906/index.pdf) | | |
