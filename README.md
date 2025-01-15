@@ -103,7 +103,7 @@ NVIDIA modulus code [documentation](https://docs.nvidia.com/deeplearning/modulus
 
 
 **Data to cite** - 
-1. [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - metadata [dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf) | [5.7k+ buildings](https://drive.google.com/file/d/1-2fNI0R2sqq7KkdVGtEJy2eDIR_tufE0/view?usp=sharing) with 1.1k unique locations
+1. [Real Estate](https://data.gov.hk/en-data/dataset/hk-rvd-tsinfo_rvd-property-market-statistics) - metadata [dict](https://www.rvd.gov.hk/datagovhk/Data_Dic.pdf) | [5.7k+ buildings](https://drive.google.com/file/d/1-2fNI0R2sqq7KkdVGtEJy2eDIR_tufE0/view?usp=sharing) with 1.1k unique locations | Unique Time Series available (2000 - 2024) on [1466 unique estates](https://drive.google.com/file/d/1-1nbQsSygHUe9ygpY2e0UVmFhwM-0mTB/view?usp=sharing)
 
 real estate econometric tests - District/sub-district/Estate level [[1]](https://drive.google.com/drive/folders/1DC8c5_DmJmQsNtge0TbPE4R6-ODTvSLr?usp=sharing)] ; ARIMA fits [[2]](https://drive.google.com/drive/folders/1sxfWnNBisyYSrpWtmtV-Lo5CekQj60-0?usp=sharing)
 
