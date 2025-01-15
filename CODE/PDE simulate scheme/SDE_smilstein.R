@@ -22,7 +22,7 @@ theta = 0.5
 xi = 0.5               # Vol of vol in Y
 
 # S(t) process parameters
-a = 0.6               
+a = 0.06               
 b = 0.5                
 sigma_S = 0.2          
 
