@@ -1,12 +1,3 @@
-% tempelhotput.m 
-%        This program determines the price of the weather put option
-%        Several parameters are first estimated using the random
-%        variable of the precipitation and assuming it follows a
-%        Ornestein-Uhlenbeck process. Then the price of the option is
-%        determined using a PDE.
-%        x is the precipitation and y is the cumulative index
-%        C. Nhamgumbe & E. Sousa, April 2023
-%
 clear;     % clear the variables from memory
 clc;       % clear the matlab window from previous tasks
 %
