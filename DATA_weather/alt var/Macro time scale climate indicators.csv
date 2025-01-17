@@ -1,0 +1,582 @@
+Series,Variable,Model,Scenarios,Unit,2020,2025,2030,2035,2040,2045,2050
+Surface temperature,50th percentile,GCAM,Below 2°C,Degree Celsius,26.987,27.133,27.234,27.364,27.446,27.5,27.558
+Surface temperature,50th percentile,GCAM,Current Policies (Hot house world scenario),Degree Celsius,26.981,27.113,27.194,27.283,27.381,27.484,27.614
+Surface temperature,50th percentile,GCAM,Delayed Transition (Disorderly scenario),Degree Celsius,26.986,27.123,27.219,27.376,27.483,27.554,27.612
+Surface temperature,50th percentile,GCAM,Fragmented World,Degree Celsius,26.991,27.126,27.226,27.352,27.448,27.54,27.645
+Surface temperature,50th percentile,GCAM,Low Demand,Degree Celsius,26.986,27.119,27.217,27.339,27.409,27.448,27.451
+Surface temperature,50th percentile,GCAM,Nationally Determined Contributions (NDCs),Degree Celsius,26.991,27.129,27.23,27.355,27.454,27.55,27.67
+Surface temperature,50th percentile,GCAM,Net Zero 2050 (Orderly scenario),Degree Celsius,26.987,27.137,27.239,27.358,27.416,27.441,27.436
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Below 2°C,Degree Celsius,26.975,27.125,27.241,27.367,27.44,27.493,27.546
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Degree Celsius,26.979,27.126,27.224,27.349,27.451,27.544,27.659
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Degree Celsius,26.975,27.122,27.216,27.38,27.478,27.539,27.6
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Fragmented World,Degree Celsius,26.979,27.125,27.224,27.367,27.467,27.533,27.618
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Low Demand,Degree Celsius,26.975,27.126,27.263,27.368,27.399,27.409,27.422
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Degree Celsius,26.98,27.127,27.224,27.349,27.439,27.513,27.605
+Surface temperature,50th percentile,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Degree Celsius,26.975,27.126,27.25,27.347,27.379,27.389,27.398
+Surface temperature,50th percentile,REMIND-MAgPIE,Below 2°C,Degree Celsius,26.979,27.122,27.214,27.341,27.405,27.446,27.482
+Surface temperature,50th percentile,REMIND-MAgPIE,Current Policies (Hot house world scenario),Degree Celsius,26.979,27.123,27.215,27.341,27.44,27.537,27.664
+Surface temperature,50th percentile,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Degree Celsius,26.979,27.123,27.215,27.348,27.445,27.495,27.518
+Surface temperature,50th percentile,REMIND-MAgPIE,Fragmented World,Degree Celsius,26.979,27.123,27.215,27.339,27.435,27.512,27.599
+Surface temperature,50th percentile,REMIND-MAgPIE,Low Demand,Degree Celsius,26.979,27.128,27.217,27.3,27.301,27.273,27.247
+Surface temperature,50th percentile,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Degree Celsius,26.979,27.122,27.215,27.337,27.411,27.471,27.545
+Surface temperature,50th percentile,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Degree Celsius,26.979,27.124,27.214,27.311,27.328,27.325,27.333
+Surface temperature,5th percentile,GCAM,Below 2°C,Degree Celsius,26.903,26.998,27.072,27.157,27.202,27.236,27.272
+Surface temperature,5th percentile,GCAM,Current Policies (Hot house world scenario),Degree Celsius,26.903,26.996,27.064,27.166,27.253,27.336,27.443
+Surface temperature,5th percentile,GCAM,Delayed Transition (Disorderly scenario),Degree Celsius,26.903,26.994,27.066,27.175,27.238,27.281,27.317
+Surface temperature,5th percentile,GCAM,Fragmented World,Degree Celsius,26.903,26.996,27.064,27.166,27.239,27.308,27.386
+Surface temperature,5th percentile,GCAM,Low Demand,Degree Celsius,26.903,26.994,27.061,27.143,27.176,27.19,27.187
+Surface temperature,5th percentile,GCAM,Nationally Determined Contributions (NDCs),Degree Celsius,26.903,26.997,27.068,27.166,27.241,27.318,27.408
+Surface temperature,5th percentile,GCAM,Net Zero 2050 (Orderly scenario),Degree Celsius,26.904,27.001,27.073,27.144,27.167,27.18,27.168
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Below 2°C,Degree Celsius,26.898,27.005,27.081,27.165,27.207,27.23,27.257
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Degree Celsius,26.898,27.004,27.067,27.17,27.253,27.321,27.405
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Degree Celsius,26.898,27.002,27.067,27.186,27.244,27.271,27.3
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Fragmented World,Degree Celsius,26.898,27.004,27.067,27.181,27.25,27.3,27.351
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Low Demand,Degree Celsius,26.898,27.005,27.081,27.137,27.147,27.139,27.134
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Degree Celsius,26.898,27.005,27.066,27.167,27.234,27.285,27.347
+Surface temperature,5th percentile,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Degree Celsius,26.898,27.006,27.084,27.144,27.155,27.141,27.142
+Surface temperature,5th percentile,REMIND-MAgPIE,Below 2°C,Degree Celsius,26.896,26.999,27.066,27.152,27.184,27.191,27.209
+Surface temperature,5th percentile,REMIND-MAgPIE,Current Policies (Hot house world scenario),Degree Celsius,26.896,26.999,27.062,27.162,27.236,27.302,27.385
+Surface temperature,5th percentile,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Degree Celsius,26.896,26.999,27.062,27.161,27.212,27.23,27.228
+Surface temperature,5th percentile,REMIND-MAgPIE,Fragmented World,Degree Celsius,26.896,26.999,27.062,27.16,27.225,27.275,27.329
+Surface temperature,5th percentile,REMIND-MAgPIE,Low Demand,Degree Celsius,26.896,27.002,27.062,27.114,27.087,27.048,27.014
+Surface temperature,5th percentile,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Degree Celsius,26.896,26.997,27.06,27.151,27.201,27.24,27.281
+Surface temperature,5th percentile,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Degree Celsius,26.896,26.999,27.063,27.123,27.116,27.091,27.082
+Surface temperature,95th percentile,GCAM,Below 2°C,Degree Celsius,27.078,27.271,27.457,27.644,27.775,27.872,27.989
+Surface temperature,95th percentile,GCAM,Current Policies (Hot house world scenario),Degree Celsius,27.048,27.216,27.39,27.565,27.737,27.936,28.126
+Surface temperature,95th percentile,GCAM,Delayed Transition (Disorderly scenario),Degree Celsius,27.077,27.259,27.423,27.645,27.805,27.922,28.042
+Surface temperature,95th percentile,GCAM,Fragmented World,Degree Celsius,27.048,27.216,27.39,27.574,27.741,27.914,28.069
+Surface temperature,95th percentile,GCAM,Low Demand,Degree Celsius,27.077,27.255,27.428,27.607,27.729,27.812,27.853
+Surface temperature,95th percentile,GCAM,Nationally Determined Contributions (NDCs),Degree Celsius,27.048,27.22,27.399,27.58,27.747,27.926,28.094
+Surface temperature,95th percentile,GCAM,Net Zero 2050 (Orderly scenario),Degree Celsius,27.078,27.276,27.468,27.646,27.757,27.824,27.843
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Below 2°C,Degree Celsius,27.064,27.269,27.467,27.65,27.771,27.86,27.978
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Degree Celsius,27.035,27.22,27.381,27.561,27.74,27.924,28.1
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Degree Celsius,27.063,27.263,27.413,27.646,27.81,27.909,28.03
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Fragmented World,Degree Celsius,27.035,27.219,27.382,27.592,27.77,27.933,28.066
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Low Demand,Degree Celsius,27.064,27.27,27.503,27.672,27.756,27.799,27.852
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Degree Celsius,27.035,27.222,27.387,27.564,27.734,27.895,28.041
+Surface temperature,95th percentile,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Degree Celsius,27.064,27.27,27.481,27.635,27.701,27.741,27.795
+Surface temperature,95th percentile,REMIND-MAgPIE,Below 2°C,Degree Celsius,27.032,27.261,27.41,27.595,27.72,27.802,27.899
+Surface temperature,95th percentile,REMIND-MAgPIE,Current Policies (Hot house world scenario),Degree Celsius,27.032,27.214,27.364,27.553,27.72,27.914,28.105
+Surface temperature,95th percentile,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Degree Celsius,27.032,27.214,27.364,27.592,27.752,27.845,27.937
+Surface temperature,95th percentile,REMIND-MAgPIE,Fragmented World,Degree Celsius,27.032,27.214,27.364,27.55,27.718,27.894,28.041
+Surface temperature,95th percentile,REMIND-MAgPIE,Low Demand,Degree Celsius,27.032,27.265,27.411,27.572,27.633,27.64,27.652
+Surface temperature,95th percentile,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Degree Celsius,27.032,27.213,27.366,27.549,27.705,27.848,27.977
+Surface temperature,95th percentile,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Degree Celsius,27.032,27.263,27.415,27.575,27.642,27.662,27.708
+Emissions and CCS,Bioenergy with CCS,GCAM,Below 2°C,Mt CO2/yr,0.012,0.015,0.019,0.02,0.013,0.011,0.044
+Emissions and CCS,Bioenergy with CCS,GCAM,Current Policies (Hot house world scenario),Mt CO2/yr,0.014,0.02,0.025,0.029,0.036,0.037,0.03
+Emissions and CCS,Bioenergy with CCS,GCAM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0.014,0.02,0.024,0.024,0.015,0.015,0.177
+Emissions and CCS,Bioenergy with CCS,GCAM,Fragmented World,Mt CO2/yr,0.013,0.018,0.022,0.029,0.045,0.043,0.048
+Emissions and CCS,Bioenergy with CCS,GCAM,Low Demand,Mt CO2/yr,0.012,0.014,0.017,0.041,0.054,0.799,13.218
+Emissions and CCS,Bioenergy with CCS,GCAM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0.014,0.018,0.01,0.012,0.013,0.008,0.005
+Emissions and CCS,Bioenergy with CCS,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0.012,0.014,0.016,0.016,0.068,1.001,23.416
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2/yr,0,0,0,0,0,0.031,0.081
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0,0.018,0.035
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2/yr,0,0,0,0,0.003,0.011,0.027
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Low Demand,Mt CO2/yr,0,0,0.001,0.003,0.006,0.032,0.095
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Bioenergy with CCS,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0,0.005,0.011,0.044,0.062
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Below 2°C,Mt CO2/yr,0,0,0.02,0.07,0.238,0.758,1.558
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0.016,0.297,1.365,3.628
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Fragmented World,Mt CO2/yr,0,0,0,0.005,0.04,0.143,0.327
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Low Demand,Mt CO2/yr,0,0.002,0.031,0.348,1.251,2.782,4.345
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0.003,0.004,0.003
+Emissions and CCS,Bioenergy with CCS,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0.003,0.07,0.518,1.72,3.591,4.894
+Primary energy,Biomass,GCAM,Below 2°C,EJ/yr,0.01,0.012,0.016,0.013,0.008,0.006,0.006
+Primary energy,Biomass,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.012,0.016,0.02,0.024,0.031,0.036,0.038
+Primary energy,Biomass,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.011,0.015,0.02,0.018,0.009,0.006,0.007
+Primary energy,Biomass,GCAM,Fragmented World,EJ/yr,0.011,0.014,0.017,0.023,0.023,0.012,0.009
+Primary energy,Biomass,GCAM,Low Demand,EJ/yr,0.01,0.012,0.017,0.016,0.009,0.015,0.192
+Primary energy,Biomass,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.011,0.015,0.014,0.015,0.017,0.015,0.013
+Primary energy,Biomass,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.01,0.012,0.012,0.007,0.007,0.015,0.388
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.008,0.007,0.007,0.007,0.007,0.009,0.012
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.008,0.007,0.006,0.007,0.006,0.008,0.009
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.007,0.007,0.006,0.007,0.006,0.007,0.009
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.007,0.007,0.006,0.006,0.004,0.004,0.004
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.008,0.009,0.016,0.018,0.017,0.024,0.032
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.007,0.008,0.006,0.007,0.006,0.007,0.008
+Primary energy,Biomass,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.008,0.008,0.01,0.015,0.024,0.036,0.037
+Primary energy,Biomass,REMIND-MAgPIE,Below 2°C,EJ/yr,0.008,0.01,0.014,0.02,0.03,0.058,0.089
+Primary energy,Biomass,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.01,0.01,0.016,0.029,0.046,0.066,0.062
+Primary energy,Biomass,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.01,0.01,0.016,0.027,0.036,0.06,0.103
+Primary energy,Biomass,REMIND-MAgPIE,Fragmented World,EJ/yr,0.008,0.009,0.015,0.027,0.041,0.056,0.075
+Primary energy,Biomass,REMIND-MAgPIE,Low Demand,EJ/yr,0.007,0.009,0.013,0.035,0.066,0.099,0.132
+Primary energy,Biomass,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.008,0.01,0.015,0.027,0.046,0.066,0.059
+Primary energy,Biomass,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.007,0.009,0.014,0.027,0.054,0.089,0.121
+Primary energy,Coal,GCAM,Below 2°C,EJ/yr,0.332,0.243,0.225,0.215,0.201,0.186,0.171
+Primary energy,Coal,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.337,0.262,0.266,0.281,0.299,0.317,0.332
+Primary energy,Coal,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.334,0.257,0.258,0.23,0.206,0.184,0.168
+Primary energy,Coal,GCAM,Fragmented World,EJ/yr,0.328,0.251,0.251,0.234,0.217,0.2,0.183
+Primary energy,Coal,GCAM,Low Demand,EJ/yr,0.334,0.256,0.226,0.2,0.17,0.154,0.139
+Primary energy,Coal,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.337,0.258,0.264,0.278,0.295,0.31,0.315
+Primary energy,Coal,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.339,0.252,0.21,0.181,0.161,0.147,0.136
+Primary energy,Coal,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.248,0.169,0.131,0.111,0.099,0.079,0.081
+Primary energy,Coal,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.244,0.186,0.164,0.144,0.128,0.125,0.132
+Primary energy,Coal,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.241,0.183,0.16,0.111,0.082,0.084,0.089
+Primary energy,Coal,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.242,0.182,0.16,0.132,0.114,0.101,0.103
+Primary energy,Coal,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.246,0.169,0.103,0.093,0.084,0.087,0.089
+Primary energy,Coal,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.244,0.165,0.139,0.133,0.116,0.104,0.108
+Primary energy,Coal,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.257,0.179,0.122,0.106,0.123,0.095,0.1
+Primary energy,Coal,REMIND-MAgPIE,Below 2°C,EJ/yr,0.241,0.186,0.151,0.131,0.124,0.241,0.093
+Primary energy,Coal,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.242,0.196,0.18,0.175,0.175,0.176,0.177
+Primary energy,Coal,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.239,0.191,0.173,0.157,0.127,0.102,0.187
+Primary energy,Coal,REMIND-MAgPIE,Fragmented World,EJ/yr,0.238,0.189,0.171,0.164,0.148,0.138,0.14
+Primary energy,Coal,REMIND-MAgPIE,Low Demand,EJ/yr,0.243,0.193,0.145,0.123,0.109,0.085,0.083
+Primary energy,Coal,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.242,0.192,0.172,0.163,0.149,0.139,0.139
+Primary energy,Coal,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.248,0.19,0.14,0.124,0.108,0.08,0.076
+Final energy,Electricity,GCAM,Below 2°C,EJ/yr,0.183,0.214,0.243,0.27,0.296,0.323,0.344
+Final energy,Electricity,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.174,0.202,0.229,0.255,0.278,0.302,0.322
+Final energy,Electricity,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.173,0.2,0.226,0.265,0.289,0.313,0.332
+Final energy,Electricity,GCAM,Fragmented World,EJ/yr,0.176,0.204,0.232,0.257,0.279,0.302,0.324
+Final energy,Electricity,GCAM,Low Demand,EJ/yr,0.188,0.22,0.245,0.269,0.293,0.309,0.318
+Final energy,Electricity,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.175,0.202,0.228,0.254,0.276,0.298,0.316
+Final energy,Electricity,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.192,0.229,0.258,0.285,0.314,0.327,0.346
+Final energy,Electricity,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.175,0.195,0.216,0.23,0.246,0.272,0.298
+Final energy,Electricity,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.169,0.189,0.206,0.221,0.236,0.257,0.277
+Final energy,Electricity,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.168,0.188,0.206,0.228,0.246,0.271,0.298
+Final energy,Electricity,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.17,0.19,0.209,0.223,0.238,0.26,0.287
+Final energy,Electricity,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.171,0.19,0.204,0.213,0.228,0.245,0.251
+Final energy,Electricity,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.17,0.188,0.208,0.223,0.237,0.256,0.277
+Final energy,Electricity,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.184,0.206,0.229,0.251,0.273,0.301,0.326
+Final energy,Electricity,REMIND-MAgPIE,Below 2°C,EJ/yr,0.184,0.219,0.252,0.283,0.305,0.322,0.334
+Final energy,Electricity,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.183,0.217,0.253,0.287,0.312,0.327,0.336
+Final energy,Electricity,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.181,0.215,0.25,0.287,0.303,0.328,0.35
+Final energy,Electricity,REMIND-MAgPIE,Fragmented World,EJ/yr,0.182,0.216,0.252,0.285,0.307,0.32,0.33
+Final energy,Electricity,REMIND-MAgPIE,Low Demand,EJ/yr,0.186,0.22,0.241,0.264,0.281,0.291,0.304
+Final energy,Electricity,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.184,0.219,0.257,0.291,0.314,0.327,0.336
+Final energy,Electricity,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.192,0.23,0.258,0.289,0.317,0.334,0.351
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Below 2°C,Mt CO2/yr,35.915,30.968,31.744,32.671,32.901,32.347,31.046
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Current Policies (Hot house world scenario),Mt CO2/yr,37.254,34.403,38.107,43.163,48.727,54.693,61.234
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Delayed Transition (Disorderly scenario),Mt CO2/yr,37.023,33.926,37.414,33.943,33.867,32.449,29.084
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Fragmented World,Mt CO2/yr,36.44,33.017,36.217,37.732,38.497,38.776,37.838
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Low Demand,Mt CO2/yr,35.95,31.873,31.36,29.954,26.601,21.468,4.473
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Nationally Determined Contributions (NDCs),Mt CO2/yr,37.192,33.933,38.061,43.147,48.76,54.719,60.504
+Emissions and CCS,Energy and industrial processes CO2 emissions,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,36.099,31.086,29.256,27,23.946,19.272,-10.745
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2/yr,26.461,23.567,23.734,25.815,27.009,24.723,24.729
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2/yr,28.419,28.548,31.302,32.134,35.218,38.41,41.915
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2/yr,28.178,28.176,30.727,25.893,25.25,24.593,24.974
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2/yr,27.009,26.835,29.326,29.718,32.719,34.928,36.444
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Low Demand,Mt CO2/yr,28.72,26.98,22.913,22.628,21.195,20.368,19.842
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2/yr,27.901,25.716,27.935,30.332,33.74,36.103,38.461
+Emissions and CCS,Energy and industrial processes CO2 emissions,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,27.177,24.45,21.323,19.513,21.053,18.037,17.352
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Below 2°C,Mt CO2/yr,28.36,25.586,24.899,25.037,23.902,30.805,18.253
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2/yr,28.654,26.858,27.834,29.871,32.544,34.889,36.968
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2/yr,28.415,26.437,27.271,27.346,24.704,19.004,20.826
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Fragmented World,Mt CO2/yr,28.438,26.334,27.068,28.703,29.679,30.15,31.021
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Low Demand,Mt CO2/yr,28.295,25.855,23.169,20.893,18.397,14.075,11.017
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2/yr,28.714,26.546,27.271,28.847,30.17,31.315,32.773
+Emissions and CCS,Energy and industrial processes CO2 emissions,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2/yr,27.981,24.624,21.08,17.247,14.899,10.13,5.81
+Emissions and CCS,Fossil energy CCS,GCAM,Below 2°C,Mt CO2/yr,0.003,0.026,0.512,1.753,3.552,5.616,7.937
+Emissions and CCS,Fossil energy CCS,GCAM,Current Policies (Hot house world scenario),Mt CO2/yr,0.008,0.075,0.49,1.128,1.979,2.535,2.762
+Emissions and CCS,Fossil energy CCS,GCAM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0.006,0.06,0.39,0.884,2.525,5.015,8.451
+Emissions and CCS,Fossil energy CCS,GCAM,Fragmented World,Mt CO2/yr,0.005,0.052,0.335,0.769,2.078,3.84,6.282
+Emissions and CCS,Fossil energy CCS,GCAM,Low Demand,Mt CO2/yr,0.003,0.021,0.565,2.374,5.543,8.893,9.09
+Emissions and CCS,Fossil energy CCS,GCAM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0.005,0.043,0.282,1.086,1.922,2.475,2.787
+Emissions and CCS,Fossil energy CCS,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0.003,0.033,0.994,3.483,6.775,9.33,9.342
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2/yr,0,0,0.06,0.185,0.452,0.885,1.713
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0.148,0.407,0.9,1.566
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2/yr,0,0,0,0,0.012,0.012,0.012
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Low Demand,Mt CO2/yr,0,0,0.202,0.587,1.137,1.844,2.57
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Fossil energy CCS,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0.541,0.835,0.788,1.369,2.579
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Below 2°C,Mt CO2/yr,0,0,0.001,0.3,3.12,25.691,20.523
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0.007,0.743,10.578,33.952
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Low Demand,Mt CO2/yr,0,0.009,0.392,2.283,6.702,9.996,10.307
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Fossil energy CCS,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0.007,0.54,6.887,16.229,15.708,11.454
+Primary energy,Gas,GCAM,Below 2°C,EJ/yr,0.075,0.054,0.064,0.076,0.089,0.101,0.108
+Primary energy,Gas,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.113,0.099,0.111,0.126,0.138,0.155,0.17
+Primary energy,Gas,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.113,0.099,0.111,0.074,0.087,0.099,0.098
+Primary energy,Gas,GCAM,Fragmented World,EJ/yr,0.097,0.083,0.094,0.11,0.125,0.143,0.154
+Primary energy,Gas,GCAM,Low Demand,EJ/yr,0.072,0.052,0.056,0.067,0.076,0.078,0.075
+Primary energy,Gas,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.117,0.1,0.116,0.132,0.145,0.164,0.184
+Primary energy,Gas,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.07,0.048,0.055,0.066,0.073,0.076,0.074
+Primary energy,Gas,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.11,0.095,0.114,0.123,0.132,0.139,0.154
+Primary energy,Gas,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.125,0.124,0.129,0.128,0.141,0.163,0.185
+Primary energy,Gas,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.124,0.123,0.127,0.134,0.133,0.136,0.147
+Primary energy,Gas,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.104,0.104,0.112,0.115,0.139,0.177,0.204
+Primary energy,Gas,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.094,0.088,0.082,0.079,0.079,0.079,0.08
+Primary energy,Gas,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.125,0.109,0.117,0.125,0.151,0.19,0.221
+Primary energy,Gas,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.118,0.104,0.124,0.115,0.101,0.1,0.098
+Primary energy,Gas,REMIND-MAgPIE,Below 2°C,EJ/yr,0.114,0.098,0.105,0.113,0.112,0.108,0.104
+Primary energy,Gas,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.116,0.104,0.109,0.118,0.126,0.133,0.137
+Primary energy,Gas,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.116,0.104,0.109,0.109,0.109,0.11,0.085
+Primary energy,Gas,REMIND-MAgPIE,Fragmented World,EJ/yr,0.115,0.102,0.107,0.115,0.122,0.127,0.126
+Primary energy,Gas,REMIND-MAgPIE,Low Demand,EJ/yr,0.112,0.096,0.098,0.098,0.098,0.088,0.068
+Primary energy,Gas,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.116,0.102,0.108,0.116,0.122,0.125,0.122
+Primary energy,Gas,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.088,0.066,0.066,0.065,0.061,0.062,0.055
+Final energy,Gases,GCAM,Below 2°C,EJ/yr,0.035,0.043,0.052,0.06,0.069,0.077,0.082
+Final energy,Gases,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.04,0.052,0.063,0.076,0.087,0.099,0.108
+Final energy,Gases,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.039,0.05,0.061,0.061,0.069,0.077,0.081
+Final energy,Gases,GCAM,Fragmented World,EJ/yr,0.037,0.047,0.057,0.068,0.078,0.088,0.095
+Final energy,Gases,GCAM,Low Demand,EJ/yr,0.034,0.041,0.048,0.055,0.061,0.06,0.058
+Final energy,Gases,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.041,0.052,0.065,0.077,0.09,0.103,0.113
+Final energy,Gases,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.034,0.041,0.048,0.055,0.06,0.058,0.057
+Final energy,Gases,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.048,0.064,0.078,0.088,0.1,0.118,0.137
+Final energy,Gases,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.048,0.066,0.082,0.096,0.109,0.124,0.142
+Final energy,Gases,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.046,0.061,0.076,0.085,0.096,0.109,0.127
+Final energy,Gases,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.046,0.062,0.076,0.088,0.1,0.118,0.145
+Final energy,Gases,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.04,0.052,0.061,0.067,0.069,0.073,0.076
+Final energy,Gases,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.051,0.068,0.083,0.099,0.111,0.129,0.157
+Final energy,Gases,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.053,0.072,0.089,0.104,0.112,0.122,0.133
+Final energy,Gases,REMIND-MAgPIE,Below 2°C,EJ/yr,0.037,0.046,0.054,0.06,0.065,0.066,0.067
+Final energy,Gases,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.038,0.048,0.057,0.065,0.071,0.075,0.078
+Final energy,Gases,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.037,0.047,0.056,0.058,0.062,0.068,0.058
+Final energy,Gases,REMIND-MAgPIE,Fragmented World,EJ/yr,0.036,0.045,0.054,0.061,0.067,0.07,0.072
+Final energy,Gases,REMIND-MAgPIE,Low Demand,EJ/yr,0.035,0.043,0.048,0.052,0.052,0.048,0.037
+Final energy,Gases,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.037,0.047,0.056,0.063,0.069,0.073,0.075
+Final energy,Gases,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.034,0.041,0.047,0.05,0.052,0.052,0.035
+Primary energy,Geothermal,GCAM,Below 2°C,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Current Policies (Hot house world scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Fragmented World,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Low Demand,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,REMIND-MAgPIE,Below 2°C,EJ/yr,0,0,0,0,0,0.001,0.001
+Primary energy,Geothermal,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0,0,0,0,0,0.001,0.001
+Primary energy,Geothermal,REMIND-MAgPIE,Fragmented World,EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,REMIND-MAgPIE,Low Demand,EJ/yr,0,0,0,0,0.001,0.002,0.003
+Primary energy,Geothermal,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0,0,0,0,0,0,0
+Primary energy,Geothermal,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0,0,0,0.001,0.003,0.004,0.006
+Final energy,Heat,GCAM,Below 2°C,EJ/yr,0.005,0.008,0.008,0.008,0.008,0.008,0.007
+Final energy,Heat,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.003,0.005,0.008,0.01,0.013,0.016,0.018
+Final energy,Heat,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.003,0.004,0.006,0.007,0.007,0.006,0.004
+Final energy,Heat,GCAM,Fragmented World,EJ/yr,0.003,0.005,0.007,0.007,0.006,0.006,0.006
+Final energy,Heat,GCAM,Low Demand,EJ/yr,0.008,0.011,0.011,0.011,0.01,0.005,0.002
+Final energy,Heat,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.004,0.006,0.008,0.011,0.014,0.017,0.018
+Final energy,Heat,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.008,0.012,0.012,0.011,0.009,0.003,0.001
+Final energy,Heat,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.004,0.007,0.013,0.016,0.018,0.015,0.017
+Final energy,Heat,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.003,0.005,0.008,0.011,0.013,0.012,0.011
+Final energy,Heat,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.002,0.004,0.006,0.01,0.011,0.01,0.009
+Final energy,Heat,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.002,0.004,0.007,0.009,0.01,0.009,0.009
+Final energy,Heat,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.004,0.007,0.008,0.008,0.006,0.005,0.005
+Final energy,Heat,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.003,0.006,0.01,0.013,0.015,0.014,0.014
+Final energy,Heat,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.007,0.013,0.018,0.016,0.017,0.013,0.01
+Final energy,Heat,REMIND-MAgPIE,Below 2°C,EJ/yr,0.002,0.004,0.005,0.006,0.007,0.007,0.007
+Final energy,Heat,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.003,0.004,0.006,0.008,0.009,0.01,0.011
+Final energy,Heat,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.002,0.003,0.005,0.005,0.005,0.005,0.006
+Final energy,Heat,REMIND-MAgPIE,Fragmented World,EJ/yr,0.002,0.003,0.004,0.005,0.006,0.007,0.007
+Final energy,Heat,REMIND-MAgPIE,Low Demand,EJ/yr,0.003,0.005,0.007,0.008,0.008,0.009,0.011
+Final energy,Heat,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.002,0.004,0.006,0.007,0.009,0.01,0.01
+Final energy,Heat,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.003,0.005,0.007,0.008,0.01,0.012,0.016
+Primary energy,Hydro,GCAM,Below 2°C,EJ/yr,0.003,0.004,0.005,0.006,0.008,0.009,0.01
+Primary energy,Hydro,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.002,0.003,0.003,0.004,0.005,0.006,0.007
+Primary energy,Hydro,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.002,0.002,0.003,0.005,0.005,0.006,0.006
+Primary energy,Hydro,GCAM,Fragmented World,EJ/yr,0.002,0.003,0.004,0.004,0.005,0.006,0.007
+Primary energy,Hydro,GCAM,Low Demand,EJ/yr,0.003,0.005,0.006,0.007,0.009,0.01,0.011
+Primary energy,Hydro,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.002,0.003,0.003,0.004,0.005,0.006,0.007
+Primary energy,Hydro,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.004,0.005,0.006,0.008,0.01,0.011,0.013
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.003,0.005,0.006,0.007,0.009,0.01,0.011
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.002,0.004,0.005,0.006,0.007,0.009,0.01
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.002,0.003,0.004,0.006,0.007,0.008,0.009
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.002,0.003,0.004,0.005,0.007,0.008,0.009
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.003,0.005,0.006,0.007,0.009,0.01,0.012
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.003,0.004,0.005,0.006,0.007,0.009,0.01
+Primary energy,Hydro,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.005,0.007,0.008,0.01,0.011,0.012,0.014
+Primary energy,Hydro,REMIND-MAgPIE,Below 2°C,EJ/yr,0.002,0.004,0.005,0.006,0.007,0.008,0.009
+Primary energy,Hydro,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.002,0.003,0.005,0.006,0.007,0.009,0.01
+Primary energy,Hydro,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.002,0.003,0.004,0.005,0.005,0.006,0.007
+Primary energy,Hydro,REMIND-MAgPIE,Fragmented World,EJ/yr,0.002,0.003,0.004,0.005,0.006,0.007,0.008
+Primary energy,Hydro,REMIND-MAgPIE,Low Demand,EJ/yr,0.003,0.004,0.005,0.006,0.008,0.009,0.011
+Primary energy,Hydro,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.002,0.004,0.005,0.006,0.007,0.008,0.01
+Primary energy,Hydro,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.003,0.005,0.006,0.007,0.008,0.01,0.011
+Final energy,Hydrogen,GCAM,Below 2°C,EJ/yr,0,0.001,0.004,0.009,0.013,0.016,0.02
+Final energy,Hydrogen,GCAM,Current Policies (Hot house world scenario),EJ/yr,0,0.001,0.003,0.007,0.011,0.013,0.016
+Final energy,Hydrogen,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0,0.001,0.003,0.008,0.012,0.015,0.022
+Final energy,Hydrogen,GCAM,Fragmented World,EJ/yr,0,0.001,0.003,0.007,0.011,0.013,0.016
+Final energy,Hydrogen,GCAM,Low Demand,EJ/yr,0,0.001,0.005,0.011,0.016,0.031,0.069
+Final energy,Hydrogen,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0,0.001,0.003,0.007,0.011,0.014,0.016
+Final energy,Hydrogen,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0,0.001,0.005,0.012,0.018,0.045,0.07
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0,0,0.001,0.001,0.002,0.003,0.006
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0,0,0.001,0.001,0.001,0.001,0.002
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0,0,0.001,0.001,0.002,0.003,0.006
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0,0,0.001,0.001,0.001,0.001,0.002
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0,0.001,0.003,0.007,0.007,0.01,0.019
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0,0,0.001,0.001,0.001,0.002,0.002
+Final energy,Hydrogen,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0,0.001,0.001,0.002,0.002,0.002,0.002
+Emissions and CCS,Industrial processes CCS,GCAM,Below 2°C,Mt CO2/yr,0,0.031,0.282,0.686,1.204,1.601,1.892
+Emissions and CCS,Industrial processes CCS,GCAM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0.029,0.127,0.241,0.312,0.377,0.429
+Emissions and CCS,Industrial processes CCS,GCAM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0.028,0.122,0.407,0.89,1.411,1.954
+Emissions and CCS,Industrial processes CCS,GCAM,Fragmented World,Mt CO2/yr,0,0.027,0.12,0.368,0.727,1.128,1.48
+Emissions and CCS,Industrial processes CCS,GCAM,Low Demand,Mt CO2/yr,0,0.029,0.311,0.84,1.804,2.701,3.524
+Emissions and CCS,Industrial processes CCS,GCAM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0.026,0.124,0.241,0.315,0.384,0.456
+Emissions and CCS,Industrial processes CCS,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0.037,0.419,1.047,2.132,2.87,3.523
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2/yr,0,0,0.03,0.035,0.378,0.528,0.555
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0.161,0.306,0.319
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0.159
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Low Demand,Mt CO2/yr,0,0,0,0.203,1.581,3.494,4
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Industrial processes CCS,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,1.15,3.256,3.262,3.089,2.95
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Below 2°C,Mt CO2/yr,0,0,0,0,0.225,0.485,0.725
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0.213,0.427,0.679
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Low Demand,Mt CO2/yr,0,0,0,0.19,0.392,0.666,1.01
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,Industrial processes CCS,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0.18,0.36,0.581,0.846,1.02
+Final energy,Liquids,GCAM,Below 2°C,EJ/yr,0.116,0.128,0.14,0.15,0.159,0.164,0.166
+Final energy,Liquids,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.125,0.141,0.157,0.17,0.183,0.192,0.201
+Final energy,Liquids,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.124,0.139,0.155,0.152,0.162,0.168,0.167
+Final energy,Liquids,GCAM,Fragmented World,EJ/yr,0.121,0.136,0.15,0.161,0.173,0.179,0.185
+Final energy,Liquids,GCAM,Low Demand,EJ/yr,0.113,0.122,0.131,0.137,0.141,0.13,0.117
+Final energy,Liquids,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.124,0.14,0.156,0.168,0.181,0.19,0.199
+Final energy,Liquids,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.111,0.121,0.129,0.135,0.139,0.124,0.114
+Final energy,Liquids,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.128,0.147,0.172,0.202,0.222,0.215,0.206
+Final energy,Liquids,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.138,0.16,0.186,0.229,0.254,0.255,0.246
+Final energy,Liquids,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.135,0.158,0.183,0.205,0.223,0.217,0.208
+Final energy,Liquids,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.134,0.156,0.181,0.22,0.245,0.246,0.243
+Final energy,Liquids,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.129,0.15,0.164,0.181,0.189,0.183,0.165
+Final energy,Liquids,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.137,0.16,0.185,0.228,0.251,0.25,0.241
+Final energy,Liquids,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.124,0.141,0.161,0.181,0.186,0.173,0.152
+Final energy,Liquids,REMIND-MAgPIE,Below 2°C,EJ/yr,0.116,0.128,0.136,0.142,0.143,0.143,0.141
+Final energy,Liquids,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.116,0.128,0.138,0.145,0.151,0.155,0.158
+Final energy,Liquids,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.116,0.127,0.137,0.141,0.139,0.145,0.146
+Final energy,Liquids,REMIND-MAgPIE,Fragmented World,EJ/yr,0.116,0.128,0.138,0.145,0.149,0.151,0.151
+Final energy,Liquids,REMIND-MAgPIE,Low Demand,EJ/yr,0.113,0.123,0.125,0.126,0.121,0.113,0.11
+Final energy,Liquids,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.118,0.13,0.14,0.147,0.152,0.155,0.157
+Final energy,Liquids,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.115,0.125,0.131,0.131,0.124,0.115,0.117
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Below 2°C,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Low Demand,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Low Demand,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Below 2°C,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Fragmented World,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Low Demand,Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2/yr,0,0,0,0,0,0,0
+Emissions and CCS,LULUCF CO2 emissions,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2/yr,0,0,0,0,0,0,0
+Primary energy,Nuclear,GCAM,Below 2°C,EJ/yr,0,0.001,0.001,0.001,0.001,0.001,0.001
+Primary energy,Nuclear,GCAM,Current Policies (Hot house world scenario),EJ/yr,0,0,0,0.001,0.001,0.001,0.001
+Primary energy,Nuclear,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0,0,0,0.001,0.001,0.001,0.001
+Primary energy,Nuclear,GCAM,Fragmented World,EJ/yr,0,0,0,0.001,0.001,0.001,0.001
+Primary energy,Nuclear,GCAM,Low Demand,EJ/yr,0.001,0.001,0.001,0.001,0.001,0.002,0.003
+Primary energy,Nuclear,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0,0,0.001,0.001,0.001,0.001,0.001
+Primary energy,Nuclear,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.001,0.001,0.001,0.001,0.002,0.003,0.004
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.001,0.001,0.002,0.003,0.005,0.007,0.011
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.001,0.001,0.001,0.002,0.002,0.002,0.003
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0,0.001,0.001,0.002,0.003,0.005,0.008
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.001,0.001,0.001,0.002,0.002,0.002,0.002
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.001,0.001,0.002,0.003,0.005,0.007,0.009
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.001,0.001,0.001,0.001,0.002,0.002,0.002
+Primary energy,Nuclear,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.001,0.001,0.002,0.004,0.007,0.011,0.017
+Primary energy,Nuclear,REMIND-MAgPIE,Below 2°C,EJ/yr,0.001,0.001,0.002,0.002,0.003,0.004,0.005
+Primary energy,Nuclear,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.001,0.001,0.002,0.002,0.003,0.004,0.005
+Primary energy,Nuclear,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0,0.001,0.001,0.002,0.002,0.003,0.003
+Primary energy,Nuclear,REMIND-MAgPIE,Fragmented World,EJ/yr,0.001,0.001,0.001,0.002,0.003,0.003,0.004
+Primary energy,Nuclear,REMIND-MAgPIE,Low Demand,EJ/yr,0.001,0.001,0.002,0.003,0.004,0.004,0.005
+Primary energy,Nuclear,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.001,0.001,0.002,0.002,0.003,0.004,0.004
+Primary energy,Nuclear,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.001,0.002,0.003,0.004,0.005,0.006,0.007
+Primary energy,Oil,GCAM,Below 2°C,EJ/yr,0.163,0.182,0.21,0.231,0.254,0.266,0.278
+Primary energy,Oil,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.193,0.215,0.233,0.25,0.265,0.272,0.278
+Primary energy,Oil,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.192,0.214,0.232,0.228,0.256,0.272,0.293
+Primary energy,Oil,GCAM,Fragmented World,EJ/yr,0.18,0.201,0.22,0.246,0.27,0.289,0.3
+Primary energy,Oil,GCAM,Low Demand,EJ/yr,0.159,0.177,0.204,0.224,0.25,0.279,0.268
+Primary energy,Oil,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.189,0.21,0.233,0.251,0.268,0.278,0.287
+Primary energy,Oil,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.157,0.175,0.206,0.227,0.248,0.293,0.211
+Primary energy,Oil,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.09,0.108,0.12,0.148,0.163,0.147,0.13
+Primary energy,Oil,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.145,0.169,0.2,0.218,0.244,0.246,0.234
+Primary energy,Oil,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.145,0.169,0.199,0.148,0.158,0.139,0.123
+Primary energy,Oil,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.122,0.148,0.178,0.197,0.222,0.218,0.187
+Primary energy,Oil,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.17,0.191,0.176,0.166,0.163,0.168,0.156
+Primary energy,Oil,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.129,0.154,0.184,0.199,0.224,0.219,0.191
+Primary energy,Oil,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.087,0.103,0.105,0.121,0.121,0.112,0.098
+Primary energy,Oil,REMIND-MAgPIE,Below 2°C,EJ/yr,0.13,0.139,0.146,0.151,0.155,0.151,0.138
+Primary energy,Oil,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.135,0.146,0.156,0.162,0.169,0.167,0.16
+Primary energy,Oil,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.135,0.145,0.155,0.151,0.148,0.149,0.135
+Primary energy,Oil,REMIND-MAgPIE,Fragmented World,EJ/yr,0.139,0.148,0.157,0.162,0.166,0.161,0.15
+Primary energy,Oil,REMIND-MAgPIE,Low Demand,EJ/yr,0.122,0.133,0.135,0.137,0.136,0.128,0.121
+Primary energy,Oil,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.141,0.15,0.16,0.166,0.173,0.172,0.168
+Primary energy,Oil,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.121,0.129,0.134,0.135,0.135,0.122,0.097
+Carbon price,Price: Carbon,GCAM,Below 2°C,US$2010/t CO2,0,2.567,51.99,83.971,111.992,145.412,228.693
+Carbon price,Price: Carbon,GCAM,Current Policies (Hot house world scenario),US$2010/t CO2,0,0,0,0,0,0,0
+Carbon price,Price: Carbon,GCAM,Delayed Transition (Disorderly scenario),US$2010/t CO2,0,0,0,52.429,104.915,162.339,427.409
+Carbon price,Price: Carbon,GCAM,Fragmented World,US$2010/t CO2,0,0,0,38.672,80.64,120.124,173.505
+Carbon price,Price: Carbon,GCAM,Low Demand,US$2010/t CO2,0,0,63.497,117.238,189.335,644.47,"1,002.11"
+Carbon price,Price: Carbon,GCAM,Nationally Determined Contributions (NDCs),US$2010/t CO2,0,0,0,0,0,0,4.136
+Carbon price,Price: Carbon,GCAM,Net Zero 2050 (Orderly scenario),US$2010/t CO2,0,6.82,98.455,166.334,270.729,918.286,"1,389.28"
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Below 2°C,US$2010/t CO2,0,0,41.67,54.906,71.125,93.019,114.184
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),US$2010/t CO2,0,0,0,2.158,4.316,6.474,8.632
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),US$2010/t CO2,0,0,0,77.225,96.678,123.472,156.078
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Fragmented World,US$2010/t CO2,0,0,0,5.807,14.923,1.252,34.815
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Low Demand,US$2010/t CO2,0,0,219.285,267.005,341.207,457.62,558.049
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),US$2010/t CO2,0,0,0,7.976,15.952,23.927,31.903
+Carbon price,Price: Carbon,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),US$2010/t CO2,0,0,668.32,636.404,824.325,"1,029.26","1,245.45"
+Carbon price,Price: Carbon,REMIND-MAgPIE,Below 2°C,US$2010/t CO2,5.539,32.091,44.304,59.173,77.833,101.421,131.075
+Carbon price,Price: Carbon,REMIND-MAgPIE,Current Policies (Hot house world scenario),US$2010/t CO2,5.539,5.561,5.63,5.751,5.929,6.169,6.477
+Carbon price,Price: Carbon,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),US$2010/t CO2,5.539,5.561,5.63,116.292,204.124,319.646,464.266
+Carbon price,Price: Carbon,REMIND-MAgPIE,Fragmented World,US$2010/t CO2,5.539,5.561,5.63,21.394,38.924,62.872,93.966
+Carbon price,Price: Carbon,REMIND-MAgPIE,Low Demand,US$2010/t CO2,5.539,76.323,105.364,140.727,185.102,241.197,311.715
+Carbon price,Price: Carbon,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),US$2010/t CO2,5.539,3.323,1.108,8.229,15.35,22.471,29.593
+Carbon price,Price: Carbon,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),US$2010/t CO2,5.539,128.894,177.938,254.782,355.428,484.434,646.352
+Energy prices,Price: Coal,GCAM,Below 2°C,US$2010/GJ,1.98,2.057,2.17,2.174,2.157,2.17,2.356
+Energy prices,Price: Coal,GCAM,Current Policies (Hot house world scenario),US$2010/GJ,1.98,2.034,2.145,2.189,2.2,2.229,2.243
+Energy prices,Price: Coal,GCAM,Delayed Transition (Disorderly scenario),US$2010/GJ,1.98,2.034,2.145,2.13,2.058,1.939,2.995
+Energy prices,Price: Coal,GCAM,Fragmented World,US$2010/GJ,1.98,2.034,2.145,2.083,2.001,2.053,1.902
+Energy prices,Price: Coal,GCAM,Low Demand,US$2010/GJ,1.98,2.043,1.996,1.995,1.91,3.247,3.765
+Energy prices,Price: Coal,GCAM,Nationally Determined Contributions (NDCs),US$2010/GJ,1.98,2.009,2.074,2.126,2.131,2.154,2.15
+Energy prices,Price: Coal,GCAM,Net Zero 2050 (Orderly scenario),US$2010/GJ,1.98,2.051,1.98,1.89,2.354,3.72,4.34
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Below 2°C,US$2010/GJ,2.448,2.451,1.716,1.988,1.861,2.31,2.073
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),US$2010/GJ,2.448,2.451,2.487,2.499,2.565,2.569,2.659
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),US$2010/GJ,2.448,2.451,2.487,2.039,2.085,2.378,2.443
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Fragmented World,US$2010/GJ,2.448,2.451,2.487,2.779,2.631,2.559,2.826
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Low Demand,US$2010/GJ,2.448,2.451,2.989,2.807,3.748,3.865,5.03
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),US$2010/GJ,2.448,2.451,2.487,2.561,2.656,1.853,2.515
+Energy prices,Price: Coal,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),US$2010/GJ,2.448,2.451,5.44,4.866,6.416,7.027,8.86
+Energy prices,Price: Coal,REMIND-MAgPIE,Below 2°C,US$2010/GJ,2.034,2.161,1.783,1.615,1.419,1.423,1.494
+Energy prices,Price: Coal,REMIND-MAgPIE,Current Policies (Hot house world scenario),US$2010/GJ,2.034,2.223,2.263,2.307,2.384,2.5,2.793
+Energy prices,Price: Coal,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),US$2010/GJ,2.034,2.223,2.263,2.3,1.886,1.427,1.478
+Energy prices,Price: Coal,REMIND-MAgPIE,Fragmented World,US$2010/GJ,2.034,2.223,2.263,2.246,2.107,2.036,2.477
+Energy prices,Price: Coal,REMIND-MAgPIE,Low Demand,US$2010/GJ,2.034,2.329,1.629,1.221,1.26,1.194,1.557
+Energy prices,Price: Coal,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),US$2010/GJ,2.034,2.132,2.088,2.08,1.949,1.835,1.925
+Energy prices,Price: Coal,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),US$2010/GJ,2.034,2.617,1.777,1.444,1.374,1.442,1.739
+Energy prices,Price: Gas,GCAM,Below 2°C,US$2010/GJ,5.923,6.311,6.627,7.029,7.457,7.823,8.181
+Energy prices,Price: Gas,GCAM,Current Policies (Hot house world scenario),US$2010/GJ,5.923,6.151,6.154,6.262,6.462,6.532,6.625
+Energy prices,Price: Gas,GCAM,Delayed Transition (Disorderly scenario),US$2010/GJ,5.923,6.151,6.154,6.678,7.213,7.664,8.457
+Energy prices,Price: Gas,GCAM,Fragmented World,US$2010/GJ,5.923,6.151,6.154,6.395,6.712,6.84,6.904
+Energy prices,Price: Gas,GCAM,Low Demand,US$2010/GJ,5.923,6.168,6.393,6.959,7.598,9.02,9.776
+Energy prices,Price: Gas,GCAM,Nationally Determined Contributions (NDCs),US$2010/GJ,5.923,6.168,6.201,6.308,6.492,6.523,6.578
+Energy prices,Price: Gas,GCAM,Net Zero 2050 (Orderly scenario),US$2010/GJ,5.923,6.337,6.955,7.629,8.317,10.191,11.116
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Below 2°C,US$2010/GJ,3.605,3.701,4.52,5.385,5.761,5.867,5.355
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),US$2010/GJ,3.605,3.671,3.813,4.251,4.691,5.148,5.569
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),US$2010/GJ,3.605,3.671,3.813,6.615,6.123,4.806,5.429
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Fragmented World,US$2010/GJ,3.605,3.671,3.813,4.927,5.471,5.246,5.659
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Low Demand,US$2010/GJ,3.605,3.701,6.103,2.469,4.172,4.283,4.767
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),US$2010/GJ,3.605,3.701,3.936,4.645,5.499,5.419,5.675
+Energy prices,Price: Gas,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),US$2010/GJ,3.605,3.701,13.259,1.346,6.744,6.558,2.959
+Energy prices,Price: Gas,REMIND-MAgPIE,Below 2°C,US$2010/GJ,3.971,4.599,4.468,5.204,5.145,4.865,4.905
+Energy prices,Price: Gas,REMIND-MAgPIE,Current Policies (Hot house world scenario),US$2010/GJ,3.971,4.665,4.63,5.03,5.284,5.56,5.759
+Energy prices,Price: Gas,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),US$2010/GJ,3.971,4.665,4.63,5.732,5.35,4.777,4.194
+Energy prices,Price: Gas,REMIND-MAgPIE,Fragmented World,US$2010/GJ,3.971,4.665,4.63,4.854,5.245,5.567,5.639
+Energy prices,Price: Gas,REMIND-MAgPIE,Low Demand,US$2010/GJ,3.971,4.657,4.335,5.236,4.711,4.126,4.103
+Energy prices,Price: Gas,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),US$2010/GJ,3.971,4.541,4.33,4.77,5.074,5.409,5.374
+Energy prices,Price: Gas,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),US$2010/GJ,3.971,5.147,5.531,5.921,5.912,4.965,4.413
+Energy prices,Price: Oil,GCAM,Below 2°C,US$2010/GJ,15.449,15.994,16.546,16.636,16.627,16.605,16.467
+Energy prices,Price: Oil,GCAM,Current Policies (Hot house world scenario),US$2010/GJ,15.449,15.693,15.925,15.909,15.901,15.885,15.607
+Energy prices,Price: Oil,GCAM,Delayed Transition (Disorderly scenario),US$2010/GJ,15.449,15.693,15.925,16.428,16.533,16.358,16.135
+Energy prices,Price: Oil,GCAM,Fragmented World,US$2010/GJ,15.449,15.693,15.925,16.109,16.136,16.079,15.596
+Energy prices,Price: Oil,GCAM,Low Demand,US$2010/GJ,15.449,15.628,15.865,15.974,16.26,17.004,16.981
+Energy prices,Price: Oil,GCAM,Nationally Determined Contributions (NDCs),US$2010/GJ,15.449,15.7,15.915,15.88,15.902,15.924,15.709
+Energy prices,Price: Oil,GCAM,Net Zero 2050 (Orderly scenario),US$2010/GJ,15.449,16.039,16.821,17.101,17.542,18.9,19.072
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Below 2°C,US$2010/GJ,3.522,3.675,3.618,4.057,4.202,4.338,5.235
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),US$2010/GJ,3.522,3.677,3.997,4.377,4.913,4.798,5.32
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),US$2010/GJ,3.522,3.677,3.997,4.236,4.771,3.484,4.776
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Fragmented World,US$2010/GJ,3.522,3.677,3.997,4.439,4.606,4.674,5.559
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Low Demand,US$2010/GJ,3.522,3.675,2.798,2.688,4.037,8.222,3.065
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),US$2010/GJ,3.522,3.675,4.011,4.339,4.903,4.45,4.988
+Energy prices,Price: Oil,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),US$2010/GJ,3.522,3.675,5.249,5.349,9.5,3.526,4.061
+Energy prices,Price: Oil,REMIND-MAgPIE,Below 2°C,US$2010/GJ,11.192,12.394,13.194,13.153,14.381,15.788,17.037
+Energy prices,Price: Oil,REMIND-MAgPIE,Current Policies (Hot house world scenario),US$2010/GJ,11.192,12.923,13.74,14.086,15.75,17.553,19.451
+Energy prices,Price: Oil,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),US$2010/GJ,11.192,12.923,13.74,13.634,14.38,15.898,17.166
+Energy prices,Price: Oil,REMIND-MAgPIE,Fragmented World,US$2010/GJ,11.192,12.923,13.74,13.845,15.306,17.041,18.678
+Energy prices,Price: Oil,REMIND-MAgPIE,Low Demand,US$2010/GJ,11.192,11.737,11.065,11.347,12.104,12.951,13.765
+Energy prices,Price: Oil,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),US$2010/GJ,11.192,12.803,13.479,13.705,15.312,17.12,18.794
+Energy prices,Price: Oil,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),US$2010/GJ,11.192,12.124,12.634,12.286,12.966,13.827,14.505
+Primary energy,Solar,GCAM,Below 2°C,EJ/yr,0.031,0.09,0.11,0.127,0.146,0.168,0.188
+Primary energy,Solar,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.031,0.088,0.112,0.127,0.139,0.154,0.167
+Primary energy,Solar,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.031,0.088,0.113,0.129,0.146,0.168,0.189
+Primary energy,Solar,GCAM,Fragmented World,EJ/yr,0.031,0.089,0.113,0.128,0.142,0.163,0.183
+Primary energy,Solar,GCAM,Low Demand,EJ/yr,0.031,0.087,0.108,0.126,0.147,0.166,0.182
+Primary energy,Solar,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.031,0.089,0.109,0.124,0.136,0.151,0.166
+Primary energy,Solar,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.031,0.09,0.109,0.133,0.153,0.174,0.195
+Primary energy,Solar,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.205,0.191,0.178,0.194,0.213,0.228,0.245
+Primary energy,Solar,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.205,0.22,0.252,0.267,0.292,0.291,0.305
+Primary energy,Solar,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.206,0.222,0.255,0.186,0.202,0.215,0.227
+Primary energy,Solar,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.206,0.222,0.255,0.268,0.249,0.229,0.249
+Primary energy,Solar,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.203,0.188,0.167,0.193,0.191,0.2,0.205
+Primary energy,Solar,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.205,0.19,0.195,0.224,0.23,0.226,0.231
+Primary energy,Solar,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.203,0.189,0.152,0.174,0.171,0.188,0.203
+Primary energy,Solar,REMIND-MAgPIE,Below 2°C,EJ/yr,0.074,0.13,0.183,0.217,0.242,0.228,0.275
+Primary energy,Solar,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.074,0.123,0.165,0.192,0.217,0.233,0.242
+Primary energy,Solar,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.074,0.124,0.167,0.2,0.236,0.278,0.278
+Primary energy,Solar,REMIND-MAgPIE,Fragmented World,EJ/yr,0.074,0.124,0.167,0.194,0.223,0.245,0.261
+Primary energy,Solar,REMIND-MAgPIE,Low Demand,EJ/yr,0.073,0.121,0.175,0.199,0.207,0.215,0.221
+Primary energy,Solar,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.074,0.128,0.176,0.206,0.235,0.255,0.268
+Primary energy,Solar,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.073,0.129,0.186,0.215,0.236,0.256,0.286
+Final energy,Solids,GCAM,Below 2°C,EJ/yr,0.135,0.137,0.137,0.135,0.134,0.133,0.131
+Final energy,Solids,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.144,0.149,0.154,0.158,0.161,0.167,0.171
+Final energy,Solids,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.143,0.148,0.153,0.14,0.139,0.14,0.137
+Final energy,Solids,GCAM,Fragmented World,EJ/yr,0.138,0.141,0.143,0.143,0.142,0.143,0.142
+Final energy,Solids,GCAM,Low Demand,EJ/yr,0.131,0.131,0.128,0.124,0.12,0.111,0.1
+Final energy,Solids,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.14,0.145,0.149,0.151,0.154,0.159,0.161
+Final energy,Solids,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.13,0.13,0.128,0.124,0.119,0.108,0.099
+Final energy,Solids,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.101,0.087,0.075,0.065,0.059,0.057,0.058
+Final energy,Solids,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.105,0.092,0.081,0.074,0.069,0.069,0.072
+Final energy,Solids,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.105,0.092,0.08,0.068,0.061,0.059,0.06
+Final energy,Solids,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.102,0.089,0.076,0.068,0.062,0.061,0.063
+Final energy,Solids,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.102,0.088,0.073,0.063,0.056,0.053,0.052
+Final energy,Solids,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.103,0.09,0.078,0.071,0.065,0.065,0.067
+Final energy,Solids,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.1,0.086,0.074,0.064,0.055,0.051,0.05
+Final energy,Solids,REMIND-MAgPIE,Below 2°C,EJ/yr,0.126,0.121,0.111,0.105,0.1,0.1,0.099
+Final energy,Solids,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.133,0.131,0.124,0.122,0.124,0.131,0.135
+Final energy,Solids,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.133,0.131,0.124,0.109,0.105,0.079,0.077
+Final energy,Solids,REMIND-MAgPIE,Fragmented World,EJ/yr,0.129,0.125,0.117,0.114,0.112,0.112,0.111
+Final energy,Solids,REMIND-MAgPIE,Low Demand,EJ/yr,0.122,0.115,0.101,0.091,0.085,0.083,0.081
+Final energy,Solids,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.128,0.124,0.117,0.112,0.111,0.111,0.109
+Final energy,Solids,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.12,0.113,0.1,0.09,0.08,0.071,0.069
+Emissions and CCS,Total non-CO2 emissions,GCAM,Below 2°C,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Current Policies (Hot house world scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Delayed Transition (Disorderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Fragmented World,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Low Demand,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Nationally Determined Contributions (NDCs),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,GCAM,Net Zero 2050 (Orderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Below 2°C,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Fragmented World,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Low Demand,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Below 2°C,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Current Policies (Hot house world scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Fragmented World,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Low Demand,Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Emissions and CCS,Total non-CO2 emissions,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),Mt CO2-equiv/yr,4.28,3.567,2.854,2.14,1.427,0.713,0
+Primary energy,Wind,GCAM,Below 2°C,EJ/yr,0.089,0.112,0.13,0.147,0.159,0.169,0.179
+Primary energy,Wind,GCAM,Current Policies (Hot house world scenario),EJ/yr,0.088,0.106,0.116,0.129,0.139,0.147,0.152
+Primary energy,Wind,GCAM,Delayed Transition (Disorderly scenario),EJ/yr,0.089,0.106,0.117,0.139,0.155,0.166,0.181
+Primary energy,Wind,GCAM,Fragmented World,EJ/yr,0.089,0.107,0.118,0.135,0.15,0.16,0.169
+Primary energy,Wind,GCAM,Low Demand,EJ/yr,0.088,0.108,0.126,0.146,0.161,0.175,0.185
+Primary energy,Wind,GCAM,Nationally Determined Contributions (NDCs),EJ/yr,0.088,0.108,0.121,0.134,0.145,0.152,0.156
+Primary energy,Wind,GCAM,Net Zero 2050 (Orderly scenario),EJ/yr,0.088,0.112,0.137,0.155,0.169,0.184,0.194
+Primary energy,Wind,MESSAGEix-GLOBIOM,Below 2°C,EJ/yr,0.061,0.108,0.124,0.117,0.115,0.118,0.122
+Primary energy,Wind,MESSAGEix-GLOBIOM,Current Policies (Hot house world scenario),EJ/yr,0.061,0.107,0.127,0.119,0.099,0.114,0.121
+Primary energy,Wind,MESSAGEix-GLOBIOM,Delayed Transition (Disorderly scenario),EJ/yr,0.061,0.108,0.129,0.136,0.119,0.127,0.133
+Primary energy,Wind,MESSAGEix-GLOBIOM,Fragmented World,EJ/yr,0.061,0.108,0.129,0.109,0.119,0.144,0.155
+Primary energy,Wind,MESSAGEix-GLOBIOM,Low Demand,EJ/yr,0.06,0.106,0.131,0.114,0.111,0.118,0.131
+Primary energy,Wind,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),EJ/yr,0.061,0.107,0.125,0.131,0.125,0.136,0.157
+Primary energy,Wind,MESSAGEix-GLOBIOM,Net Zero 2050 (Orderly scenario),EJ/yr,0.061,0.107,0.141,0.133,0.136,0.149,0.156
+Primary energy,Wind,REMIND-MAgPIE,Below 2°C,EJ/yr,0.081,0.092,0.097,0.116,0.13,0.127,0.158
+Primary energy,Wind,REMIND-MAgPIE,Current Policies (Hot house world scenario),EJ/yr,0.081,0.092,0.096,0.108,0.114,0.119,0.126
+Primary energy,Wind,REMIND-MAgPIE,Delayed Transition (Disorderly scenario),EJ/yr,0.081,0.093,0.097,0.11,0.118,0.137,0.143
+Primary energy,Wind,REMIND-MAgPIE,Fragmented World,EJ/yr,0.081,0.093,0.097,0.111,0.119,0.129,0.14
+Primary energy,Wind,REMIND-MAgPIE,Low Demand,EJ/yr,0.08,0.094,0.099,0.119,0.13,0.138,0.145
+Primary energy,Wind,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),EJ/yr,0.081,0.09,0.093,0.106,0.116,0.126,0.136
+Primary energy,Wind,REMIND-MAgPIE,Net Zero 2050 (Orderly scenario),EJ/yr,0.08,0.093,0.104,0.127,0.141,0.158,0.177
