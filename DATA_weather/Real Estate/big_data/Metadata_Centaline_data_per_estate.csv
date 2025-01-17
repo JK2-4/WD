@@ -1,0 +1,185 @@
+Field,Item Name
+T_POP,Total stock
+DH_R4,Total saleable area
+WP,Average building age
+WP_EE,Average saleable area of units
+DHI_2,Pre 1970
+DHI_3,1970-79
+DHI_XFDH_1,1980-89
+DHI_XFDH_2,1990-99
+DHI_XFDH_3,2000-09
+DHN_C,Post 2009
+MA_O,Pre 1970
+MA_F,1970-79
+SR,1980-89
+AGE_1,1990-99
+AGE_2,2000-09
+AGE_3,Post 2009
+DHN_NC,Class A
+MA_HH,Class B
+DH_R1,Class C
+DH_R3,Class D&E
+NM_F,Class A
+BORN_HK,Class B
+BORN_CHI,Class C
+BORN_ELSE,Class D&E
+S_BUS,Transaction volume
+S_MTR,Transaction amount
+S_FOOT,Transaction area
+S_SB,Average unit price
+S_OTH,Turnover rate
+WHR_1_XFDH,Pre 1970
+WHR_2_XFDH,1970-79
+WHR_3_XFDH,1980-89
+WP_DC,1990-99
+WP_BUS,2000-09
+WP_MTR,Post 2009
+WP_FOOT,Pre 1970
+WP_PLB,1970-79
+WP_OTH,1980-89
+NWP,1990-99
+NWP_STU,2000-09
+NWP_NONSTU,Post 2009
+DHZ_1,Class A
+DHZ_2,Class B
+DHZ_3,Class C
+ADHZ,Class D&E
+DHC_1,Class A
+DHC_2,Class B
+DHC_3,Class C
+DHI_1,Class D&E
+UL_ENG,Transaction volume
+EDU_PRI,Transaction amount
+EDU_SEC,Transaction area
+EDU_TER,Average unit price
+S_DC,Turnover rate
+WP_ER,Pre 1970
+WP_FW,1970-79
+WP_A,1980-89
+WP_B,1990-99
+WP_C,2000-09
+WP_D,Post 2009
+WP_E,Pre 1970
+WP_F,1970-79
+WP_G,1980-89
+WP_H,1990-99
+WP_I,2000-09
+MI_1,Post 2009
+MI_2,Class A
+MI_3,Class B
+MI_1_XFDH,Class C
+MI_2_XFDH,Class D&E
+MI_3_XFDH,Class A
+WHR_1,Class B
+WHR_2,Class C
+WHR_3,Class D&E
+CENSUS_T_POP,Totalpopulation
+CENSUS_SR,Sex ratio
+CENSUS_AGE_1,< 15
+CENSUS_AGE_2,15 - 39
+CENSUS_AGE_3,40 - 64
+CENSUS_AGE_4,65 +
+CENSUS_MA_M,Male
+CENSUS_MA_F,Female
+CENSUS_MA_O,Both sexes
+CENSUS_NM_M,Never-married male
+CENSUS_NM_F,Never-married female
+CENSUS_UL_CAN,Cantonese
+CENSUS_UL_PUT,Putonghua and other Chinese dialects
+CENSUS_UL_ENG,English and other languages
+CENSUS_BORN_HK,Hong Kong
+CENSUS_BORN_CHI,The mainland of China/ Macao/ Taiwan
+CENSUS_BORN_ELSE,Elsewhere
+CENSUS_EDU_PRI,Primary and below
+CENSUS_EDU_SEC,Secondary
+CENSUS_EDU_TER,Post-secondary
+CENSUS_S_DC,Studying and living  in the same District Council district
+CENSUS_S_MTR,Mass Transit Railway (Local line)
+CENSUS_S_FOOT,On foot only
+CENSUS_S_BUS,Bus
+CENSUS_S_SB,School bus/ school private light bus
+CENSUS_S_OTH,Others #
+CENSUS_WP,Working population
+CENSUS_WP_EE,Employees
+CENSUS_WP_ER,Employers
+CENSUS_WP_FW,Self-employed and unpaid family workers
+CENSUS_NWP,Non-working population
+CENSUS_NWP_STU,Students
+CENSUS_NWP_NONSTU,Non-students #
+CENSUS_WP_A,Managers
+CENSUS_WP_B,Professionals and associate professionals
+CENSUS_WP_C,Clerical support workers and service and sales workers
+CENSUS_WP_D,Craft and related workers; and plant and machine operators and assemblers
+CENSUS_WP_E,"Elementary occupations, skilled agricultural and fishery workers; and occupations not classifiable"
+CENSUS_WP_G,"Import/export, wholesale and retail trades, accommodation and food services"
+CENSUS_WP_H,"Transportation, storage, postal and courier services, information and communications, financing and insurance, real estate, professional and business services"
+CENSUS_WP_I,"Public administration, education, human health and social work activities, miscellaneous social and personal services"
+CENSUS_WP_F,"Manufacturing, construction, and other industries"
+CENSUS_MI_3,Upper quartile
+CENSUS_MI_2,Median
+CENSUS_MI_1,Lower quartile
+CENSUS_MI_3_XFDH,Upper quartile
+CENSUS_MI_2_XFDH,Median
+CENSUS_MI_1_XFDH,Lower quartile
+CENSUS_WHR_3,Upper quartile
+CENSUS_WHR_2,Median
+CENSUS_WHR_1,Lower quartile
+CENSUS_WHR_3_XFDH,Upper quartile
+CENSUS_WHR_2_XFDH,Median
+CENSUS_WHR_1_XFDH,Lower quartile
+CENSUS_WP_DC,Working and living in the same District Council district(including those working at home)
+CENSUS_WP_MTR,Mass Transit Railway (Local line)
+CENSUS_WP_BUS,Bus
+CENSUS_WP_FOOT,On foot only
+CENSUS_WP_PLB,Public light bus
+CENSUS_WP_OTH,Others #1
+CENSUS_DH,Number of domestic households
+CENSUS_DHZ_1,1 - 3
+CENSUS_DHZ_2,4
+CENSUS_DHZ_3,5 and over
+CENSUS_ADHZ,Average domestic household size
+CENSUS_DHC_1,Nuclear family households
+CENSUS_DHC_2,Relative households
+CENSUS_DHC_3,Other households
+CENSUS_DHI_3,Upper quartile
+CENSUS_DHI_2,Median
+CENSUS_DHI_1,Lower quartile
+CENSUS_DHI_XFDH_3,Upper quartile
+CENSUS_DHI_XFDH_2,Median
+CENSUS_DHI_XFDH_1,Lower quartile
+CENSUS_MA_HH,Median age
+CENSUS_DHN_C,Chinese
+CENSUS_DHN_NC,Non-Chinese
+CENSUS_OQ_QRT_PUB,Public rental housing units
+CENSUS_OQ_QRT_S,Subsidised sale flats
+CENSUS_OQ_QRT_PRI,Quarters in private permanent housing
+CENSUS_DH_R1,1 - 2
+CENSUS_DH_R3,3
+CENSUS_DH_R4,4
+CENSUS_DH_R5,5 and over
+CENSUS_DH_RO,Without exclusively used rooms
+CENSUS_ANR_H,Per domestic household
+CENSUS_ANR_P,Per person
+CENSUS_FA_3,Upper quartile
+CENSUS_FA_2,Median
+CENSUS_FA_1,Lower quartile
+CENSUS_DH_OCM,"Owner-occupier, with mortgage payment or loan repayment"
+CENSUS_DH_OCWM,"Owner-occupier, without mortgage payment and loan repayment"
+CENSUS_DH_ST,Sole tenant
+CENSUS_DH_OTH,Others #
+CENSUS_DHM_LOAN,Median monthly mortgage payment and loan repayment
+CENSUS_DHM_LR,Median mortgage payment and loan repayment to income ratio
+CENSUS_DHM_LP,Median outstanding period of mortgage payment or loan repayment
+CENSUS_DM_R,Median monthly household rent
+CENSUS_DMR_IR,Median household rent to income ratio
+CENSUS_DM_R1,Remained in same address
+CENSUS_DM_R2,Resided in same District Council district (having migrated)
+CENSUS_DM_R3,Resided in different District Council district (having migrated)
+CENSUS_DM_R4,Resided outside Hong Kong
+CENSUS_DH_OLD,Domestic households with older person(s) aged 65 and over only
+CENSUS_DH_OLD_1,1
+CENSUS_DH_OLD_2,2 and over
+CENSUS_DH_OLD_OCM,"Owner-occupier, with mortgage payment or loan repayment"
+CENSUS_DH_OLD_OCWM,"Owner-occupier, without mortgage payment and loan repayment"
+CENSUS_DH_OLD_ST,Sole tenant
+CENSUS_DH_OLD_OTH,Others #
