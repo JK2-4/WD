@@ -25,4 +25,4 @@ eg: Daily maximum near-surface (usually, 2 meter) [nc file](https://drive.google
 
 ### CMIP5
 
-eg: precipitation [nc file](https://drive.google.com/file/d/12_5mCNQEqQIl0mlDmwUohudR13uKMSIH/view?usp=sharing) - sitorical model 
+eg: precipitation [nc file](https://drive.google.com/file/d/12_5mCNQEqQIl0mlDmwUohudR13uKMSIH/view?usp=sharing) - hisitorical model 
