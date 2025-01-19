@@ -19,7 +19,8 @@ background [documentation](https://docs.esmvaltool.org/en/v2.1.0/recipes/recipe_
 
 ## 3. CMIP Data - historical and scenario based simulation with models
 CMIP6\
-[base directory](https://drive.google.com/drive/folders/101lU6ZgQ-RRyPgXHWXdTqnn7pSBvIr84?usp=sharing) for data - i. historical simulation and ii. scenario simulation
+[base directory](https://drive.google.com/drive/folders/101lU6ZgQ-RRyPgXHWXdTqnn7pSBvIr84?usp=sharing) for data - i. historical simulation and ii. scenario simulation\
+eg: Daily maximum near-surface (usually, 2 meter) [nc file](https://drive.google.com/file/d/1mKWsSPsvLxEBIsymSnJNZv94AWW-ATnr/view?usp=sharing) - historical simulation based on model  (2010-2014)\
 
-max temperature historical simulation based on model  (2010-2014)\
-[CMIP5]
+CMIP5\
+eg: precipitation [nc file](https://drive.google.com/file/d/12_5mCNQEqQIl0mlDmwUohudR13uKMSIH/view?usp=sharing) - sitorical model 
