@@ -2,9 +2,9 @@
 
 ## 1. Extreme Temperature, rainfall and wind indices - 2020_2040 referenced to 1971_2000
 
-variables - tasmax, tasmin, sfcWind, pr. Extreme -when variable exceeds 90th percentile/ falls below 10th percentile.\
+variables - tasmax, tasmin, sfcWind, pr. Extreme -when variable exceeds 90th percentile/ falls below 10th percentile.
 
-[plots](https://drive.google.com/drive/folders/167HpcKCfwmazyFW-kwYIJLvzfbu2HcIp?usp=sharing) - Average change in the variable component (heat, rainfall and wind metrics) of the Combined Climate Extreme Index for the 2020-2040 compared to the 1971-2000 reference period for the RCP 8.5 scenario simulated by MPI-ESM-MR.\
+[plots](https://drive.google.com/drive/folders/167HpcKCfwmazyFW-kwYIJLvzfbu2HcIp?usp=sharing) - Average change in the variable component (heat, rainfall and wind metrics) of the Combined Climate Extreme Index for the 2020-2040 compared to the 1971-2000 reference period for the RCP 8.5 scenario simulated by MPI-ESM-MR.
 
 data - [nc files](https://drive.google.com/drive/folders/15uweJF_5H16PD3nfM8sTwSYj32tk8ZeB?usp=sharing) ; main [directory](https://drive.google.com/drive/folders/1-VKAmdji7YHoX1_DJA8xfCCFRMg3vayg?usp=sharing)\
 eg: precipitation [CDD](https://drive.google.com/file/d/16wtJoQKIBa_WjO-6mgal08VMcG99eKih/view?usp=sharing) ; 
