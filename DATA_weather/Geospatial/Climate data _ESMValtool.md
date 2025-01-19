@@ -17,7 +17,7 @@ Time series of the standardized sea surface temperature (tos) area averaged over
 [plot](https://drive.google.com/file/d/133aL4jrVSWipCcatEnP2F4so0Nd81aW8/view?usp=sharing)\
 background [documentation](https://docs.esmvaltool.org/en/v2.1.0/recipes/recipe_combined_indices.html)
 
-## 3. CMIP Data - historical and scenario based simulation with models
+## 3. CMIP Data - historical and scenario based simulation with climate models
 ### CMIP6
 [base directory](https://drive.google.com/drive/folders/101lU6ZgQ-RRyPgXHWXdTqnn7pSBvIr84?usp=sharing) for data - i. historical simulation and ii. scenario simulation
 
