@@ -1,6 +1,6 @@
 # Links Inventory - Earth System Model Evaluation Tool (ESMValTool) Climate Data 
 
-## 1. Extreme Temperature, rainfall and wind indices - 2020_2040 referenced to 1971_2000
+## 1. Extreme Temperature, rainfall and wind indices - 2020_2040 predictions referenced to 1971_2000 base period
 
 variables - tasmax, tasmin, sfcWind, pr. Extreme -when variable exceeds 90th percentile/ falls below 10th percentile.
 
