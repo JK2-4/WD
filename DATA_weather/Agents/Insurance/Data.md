@@ -14,6 +14,8 @@ Daily accrued interest rate (pricing) per lot - [Data](https://www.hkex.com.hk/-
 
 Clean price data
 
+Loan Loss Model: Climate credit valuation adjustment (cva)
+
 ### Project Risk - Tender Pricing 
 
 Construction project risks affect contractors' tender prices. 
