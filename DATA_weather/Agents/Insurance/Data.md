@@ -12,7 +12,7 @@ HKSAR Government Retail Infrastructure Bond (December 2024 - June 2025)
 
 Daily accrued interest rate (pricing) data - [Data](https://www.hkex.com.hk/-/media/HKEX-Market/Products/Securities/Debt-Securities/Accrued-Interest-Table-for-iBonds/4286-17122024.pdf)
 
-Clean prices
+Clean price data
 
 ### Project Risk - Tender Pricing 
 
