@@ -20,5 +20,9 @@ Loan Loss Model: Climate credit valuation adjustment (cva)
 
 Construction project risks affect contractors' tender prices. 
 
+### Securitised Receivables 
+
+Corporate loan receivables, project loan receivables, consumer loan receivables andv property mortgages (residential and commercial). 
+
 
 
