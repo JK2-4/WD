@@ -10,7 +10,9 @@ Mortgage insurance premium pricing (% of outstanding principal) across LTV ratio
 
 HKSAR Government Retail Infrastructure Bond (December 2024 - June 2025)
 
-Daily interest rate (pricing) data - [Data](https://www.hkex.com.hk/-/media/HKEX-Market/Products/Securities/Debt-Securities/Accrued-Interest-Table-for-iBonds/4286-17122024.pdf)
+Daily accrued interest rate (pricing) data - [Data](https://www.hkex.com.hk/-/media/HKEX-Market/Products/Securities/Debt-Securities/Accrued-Interest-Table-for-iBonds/4286-17122024.pdf)
+
+Clean prices
 
 ### Project Risk - Tender Pricing 
 
