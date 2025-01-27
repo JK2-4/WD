@@ -1,4 +1,4 @@
-# Inference of insurance premium pricing from indirect asset pricing data 
+# Inference of insurance premium pricing from indirect assets 
 
 ## Mortgage 
 
