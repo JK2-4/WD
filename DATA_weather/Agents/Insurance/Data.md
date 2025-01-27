@@ -24,5 +24,8 @@ Construction project risks affect contractors' tender prices.
 
 Corporate loan receivables, project loan receivables, consumer loan receivables andv property mortgages (residential and commercial). 
 
+ILS 
+R/C MBS
+
 
 
