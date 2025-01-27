@@ -16,6 +16,8 @@ Clean price data
 
 Loan Loss Model: Climate credit valuation adjustment (cva)
 
+[Link](https://www.hkex.com.hk/Products/Securities/Debt-Securities/Market-Information/Accrued-Interest-Table-for-Retail-Green-Bonds?sc_lang=en)
+
 ### Project Risk - Tender Pricing 
 
 Construction project risks affect contractors' tender prices. 
