@@ -2,13 +2,13 @@
 
 Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
 
-| Index no.|Data type|src|
-|--|-------|--------|
-|1.|Monthly Median Mortgage Loan repayment - Estate-level|CSD|
-|2.|Annual Underwriting net premium - by insurance type - HK level - 2019 to 2023|CSD|
-|3.|Monthly Residential mortgage o/s, loan apps,delinq ratio : Dec'16-Dec'24||
-|4.|Annual income tax - range-wise amt, no. of payers - 2019-2023||
-|5.| Monthly Residential price index - hk - 1993 to 2023||
+| Index no.|Data type|variables|src|
+|--|-------|--------|---------|
+|1.|Monthly Median Mortgage Loan repayment - Estate level|amt|CSD|
+|2.|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
+|3.|Monthly Residential mortgage - hk level | o/s, loan apps,delinq ratio : Dec'16-Dec'24||
+|4.|Annual income tax - hk level - 2019-2023|range-wise amt,no. of payers||
+|5.| Monthly Residential price index - hk level - 1993 to 2023|index||
 
 ## 1. Mortgage 
 
