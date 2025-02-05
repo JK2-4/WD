@@ -1,6 +1,6 @@
 # Inference of insurance premium pricing from indirect assets 
 
-|Data type|Data decsiption|variables|src|
+|Data type|Data description|variables|src|
 |--|-------|--------|---------|
 |1|Median Mortgage Loan repayment (2021) cross-sectional data - sub-unit group level (1.74k+ units) |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; [data](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv)|
 |0|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
