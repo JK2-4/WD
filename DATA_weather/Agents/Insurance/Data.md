@@ -1,14 +1,14 @@
 # Inference of insurance premium pricing from indirect assets 
 
-Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
-
-| Index no.|Data type|variables|src|
+|Data type|Data type|variables|src|
 |--|-------|--------|---------|
-|1.|Median Mortgage Loan repayment (2021) cross-sectional data - sub-unit group level (1.74k+ units) |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; [data](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv)|
-|2.|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
-|3.|Monthly Residential mortgage - hk level | o/s, loan apps,delinq ratio : Dec'16-Dec'24||
-|4.|Annual income tax - hk level - 2019-2023|range-wise amt,no. of payers||
-|5.| Monthly Residential price index - hk level - 1993 to 2023|index||
+|2|Median Mortgage Loan repayment (2021) cross-sectional data - sub-unit group level (1.74k+ units) |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; [data](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv)|
+|0|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
+|2|Monthly Residential mortgage - hk level | o/s, loan apps,delinq ratio : Dec'16-Dec'24||
+|2|Annual income tax - hk level - 2019-2023|range-wise amt,no. of payers||
+|2| Monthly Residential price index - hk level - 1993 to 2023|index||
+
+## 0. Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
 
 ## 1. Mortgage 
 
