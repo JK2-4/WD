@@ -1,12 +1,14 @@
 # Inference of insurance premium pricing from indirect assets 
 
-## Mortgage 
+Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
+
+## 1. Mortgage 
 
 Mortgage insurance premium pricing (% of outstanding principal) across LTV ratios. - [Link](https://www.hkmc.com.hk/files/product_file/3/1396/Premium%20Rate%20Sheet_Eng_clean_16102024.pdf)
 
-## Infrastructure Securities 
+## 2. Infrastructure Securities 
 
-### Retail Infrastructure Bonds
+### 3. Retail Infrastructure Bonds
 
 HKSAR Government Retail Infrastructure Bond (December 2024 - June 2025)
 
@@ -18,13 +20,13 @@ Loan Loss Model: Climate credit valuation adjustment (cva)
 
 [Link](https://www.hkex.com.hk/Products/Securities/Debt-Securities/Market-Information/Accrued-Interest-Table-for-Retail-Green-Bonds?sc_lang=en)
 
-### Project Risk - Tender Pricing 
+### 4. Project Risk - Tender Pricing 
 
 Construction project risks affect contractors' tender prices. 
 
-## Securitised Receivables 
+## 5. Securitised Receivables 
 
-Corporate loan receivables, project loan receivables, consumer loan receivables andv property mortgages (residential and commercial). 
+Corporate loan receivables, project loan receivables, consumer loan receivables and property mortgages (residential and commercial). 
 
 ILS 
 R/C MBS
