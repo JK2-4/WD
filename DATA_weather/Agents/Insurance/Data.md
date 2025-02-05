@@ -14,6 +14,8 @@
 
 Mortgage insurance premium pricing (% of outstanding principal) across LTV ratios. - [Link](https://www.hkmc.com.hk/files/product_file/3/1396/Premium%20Rate%20Sheet_Eng_clean_16102024.pdf)
 
+Government rent roll - payment fixed @ [3%](https://www.rvd.gov.hk/en/our_services/government_rent.html#:~:text=Percentage%20Charge,changes%20in%20the%20rateable%20value.) of rateable value
+
 ## 2. Infrastructure Securities 
 
 ### 2.1. Retail Infrastructure Bonds
