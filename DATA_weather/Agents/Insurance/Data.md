@@ -2,6 +2,11 @@
 
 Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
 
+| Index no.|Data type|src|
+|--|-------|--------|
+|1.|Annual Underwriting net premium - by insurance type - HK level - 2019 to 2023|Census & Stats dept.|
+|2.|Monthly Residential mortgage o/s, loan apps,delinq ratio : Dec'16-Dec'24||
+
 ## 1. Mortgage 
 
 Mortgage insurance premium pricing (% of outstanding principal) across LTV ratios. - [Link](https://www.hkmc.com.hk/files/product_file/3/1396/Premium%20Rate%20Sheet_Eng_clean_16102024.pdf)
