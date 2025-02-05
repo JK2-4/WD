@@ -6,6 +6,8 @@ Direct premium data available [Link](https://drive.google.com/drive/folders/1PGc
 |--|-------|--------|
 |1.|Annual Underwriting net premium - by insurance type - HK level - 2019 to 2023|Census & Stats dept.|
 |2.|Monthly Residential mortgage o/s, loan apps,delinq ratio : Dec'16-Dec'24||
+|3.|Annual income tax - range-wise amt, no. of payers - 2019-2023||
+|4.| Monthly Residential price index - hk - 1993 to 2023||
 
 ## 1. Mortgage 
 
