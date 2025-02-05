@@ -4,8 +4,8 @@
 |--|-------|--------|---------|
 |1|Median Mortgage Loan repayment (2021) cross-sectional data - sub-unit group level (1.74k+ units) |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; [data](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv)|
 |0|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
-|1|Monthly Residential mortgage - hk level -  Dec'16-Dec'24 | o/s, loan apps,delinq ratio||
-|1|Annual income tax - hk level - 2019-2023|range-wise amt,no. of payers||
+|1|Monthly Residential mortgage - hk level -  Dec'16 to Dec'24 | o/s, loan apps,delinq ratio||
+|1|Annual income tax - hk level - 2019 to 2023|range-wise amt,no. of payers||
 |1| Monthly Residential price index - hk level - 1993 to 2023|index||
 
 ## 0. Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
