@@ -1,12 +1,12 @@
 # Inference of insurance premium pricing from indirect assets 
 
-|Data type|Description|variables|src|
-|--|-------|--------|---------|
-|1|Median Monthly Mortgage Loan repayment (2021) **only cross-sectional data** - sub-unit group level (1.74k+ units), TPU level (200+) with **3% of property value** as government rent as per policy|mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; data [1.74k](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv) and [200](https://data-esrihk.opendata.arcgis.com/datasets/esrihk::hong-kong-domestic-households-by-mortgage-payment-and-loan-repayment-by-small-tpu-in-2021/about)|
-|0|Annual Underwriting net premium - by insurance type - hk level - 2019 to 2023|prem,opex, no. of businesses|CSD|
-|1|Monthly Residential mortgage - hk level -  Dec'16 to Dec'24 | o/s, loan apps,delinq ratio||
-|1|Annual income tax - hk level - 2019 to 2023|range-wise amt,no. of payers||
-|1| Monthly Residential price index - hk level - 1993 to 2023|index||
+|Data type| Granularity|Description|variables|src|
+|--|-------|-------|--------|---------|
+|1|Median Monthly Mortgage Loan repayment (2021) **only cross-sectional data** with **3% of property value** as government rent as per policy| sub-unit group level (1.74k+ units), TPU level (200+)| |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; data [1.74k](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv) and [200](https://data-esrihk.opendata.arcgis.com/datasets/esrihk::hong-kong-domestic-households-by-mortgage-payment-and-loan-repayment-by-small-tpu-in-2021/about)|
+|0|Annual Underwriting net premium - By insurance type - 2019 to 2023| National level |prem,opex, no. of businesses|CSD| 
+|1|Monthly Residential mortgage -  Dec'16 to Dec'24| National level | o/s, loan apps,delinq ratio||
+|1|Annual income tax- 2019 to 2023| National level|range-wise amt,no. of payers||
+|1| Monthly Residential price index - 1993 to 2023|National level|index||
 
 ## 0. Direct premium data available [Link](https://drive.google.com/drive/folders/1PGcvFXZc1SvMfrurqTZV2V3HQs5W-gFA?usp=sharing)
 
