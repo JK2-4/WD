@@ -2,7 +2,7 @@
 
 |Data type|Description|Granularity|variables|src|
 |--|-------|-------|--------|---------|
-|1|Median Monthly Mortgage Loan repayment (2021) **only cross-sectional data** with **3% of property value** as government rent as per policy| sub-unit group level (1.74k+ units), TPU level (200+)| |mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; data [1.74k](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv) and [200](https://data-esrihk.opendata.arcgis.com/datasets/esrihk::hong-kong-domestic-households-by-mortgage-payment-and-loan-repayment-by-small-tpu-in-2021/about)|
+|1|Median Monthly Mortgage Loan repayment (2021) **only cross-sectional data** with **3% of property value** as government rent as per policy| sub-unit group level (1.74k+ units), TPU level (200+)|mortgage, rent, demographic characteristics|[CSD](https://idds.census2021.gov.hk/app/idds.html#) ; data [1.74k](https://github.com/JK2-4/WD/blob/1d-PDE/DATA_weather/Agents/Insurance/LSUG_data.csv) and [200](https://data-esrihk.opendata.arcgis.com/datasets/esrihk::hong-kong-domestic-households-by-mortgage-payment-and-loan-repayment-by-small-tpu-in-2021/about)|
 |0|Annual Underwriting net premium - By insurance type - 2019 to 2023| National level |prem,opex, no. of businesses|CSD| 
 |1|Monthly Residential mortgage -  Dec'16 to Dec'24| National level | o/s, loan apps,delinq ratio||
 |1|Annual income tax- 2019 to 2023| National level|range-wise amt,no. of payers||
