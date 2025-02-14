@@ -34,7 +34,7 @@ Loan Loss Model: Climate credit valuation adjustment (cva)
 
 Construction project risks affect contractors' tender prices. 
 
-Hong Kong Government - Engineering projects (Landslide, water etc) Tenders [Awarded](https://www1.ets-cs.gov.hk/eppcs_ext/views/index.zul)
+Hong Kong Government - Pricing of Tenders [Awarded](https://www1.ets-cs.gov.hk/eppcs_ext/views/index.zul) - Engineering and Architecture (Landslide, water etc)
 
 ## 3. Securitised Receivables 
 
