@@ -30,11 +30,11 @@ Loan Loss Model: Climate credit valuation adjustment (cva)
 
 [Link](https://www.hkex.com.hk/Products/Securities/Debt-Securities/Market-Information/Accrued-Interest-Table-for-Retail-Green-Bonds?sc_lang=en)
 
-### 2.2. Project and Infro Risk - Tender Pricing 
+### 2.2. Project and Infra Risk - Tender Pricing 
 
 Construction project risks affect contractors' tender prices. 
 
-Hong Kong Government - Engineering risk (Landslide, water etc) Tenders [Awarded](https://www1.ets-cs.gov.hk/eppcs_ext/views/index.zul)
+Hong Kong Government - Engineering projects (Landslide, water etc) Tenders [Awarded](https://www1.ets-cs.gov.hk/eppcs_ext/views/index.zul)
 
 ## 3. Securitised Receivables 
 
