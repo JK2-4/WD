@@ -157,3 +157,31 @@ library(haven)
 
 output_dta <- "13may_final.dta"
 write_dta(pivot_df, output_dta)
+
+
+
+############################# Missing Data 
+calculate_missing_stats <- function(df) {
+  df %>%
+    group_by(FileCode) %>%
+    summarise(
+      RowCount = n(),
+      across(
+        everything(),
+        list(
+          Zeros = ~sum(. == 0, na.rm = TRUE),
+          NAs = ~sum(is.na(.)),
+          Blanks = ~sum(. == "", na.rm = TRUE)
+        ),
+        .names = "{.col}_{.fn}"
+      ),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      TotalMissing = t_pop_Zeros + t_pop_NAs + t_pop_Blanks,
+      ValidCount = RowCount - TotalMissing
+    )
+  
+}
+
+mis1 <- calculate_missing_stats(s1)
